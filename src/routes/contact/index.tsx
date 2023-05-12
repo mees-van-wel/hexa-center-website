@@ -38,7 +38,7 @@ export const useFormLoader = routeLoader$<InitialValues<ContactForm>>(() => ({
 }));
 
 export const useFormAction = formAction$<ContactForm>((values) => {
-  console.log(values);
+  // TODO Send mail
 }, zodForm$(contactSchema));
 
 export default component$(() => {
