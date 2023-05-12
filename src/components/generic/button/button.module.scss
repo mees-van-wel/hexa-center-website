@@ -1,0 +1,18 @@
+.root {
+    cursor: pointer;
+    background-color: rgb(var(--foreground-accent-color));
+    color: rgb(var(--background-accent-color));
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 18px;
+    box-shadow: 0px 10px 10px -3px rgba(0, 0, 0, 0.2);
+    transition: background-color 200ms ease-in-out, color 200ms ease-in-out, border-color 200ms ease-in-out;
+    border: solid 1px transparent;
+
+    &:hover {
+        background-color: transparent;
+        border-color: rgb(var(--foreground-accent-color));
+        color: rgb(var(--foreground-accent-color));
+    }
+}

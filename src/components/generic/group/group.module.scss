@@ -1,0 +1,16 @@
+.root {
+    display: flex;
+    flex-flow: row wrap;
+
+    > * {
+        flex-grow: 0;
+    }
+}
+
+.grow > * {
+    flex-grow: 1;
+}
+
+.noWrap {
+    flex-wrap: nowrap;
+}

@@ -1,4 +1,13 @@
 {
-  "recommendations": ["dbaeumer.vscode-eslint", "unifiedjs.vscode-mdx"],
-  "unwantedRecommendations": []
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "xyz.local-history",
+    "ms-vsliveshare.vsliveshare",
+    "pkief.material-icon-theme",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "redhat.vscode-yaml",
+    "eamodio.gitlens",
+    "stylelint.vscode-stylelint",
+  ]
 }
