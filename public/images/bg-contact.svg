@@ -1,0 +1,32 @@
+<svg
+  id="visual"
+  viewBox="0 0 1920 1080"
+  width="1920"
+  height="1080"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  version="1.1"
+>
+  <defs>
+    <filter id="blur1" x="-10%" y="-10%" width="120%" height="120%">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+      <feBlend
+        mode="normal"
+        in="SourceGraphic"
+        in2="BackgroundImageFix"
+        result="shape"
+      ></feBlend>
+      <feGaussianBlur
+        stdDeviation="327"
+        result="effect1_foregroundBlur"
+      ></feGaussianBlur>
+    </filter>
+  </defs>
+  <g filter="url(#blur1)">
+    <g transform="matrix(1,0,0,1,-151.918,162.967)">
+      <circle cx="741" cy="1038" r="727" style="fill:rgb(25,113,194);" />
+    </g>
+    <!-- <circle cx="161" cy="878" r="727" style="fill:rgb(25,113,194);" /> -->
+    <circle cx="1647" cy="187" r="727" style="fill:rgb(25,113,194);" />
+  </g>
+</svg>

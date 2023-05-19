@@ -17,6 +17,23 @@
   --gradient: linear-gradient(to right bottom, #ffffff, #d7d7ef, #aab2e0, #7490d1, #1971c2);
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: initial;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(var(--foreground-color));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track-piece:end,
+::-webkit-scrollbar-track-piece:start {
+  background: transparent repeat-y !important;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-color: 255 255 255;
@@ -44,6 +61,8 @@ html {
   tab-size: 4;
   font-family: "Eurostile", sans-serif;
   letter-spacing: 1.5px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -53,7 +72,20 @@ body {
   color: rgb(var(--foreground-accent-color));
 }
 
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
 p {
+  font-size: 16px;
   line-height: 22px;
 }
 

@@ -17,7 +17,7 @@ export default component$(() => {
   return (
     <>
       <Section classList={styles.hero} pt={200}>
-        <Group justify="space-between">
+        <Group justify="space-between" noWrap>
           <div>
             <h1 class={styles.title}>
               Empower <IconEmpowerment />
@@ -31,21 +31,14 @@ export default component$(() => {
                 The future of healthcare documentation, experience a new level
                 of efficiency, accuracy, and patient care.
               </p>
-              <p>
-                Tired of struggling with outdated, clunky Electronic Medical
-                Records systems? Hexa Center is here to change the game. Our
-                innovative solution is designed to address the pain points of
-                traditional EMR systems while offering a wealth of features and
-                benefits that enable healthcare professionals to focus on what
-                truly matters - providing exceptional care to their patients.
-              </p>
             </div>
-            <Button>Book a free demo</Button>
+            <Button href="/contact">Book a free demo</Button>
           </div>
           <img
-            src="/images/mockup.png"
-            width={600}
-            height={365}
+            class={styles.image}
+            src="/images/calendar-dark-frame.jpg"
+            width={854}
+            height={480}
             alt="Laptop"
             title="Laptop"
           />
@@ -103,7 +96,7 @@ export default component$(() => {
               Don't miss out on this incredible opportunity to upgrade your
               healthcare organization's EMR system at a fraction of the cost.
             </p>
-            <Button>Book a free demo</Button>
+            <Button href="/contact">Book a free demo</Button>
           </Stack>
         </Group>
       </Section>

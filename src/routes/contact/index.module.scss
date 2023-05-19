@@ -1,12 +1,8 @@
 .root {
-    min-height: calc(100vh - 50px);
-    background-image: radial-gradient(at 49% 53%, hsla(23, 99%, 72%, 0.5) 0px, transparent 50%),
-        radial-gradient(at 30% 22%, hsla(74, 80%, 75%, 0.5) 0px, transparent 50%),
-        radial-gradient(at 27% 10%, hsla(104, 70%, 74%, 0.5) 0px, transparent 50%),
-        radial-gradient(at 12% 95%, hsla(192, 96%, 61%, 0.5) 0px, transparent 50%),
-        radial-gradient(at 65% 45%, hsla(142, 87%, 79%, 0.5) 0px, transparent 50%),
-        radial-gradient(at 82% 26%, hsla(268, 94%, 65%, 0.5) 0px, transparent 50%),
-        radial-gradient(at 81% 71%, hsla(137, 79%, 65%, 0.5) 0px, transparent 50%);
+    min-height: 100vh !important;
+    background-image: url("/images/bg-contact.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card {

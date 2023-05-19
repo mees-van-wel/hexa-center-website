@@ -1,0 +1,73 @@
+.root {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 8px;
+}
+
+.container {
+    flex: 1;
+}
+
+.input {
+    width: 100%;
+    appearance: none;
+    height: 8px;
+    border-radius: 8px;
+
+    &::-webkit-slider-runnable-track {
+        appearance: none;
+    }
+
+    &::-moz-range-track {
+        appearance: none;
+    }
+
+    &::-webkit-slider-thumb {
+        appearance: none;
+        width: 16px;
+        height: 16px;
+        background-color: rgb(var(--primary-color));
+        border-radius: 100%;
+        transition: scale 200ms ease-in-out, border-width 200ms ease-in-out;
+        cursor: pointer;
+        border: 3px solid white;
+
+        &:hover {
+            scale: 1.2;
+        }
+    }
+
+    &::-moz-range-thumb {
+        appearance: none;
+        width: 16px;
+        height: 16px;
+        background-color: rgb(var(--primary-color));
+        border-radius: 100%;
+        transition: scale 200ms ease-in-out, border-width 200ms ease-in-out;
+        cursor: pointer;
+        border: 3px solid white;
+
+        &:hover {
+            scale: 1.2;
+        }
+    }
+}
+
+.output {
+    width: 50px;
+    margin-top: -4px;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(var(--primary-color));
+    padding: 4px 8px;
+    pointer-events: none;
+}
+
+.values {
+    pointer-events: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}

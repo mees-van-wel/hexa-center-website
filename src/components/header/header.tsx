@@ -5,9 +5,17 @@ import { IconLogo } from "../icons/logo";
 
 export const Header = component$(() => {
   const pathname = useLocation().url.pathname;
+  const isGuide = pathname.includes("guide");
 
   return (
-    <header class={styles.container}>
+    <header
+      class={[
+        styles.container,
+        {
+          [styles.containerGuide]: isGuide,
+        },
+      ]}
+    >
       <div class={styles.left}>
         <Link href="/" class={styles.logo}>
           <IconLogo />
@@ -24,7 +32,7 @@ export const Header = component$(() => {
           <Link
             class={[
               styles.item,
-              { [styles.itemActive]: pathname.startsWith("/features") },
+              { [styles.itemActive]: pathname.startsWith("/info") },
             ]}
             href="/info"
           >
@@ -42,7 +50,9 @@ export const Header = component$(() => {
           <Link
             class={[
               styles.item,
-              { [styles.itemActive]: pathname.startsWith("/support") },
+              {
+                [styles.itemActive]: pathname.startsWith("/support") || isGuide,
+              },
             ]}
             href="/support"
           >

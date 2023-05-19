@@ -1,0 +1,59 @@
+.root {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.input {
+    cursor: pointer;
+    appearance: none;
+    background-color: rgb(var(--background-accent-color));
+    margin: 0;
+    font: inherit;
+    font-size: 32px;
+    color: currentColor;
+    width: 32px;
+    height: 32px;
+    border: 1px solid currentColor;
+    border-radius: 8px;
+    display: grid;
+    place-content: center;
+    transition: background-color 100ms ease-in-out, border-color 100ms ease-in-out;
+
+    &::before {
+        content: "";
+        width: 0.8em;
+        height: 0.8em;
+        scale: 0;
+        transition: scale 100ms ease-in-out;
+        background-color: currentColor;
+        clip-path: polygon(28% 38%, 41% 53%, 75% 24%, 86% 38%, 40% 78%, 15% 50%);
+    }
+
+    &:checked {
+        background-color: rgb(var(--primary-color));
+        border-color: rgb(var(--primary-color));
+
+        &::before {
+            scale: 1;
+        }
+    }
+}
+
+.description {
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+.error {
+    color: #e03131;
+    background-color: rgb(var(--background-accent-color) / 80%);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.asterisk {
+    color: #e03131;
+}

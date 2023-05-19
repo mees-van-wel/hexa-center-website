@@ -1,0 +1,18 @@
+.slider {
+    width: 300px;
+}
+
+.list {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    overflow: hidden;
+    margin-top: 16px;
+
+    &Option {
+        width: 20%;
+        // text-align: center;
+        width: 25px;
+    }
+}
