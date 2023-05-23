@@ -1,18 +1,35 @@
-.slider {
-    width: 300px;
+.root {
+    background-image: url("/images/bg-support.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.list {
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-    height: auto;
-    overflow: hidden;
-    margin-top: 16px;
+.cardContainer {
+    position: sticky;
+    top: 116px;
+}
 
-    &Option {
-        width: 20%;
-        // text-align: center;
-        width: 25px;
+.card {
+    top: 132px;
+    position: sticky;
+    padding: 32px;
+    border-radius: 32px;
+    backdrop-filter: blur(8px) saturate(180%);
+    border: 1px solid rgb(var(--foreground-color) / 10%);
+    background-color: rgb(var(--background-accent-color) / 40%);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.info > svg {
+    border-radius: 1em;
+    transition: scale 200ms ease-in-out, color 200ms ease-in-out, background-color 200ms ease-in-out;
+    scale: 0.9;
+
+    &:hover {
+        background-color: rgb(var(--foreground-color));
+        color: rgb(var(--primary-color));
+        scale: 1;
     }
 }

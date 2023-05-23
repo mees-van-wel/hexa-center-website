@@ -1,8 +1,9 @@
+import type { JSXChildren } from "@builder.io/qwik";
 import { Slot, component$ } from "@builder.io/qwik";
 import styles from "./inputWrapper.module.scss";
 
 export interface InputWrapperProps {
-  label?: string;
+  label?: JSXChildren;
   description?: string;
   required?: boolean;
   error?: string;

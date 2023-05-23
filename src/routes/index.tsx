@@ -18,22 +18,24 @@ export default component$(() => {
     <>
       <Section classList={styles.hero} pt={200}>
         <Group justify="space-between" noWrap>
-          <div>
+          <Stack>
             <h1 class={styles.title}>
-              Empower <IconEmpowerment />
+              Revolutionize <IconEmpowerment />
               <br />
-              your healthcare organization
+              Your Healthcare Practice
               <br />
-              through digital innovation
+              with Digital Innovation
             </h1>
-            <div class={styles.textContainer}>
-              <p>
-                The future of healthcare documentation, experience a new level
-                of efficiency, accuracy, and patient care.
-              </p>
-            </div>
-            <Button href="/contact">Book a free demo</Button>
-          </div>
+            <p class={styles.subtext}>
+              Modern healthcare calls for modern solutions. Welcome to the
+              future of healthcare documentation – where efficiency, accuracy,
+              and patient care reach new heights.
+            </p>
+            <Group>
+              <Button href="/features">Features</Button>
+              <Button href="/contact">Book a free demo</Button>
+            </Group>
+          </Stack>
           <img
             class={styles.image}
             src="/images/calendar-dark-frame.jpg"
@@ -49,12 +51,12 @@ export default component$(() => {
           <IconChevronDown />
         </div>
         <h2 class={styles.subtitle}>Limited-Time Launch Offer 🎉</h2>
-        <Group classList={styles.card} gap={32} grow>
+        <Group noWrap classList={styles.card} gap={64}>
           <img
             class={styles.offerImage}
             src="/images/offer.jpg"
-            width="100%"
-            height={400}
+            width={470}
+            height={350}
           />
           <Stack>
             <p>

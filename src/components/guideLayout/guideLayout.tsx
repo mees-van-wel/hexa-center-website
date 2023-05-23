@@ -2,15 +2,9 @@
 
 import { Slot, component$ } from "@builder.io/qwik";
 import styles from "./guideLayout.module.scss";
-import {
-  Link,
-  useContent,
-  useDocumentHead,
-  useLocation,
-} from "@builder.io/qwik-city";
+import { Link, useContent, useLocation } from "@builder.io/qwik-city";
 
 export const GuideLayout = component$(() => {
-  const documentHead = useDocumentHead();
   const content = useContent();
   const pathname = useLocation().url.pathname;
 
@@ -45,22 +39,31 @@ export const GuideLayout = component$(() => {
           </div>
         </aside>
       )}
-      <div class={styles.container}>
+      <div
+        class={[
+          styles.container,
+          {
+            [styles.containerFullWidth]: !content.headings?.length,
+          },
+        ]}
+      >
         <Slot />
       </div>
-      <aside class={[styles.aside, styles.asideRight]}>
-        <div>
-          {content.headings?.map((item) => (
-            <a
-              key={item.id}
-              href={`#${item.id}`}
-              class={[styles.heading, styles[`headingLevel${item.level}`]]}
-            >
-              {item.text}
-            </a>
-          ))}
-        </div>
-      </aside>
+      {!!content.headings?.length && (
+        <aside class={[styles.aside, styles.asideRight]}>
+          <div>
+            {content.headings?.map((item) => (
+              <a
+                key={item.id}
+                href={`#${item.id}`}
+                class={[styles.heading, styles[`headingLevel${item.level}`]]}
+              >
+                {item.text}
+              </a>
+            ))}
+          </div>
+        </aside>
+      )}
     </main>
   );
 });

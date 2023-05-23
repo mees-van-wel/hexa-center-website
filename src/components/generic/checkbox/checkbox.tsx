@@ -7,6 +7,7 @@ type CheckboxProps = InputWrapperProps & QwikIntrinsicElements["input"];
 
 export const Checkbox = component$<CheckboxProps>((props) => (
   <div class={styles.root}>
+    {/* @ts-ignore */}
     <input {...props} type="checkbox" class={styles.input} />
     <div>
       {props.label && (

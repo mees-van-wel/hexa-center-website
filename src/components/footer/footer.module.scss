@@ -4,12 +4,14 @@
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 16px;
     border-top: 1px solid rgb(var(--foreground-color) / 10%);
     background-color: rgb(var(--background-color) / 40%);
     backdrop-filter: blur(16px) saturate(180%);
     height: 50px;
     box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &Guide {
         border: none;

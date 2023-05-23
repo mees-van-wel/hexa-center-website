@@ -50,19 +50,19 @@
     margin: 0 auto 50px;
 
     h1 {
-        margin-bottom: 16px;
+        margin-bottom: 0.2em;
         scroll-margin-top: 116px;
     }
 
     h2 {
-        margin-top: 32px;
-        margin-bottom: 8px;
+        margin-top: 1em;
+        margin-bottom: 0.2em;
         scroll-margin-top: 116px;
     }
 
     h3 {
-        margin-top: 16px;
-        margin-bottom: 8px;
+        margin-top: 0.5em;
+        margin-bottom: 0.2em;
         scroll-margin-top: 116px;
     }
 
@@ -100,6 +100,17 @@
         margin: 2px 0;
         border-radius: 4px;
         display: inline-block;
+    }
+
+    &FullWidth {
+        padding: 0;
+        width: calc(100% - var(--aside-width) - 32px);
+        margin-left: var(--aside-width);
+
+        a {
+            color: rgb(var(--foreground-color));
+            text-decoration: none;
+        }
     }
 }
 

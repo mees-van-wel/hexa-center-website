@@ -4,6 +4,7 @@ import type * as CSS from "csstype";
 import styles from "./stack.module.scss";
 
 interface StackProps {
+  id?: string;
   classList?: ClassList;
   align?: CSS.Properties["alignItems"];
   justify?: CSS.Properties["justifyContent"];
@@ -11,8 +12,9 @@ interface StackProps {
 }
 
 export const Stack = component$<StackProps>(
-  ({ align = "flex-start", justify, gap = 16, classList }) => (
+  ({ id, align = "flex-start", justify, gap = 16, classList }) => (
     <div
+      id={id}
       style={{
         alignItems: align,
         justifyContent: justify,

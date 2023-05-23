@@ -14,8 +14,6 @@ import styles from "./index.module.scss";
 import { Button } from "~/components/generic/button/button";
 import { SelectInput } from "~/components/generic/selectInput/selectInput";
 
-let mailClient: Client | undefined;
-
 const contactSchema = z.object({
   name: z.string().min(1, "Please enter your name."),
   email: z
@@ -39,10 +37,9 @@ export const useFormLoader = routeLoader$<InitialValues<ContactForm>>(() => ({
 
 export const useFormAction = formAction$<ContactForm>(
   (values, requestEvent) => {
-    if (!mailClient)
-      mailClient = new Client(
-        requestEvent.env.get("POSTMARK_SERVER_TOKEN") as string
-      );
+    const mailClient = new Client(
+      requestEvent.env.get("POSTMARK_SERVER_TOKEN") as string
+    );
 
     mailClient.sendEmail({
       From: "Hexa Center <noreply@hexa.center>",

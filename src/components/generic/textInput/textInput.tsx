@@ -8,6 +8,7 @@ type TextInputProps = QwikIntrinsicElements["input"] & InputWrapperProps;
 
 export const TextInput = component$<TextInputProps>((props) => (
   <InputWrapper {...props}>
+    {/* @ts-ignore */}
     <input class={inputStyles.input} {...props} />
   </InputWrapper>
 ));

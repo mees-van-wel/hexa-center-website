@@ -14,6 +14,7 @@ export const Slider = component$<SliderProps>((props) => {
         style={`--min:${props.min}; --max:${props.max}; --step:${props.step};`}
       >
         <div class={styles.container}>
+          {/* @ts-ignore */}
           <input
             class={styles.input}
             style={{

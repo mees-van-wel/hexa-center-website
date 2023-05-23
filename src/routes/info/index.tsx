@@ -55,7 +55,7 @@ export default component$(() => {
       <Section pr={0} pb={0}>
         <Group justify="space-between" align="flex-start">
           <div class={styles.textContainer}>
-            <h1>Key Features and Benefits</h1>
+            <h1>Benefits</h1>
             <p>
               <b>1. Streamlined Workflows and Enhanced Efficiency.</b>
               <br />

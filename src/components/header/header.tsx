@@ -19,15 +19,24 @@ export const Header = component$(() => {
       <div class={styles.left}>
         <Link href="/" class={styles.logo}>
           <IconLogo />
-          <h1>Hexa Center</h1>
+          <h2 class={styles.title}>Hexa Center</h2>
         </Link>
-        <h2>-</h2>
+        <h3 class={styles.title}>-</h3>
         <nav class={styles.nav}>
           <Link
             class={[styles.item, { [styles.itemActive]: pathname === "/" }]}
             href="/"
           >
             Home
+          </Link>
+          <Link
+            class={[
+              styles.item,
+              { [styles.itemActive]: pathname.startsWith("/features") },
+            ]}
+            href="/features"
+          >
+            Features
           </Link>
           <Link
             class={[
@@ -51,12 +60,12 @@ export const Header = component$(() => {
             class={[
               styles.item,
               {
-                [styles.itemActive]: pathname.startsWith("/support") || isGuide,
+                [styles.itemActive]: isGuide,
               },
             ]}
-            href="/support"
+            href="/guide"
           >
-            Support
+            Guide
           </Link>
           <Link
             class={[

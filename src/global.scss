@@ -1,3 +1,49 @@
+$type-ratios: (
+  "minorSecond": 1.067,
+  "majorSecond": 1.125,
+  "minorThird": 1.2,
+  "majorThird": 1.25,
+  "perfectFourth": 1.333,
+  "augmentedFourth": 1.414,
+  "perfectFifth": 1.5,
+  "goldenRatio": 1.618,
+);
+
+@function type-ratio($key) {
+  @return map-get($type-ratios, $key);
+}
+
+$type-base-size: 1rem;
+$type-size-ratio: type-ratio("perfectFourth");
+$type-levels: 4, 3, 2, 1;
+$type-styles: ();
+$level-size: $type-base-size;
+$level-unitless: 1;
+
+@each $level in $type-levels {
+  $level-size: $level-size * $type-size-ratio;
+  $type-styles: map-merge($type-styles, (#{"h"}$level: $level-size));
+
+  h#{$level} {
+    font-size: $level-size;
+    line-height: calc(2px + 2ex + 2px);
+
+    @if ($type-size-ratio > 1.2) {
+      $fluid-reduction: if($level-size > 4, 0.5, 0.33);
+      $fluid-min: $level-unitless - ($fluid-reduction * $level-unitless);
+      $fluid-min: if($fluid-min > $type-base-size, $fluid-min, 1);
+      $fluid-scaler: ($level-unitless - $fluid-min) + 4vw;
+
+      font-size: clamp(#{$fluid-min}rem, #{$fluid-scaler} + 1rem, #{$level-size});
+    }
+  }
+}
+
+p {
+  font-size: $type-base-size;
+  line-height: 1.5;
+}
+
 @font-face {
   font-family: "Eurostile";
   src: url("/fonts/eurostile.eot");
@@ -34,6 +80,21 @@
   background: transparent repeat-y !important;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%; /* This helps to ensure that text size can be adjusted correctly in all browsers */
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4; /* Tab size adjustments can stay here */
+  overflow-x: hidden; /* Overflow should be set here to cover all elements on the page */
+  scroll-behavior: smooth; /* Smooth scrolling can be set here to cover all scrollable elements on the page */
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-color: 255 255 255;
@@ -48,45 +109,23 @@
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  -webkit-text-size-adjust: 100%;
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-  tab-size: 4;
+body {
   font-family: "Eurostile", sans-serif;
   letter-spacing: 1.5px;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-}
-
-body {
-  padding: 0;
-  line-height: inherit;
+  line-height: 1.5;
+  // font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   background-color: rgb(var(--background-color));
   color: rgb(var(--foreground-accent-color));
 }
 
-h1 {
-  font-size: 32px;
-}
-
-h2 {
-  font-size: 26px;
-}
-
-h3 {
-  font-size: 20px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 22px;
+p,
+li,
+h1,
+h2,
+h3,
+h4 {
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 a {

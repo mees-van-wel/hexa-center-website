@@ -14,7 +14,7 @@ import { Link } from "@builder.io/qwik-city";
 import { IconClipboardHeart } from "~/components/icons/clipboardHeart";
 
 export default component$(() => (
-  <Section classList={styles.section} pt={200} pb={150}>
+  <Section pt={200} pb={150}>
     <Stack align="center">
       <h1 class={styles.title}>Welcome to the guide</h1>
       <p class={styles.text}>

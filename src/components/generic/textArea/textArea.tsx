@@ -8,6 +8,7 @@ type TextAreaProps = QwikIntrinsicElements["textarea"] & InputWrapperProps;
 
 export const TextArea = component$<TextAreaProps>((props) => (
   <InputWrapper {...props}>
+    {/* @ts-ignore */}
     <textarea class={inputStyles.input} {...props} />
   </InputWrapper>
 ));
