@@ -36,14 +36,24 @@ export default component$(() => {
               <Button href="/contact">Book a free demo</Button>
             </Group>
           </Stack>
-          <img
-            class={styles.image}
-            src="/images/calendar-dark-frame.jpg"
-            width={854}
-            height={480}
-            alt="Laptop"
-            title="Laptop"
-          />
+          <picture>
+            <source
+              srcSet="/images/calendar-dark-frame.avif"
+              type="image/avif"
+            />
+            <source
+              srcSet="/images/calendar-dark-frame.webp"
+              type="image/webp"
+            />
+            <img
+              class={styles.image}
+              src="/images/calendar-dark-frame.jpg"
+              width={854}
+              height={480}
+              alt="Laptop"
+              title="Laptop"
+            />
+          </picture>
         </Group>
       </Section>
       <Section id="offer" classList={styles.offer} pt={0} justify="flex-start">
@@ -52,12 +62,18 @@ export default component$(() => {
         </div>
         <h2 class={styles.subtitle}>Limited-Time Launch Offer 🎉</h2>
         <Group noWrap classList={styles.card} gap={64}>
-          <img
-            class={styles.offerImage}
-            src="/images/offer.jpg"
-            width={470}
-            height={350}
-          />
+          <picture>
+            <source srcSet="/images/offer.avif" type="image/avif" />
+            <source srcSet="/images/offer.webp" type="image/webp" />
+            <img
+              class={styles.offerImage}
+              src="/images/offer.jpg"
+              alt="Launch Party"
+              title="Launch Party"
+              width={470}
+              height={350}
+            />
+          </picture>
           <Stack>
             <p>
               We're thrilled to announce the launch of Hexa Center, our
