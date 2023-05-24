@@ -30,7 +30,6 @@ export const useMedia = () => {
       screen.md = checks.md.matches;
       screen.lg = checks.lg.matches;
       screen.xl = checks.xl.matches;
-      console.log(screen);
     };
 
     runChecks();
