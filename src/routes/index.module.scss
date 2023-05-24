@@ -46,6 +46,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(6px);
+    transform: translate3d(0, 0, 0);
     opacity: 0.8;
     z-index: -1;
   }
@@ -78,6 +79,7 @@
   animation: bounce 2s infinite;
   background: rgb(var(--background-color) / 40%);
   backdrop-filter: blur(8px);
+  transform: translate3d(0, 0, 0);
   box-shadow: 10px 10px 10px -3px rgba(0, 0, 0, 0.2);
   transition: box-shadow 200ms ease-in-out, border-color 200ms ease-in-out;
   border: solid 1px rgb(var(--primary-color) / 70%);

@@ -6,6 +6,7 @@
   padding-left: var(--padding);
   padding-right: var(--padding);
   backdrop-filter: blur(16px) saturate(180%);
+  transform: translate3d(0, 0, 0);
   border-bottom: 1px solid rgb(var(--foreground-color) / 10%);
   background-color: rgb(var(--background-color) / 40%);
   height: 100px;

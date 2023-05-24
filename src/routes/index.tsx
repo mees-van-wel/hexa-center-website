@@ -53,13 +53,7 @@ export default component$(() => {
           </picture>
         </Group>
       </Section>
-      <Section
-        id="offer"
-        classList={styles.offer}
-        pt={0}
-        pb={66}
-        justify="flex-start"
-      >
+      <Section id="offer" classList={styles.offer} pt={0} justify="flex-start">
         <div onClick$={scrollHandler} class={styles.scroller}>
           <IconChevronDown />
         </div>
@@ -126,6 +120,42 @@ export default component$(() => {
             </Stack>
           </div>
         </Group>
+      </Section>
+      <Section pt={0} pb={66}>
+        <Stack gap={32} align="center">
+          <h1>Accreditations</h1>
+          <Group justify="center" gap={32}>
+            <picture>
+              <source srcSet="/images/iso-27001.avif" type="image/avif" />
+              <source srcSet="/images/iso-27001.webp" type="image/webp" />
+              <img
+                src="/images/iso-27001.png"
+                alt="ISO 27001"
+                title="ISO 27001"
+                width="100%"
+                height={300}
+              />
+            </picture>
+            <picture>
+              <source srcSet="/images/nen-7510.avif" type="image/avif" />
+              <source srcSet="/images/nen-7510.webp" type="image/webp" />
+              <img
+                src="/images/nen-7510.png"
+                alt="NEN 7510"
+                title="NEN 7510"
+                width="100%"
+                height={300}
+              />
+            </picture>
+          </Group>
+          <img
+            src="/images/eco.svg"
+            alt="ECO"
+            title="ECO"
+            width="100%"
+            height={200}
+          />
+        </Stack>
       </Section>
     </>
   );

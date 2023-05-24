@@ -20,6 +20,7 @@
     font-size: 20px;
     background-color: rgb(var(--background-color) / 40%);
     backdrop-filter: blur(16px) saturate(180%);
+    transform: translate3d(0, 0, 0);
 
     svg {
         width: 32px;
