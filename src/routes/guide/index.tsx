@@ -10,6 +10,7 @@ import { IconUsers } from "~/components/icons/users";
 import { IconClipboardList } from "~/components/icons/clipboardList";
 import { IconCalendar } from "~/components/icons/calendar";
 import { IconCalendarStats } from "~/components/icons/calendarStats";
+import type { DocumentHead } from "@builder.io/qwik-city";
 import { Link } from "@builder.io/qwik-city";
 import { IconClipboardHeart } from "~/components/icons/clipboardHeart";
 
@@ -59,3 +60,13 @@ export default component$(() => (
     </Stack>
   </Section>
 ));
+
+export const head: DocumentHead = {
+  title: "Guide | Hexa Center",
+  meta: [
+    {
+      name: "description",
+      content: "Welcome to the guide",
+    },
+  ],
+};

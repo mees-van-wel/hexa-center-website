@@ -1,3 +1,7 @@
+---
+title: System
+---
+
 # System
 
 - [Login](/guide/system/login/index.md)
