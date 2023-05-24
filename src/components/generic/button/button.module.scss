@@ -3,17 +3,29 @@
     background-color: rgb(var(--foreground-accent-color));
     color: rgb(var(--background-accent-color));
     border: none;
-    padding: 8px 16px;
+    padding: 0.5em 1em;
     border-radius: 4px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     box-shadow: 0px 10px 10px -3px rgba(0, 0, 0, 0.2);
     transition: background-color 200ms ease-in-out, color 200ms ease-in-out, border-color 200ms ease-in-out;
     border: solid 1px transparent;
+    white-space: nowrap;
 
     &:hover {
         background-color: transparent;
         border-color: rgb(var(--foreground-accent-color));
         color: rgb(var(--foreground-accent-color));
+    }
+}
+
+@media only screen and (min-width: 48em) {
+    .root {
+        gap: 16px;
+        font-size: 1.1rem;
+    }
+
+    .homeImage {
+        display: block;
     }
 }

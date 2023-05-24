@@ -25,10 +25,10 @@ export const Section = component$<GroupProps>(
     justify = "center",
     direction = "column",
     gap,
-    pt = 100,
-    pr = 164,
-    pb = 100,
-    pl = 164,
+    pt = 64,
+    pr,
+    pb = 64,
+    pl,
     noHeight,
   }) => (
     <section
@@ -38,7 +38,9 @@ export const Section = component$<GroupProps>(
         justifyContent: justify,
         flexDirection: direction,
         gap: `${gap}px`,
-        padding: `${pt}px ${pr}px ${pb}px ${pl}px`,
+        padding: `${pt}px ${pr ? pr + "px" : "var(--padding)"} ${pb}px ${
+          pl ? pl + "px" : "var(--padding)"
+        }`,
       }}
       class={[
         classList,

@@ -14,12 +14,14 @@ import { Link } from "@builder.io/qwik-city";
 import { IconClipboardHeart } from "~/components/icons/clipboardHeart";
 
 export default component$(() => (
-  <Section pt={200} pb={150}>
+  <Section classList={styles.root} pt={0} pb={0}>
     <Stack align="center">
-      <h1 class={styles.title}>Welcome to the guide</h1>
-      <p class={styles.text}>
-        You can pick a category that's related to your question
-      </p>
+      <Stack align="center" gap={0}>
+        <h1 class={styles.title}>Welcome to the guide</h1>
+        <p class={styles.text}>
+          You can pick a category that's related to your question
+        </p>
+      </Stack>
       <Group justify="center">
         <Link href="/guide/system" class={styles.link}>
           <IconSettings />

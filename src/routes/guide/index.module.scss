@@ -1,15 +1,15 @@
-.title {
-    font-size: 72px;
+.root {
+    min-height: calc(100vh - 100px - 50px - 64px);
 }
 
 .text {
-    margin-bottom: 64px;
+    margin-bottom: 16px;
 }
 
 .link {
     border: solid 1px rgb(var(--foreground-color));
     border-radius: 8px;
-    padding: 32px 64px;
+    padding: 1em 2em;
     cursor: pointer;
     font-weight: bold;
     transition: border-color 200ms ease-in-out, box-shadow 200ms ease-in-out;

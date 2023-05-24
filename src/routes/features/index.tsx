@@ -14,7 +14,7 @@ export default component$(() => {
 
   return (
     <>
-      <Section pt={200} justify="space-between" gap={32}>
+      <Section pt={116} justify="space-between" gap={32}>
         <Stack>
           <h1>Customizability</h1>
           <h2>Make Hexa Center Truly Yours</h2>
@@ -25,11 +25,11 @@ export default component$(() => {
             the perfect tool for your team's unique needs.
           </p>
         </Stack>
-        <Stack>
-          <Group noWrap grow align="stretch">
+        <Stack gap={32}>
+          <Group align="stretch" gap={32}>
             <Stack classList={styles.feature}>
-              <h3>Create Your Team, Your Way</h3>
               <p class={styles.badge}>Roles</p>
+              <h3>Create Your Team, Your Way</h3>
               <p>
                 Start by setting up your own team roles, just like you have in
                 your day-to-day work. Whether they're doctors, psychologists,
@@ -46,8 +46,8 @@ export default component$(() => {
                 },
               ]}
             >
-              <h3>Add a Personal Touch</h3>
               <p class={styles.badge}>Custom Fields</p>
+              <h3>Add a Personal Touch</h3>
               <p>
                 For each role, you can easily add custom fields. Need to note
                 allergies for each client? No problem, just drag and drop a new
@@ -57,7 +57,7 @@ export default component$(() => {
               </p>
             </Stack>
           </Group>
-          <Group noWrap grow align="stretch">
+          <Group align="stretch" gap={32}>
             <Stack
               id="programs"
               classList={[
@@ -67,8 +67,8 @@ export default component$(() => {
                 },
               ]}
             >
-              <h3>Design Your Own Treatment Plans</h3>
               <p class={styles.badge}>Program Builder</p>
+              <h3>Design Your Own Treatment Plans</h3>
               <p>
                 We also offer a flexible program builder, allowing you to create
                 your own treatment plans from scratch. This means you can
@@ -77,8 +77,8 @@ export default component$(() => {
               </p>
             </Stack>
             <Stack classList={styles.feature}>
-              <h3>As Many Programs as You Need</h3>
               <p class={styles.badge}>Dossier Resumability</p>
+              <h3>As Many Programs as You Need</h3>
               <p>
                 Once you've made a program, you can add it to a patient's
                 dossier as often as necessary. This lets you keep track of
@@ -106,11 +106,11 @@ export default component$(() => {
             way that suits you best.
           </p>
         </Stack>
-        <Stack>
-          <Group noWrap grow align="stretch">
+        <Stack gap={32}>
+          <Group align="stretch" gap={32}>
             <Stack classList={styles.feature}>
-              <h3>Customizable Workweek Views</h3>
               <p class={styles.badge}>Working Hours</p>
+              <h3>Customizable Workweek Views</h3>
               <p>
                 Take the guesswork out of your schedule. With Hexa Center, your
                 workweek view is customized according to your set working hours.
@@ -127,8 +127,8 @@ export default component$(() => {
                 },
               ]}
             >
-              <h3>Teamwork Made Easy</h3>
               <p class={styles.badge}>Multi-Calendar View</p>
+              <h3>Teamwork Made Easy</h3>
               <p>
                 Say goodbye to double-bookings and missed appointments. With
                 Hexa Center, you can view and make appointments in your team
@@ -137,7 +137,7 @@ export default component$(() => {
               </p>
             </Stack>
           </Group>
-          <Group noWrap grow align="stretch">
+          <Group align="stretch" gap={32}>
             <Stack
               id="appointment-types"
               classList={[
@@ -147,8 +147,8 @@ export default component$(() => {
                 },
               ]}
             >
-              <h3>Appointment Types, Tailored to You</h3>
               <p class={styles.badge}>Appointment Types</p>
+              <h3>Appointment Types, Tailored to You</h3>
               <p>
                 Take control of your appointments with customizable types that
                 act as templates. Define a standard duration, description, and
@@ -165,8 +165,8 @@ export default component$(() => {
                 },
               ]}
             >
-              <h3>Embrace the Future with Video Calls</h3>
               <p class={styles.badge}>Video Calls</p>
+              <h3>Embrace the Future with Video Calls</h3>
               <p>
                 We're not just about making things easier—we're about making
                 them better. That’s why Hexa Center supports video call
@@ -194,11 +194,11 @@ export default component$(() => {
             flexibility and functionality in a user-friendly package.
           </p>
         </Stack>
-        <Stack>
-          <Group noWrap grow align="stretch">
+        <Stack gap={32}>
+          <Group align="stretch" gap={32}>
             <Stack classList={styles.feature}>
-              <h3>Multiple Clients, One Dossier</h3>
               <p class={styles.badge}>Clients</p>
+              <h3>Multiple Clients, One Dossier</h3>
               <p>
                 Say goodbye to separate files for partners, family members, or
                 group patients. With our modern dossier concept, you can easily
@@ -208,8 +208,8 @@ export default component$(() => {
               </p>
             </Stack>
             <Stack classList={styles.feature}>
-              <h3>Customizable Questionnaires</h3>
               <p class={styles.badge}>External Steps</p>
+              <h3>Customizable Questionnaires</h3>
               <p>
                 Add another layer of personalization with custom-built
                 questionnaires that seamlessly integrate into your dossiers.
@@ -219,10 +219,10 @@ export default component$(() => {
               </p>
             </Stack>
           </Group>
-          <Group noWrap grow align="stretch">
+          <Group align="stretch" gap={32}>
             <Stack classList={styles.feature}>
-              <h3>Keep Track with Timeline</h3>
               <p class={styles.badge}>Timeline</p>
+              <h3>Keep Track with Timeline</h3>
               <p>
                 Stay on top of everything with our timeline feature, where every
                 event gets logged. It’s like having a bird’s eye view of your
@@ -230,8 +230,8 @@ export default component$(() => {
               </p>
             </Stack>
             <Stack classList={styles.feature}>
-              <h3>File Uploads</h3>
               <p class={styles.badge}>Uploads</p>
+              <h3>File Uploads</h3>
               <p>
                 Need to attach additional documents to a dossier? No problem!
                 Our system allows you to upload a wide variety of file types,
@@ -241,10 +241,10 @@ export default component$(() => {
               </p>
             </Stack>
           </Group>
-          <Group noWrap grow align="stretch">
+          <Group align="stretch" gap={32}>
             <Stack classList={styles.feature}>
-              <h3>Flexible Notes</h3>
               <p class={styles.badge}>Notes</p>
+              <h3>Flexible Notes</h3>
               <p>
                 Our dossier isn't just about structure, we're all about
                 flexibility too! With Notes, you can create open-ended notes or

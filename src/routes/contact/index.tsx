@@ -64,15 +64,15 @@ export default component$(() => {
   });
 
   return (
-    <Section classList={styles.root} pt={200} pb={150}>
+    <Section classList={styles.root} pt={116} pb={66}>
       <div class={styles.card}>
-        <h1
+        <h3
           style={{
             marginBottom: "16px",
           }}
         >
           Get in Touch with us
-        </h1>
+        </h3>
         {hasSubmitted.value ? (
           <p>Thank you for submitting!</p>
         ) : (

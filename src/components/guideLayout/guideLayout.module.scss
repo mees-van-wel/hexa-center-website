@@ -1,5 +1,5 @@
 :root {
-    --aside-width: 300px;
+    --aside-width: 250px;
 }
 
 .main {
@@ -17,8 +17,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-height: calc(100vh - 100px);
+    z-index: 1;
+    overflow-y: auto;
 
-    h4 {
+    p {
         font-weight: normal;
         padding: 4px 8px;
         display: inline-block;
@@ -33,21 +36,32 @@
     }
 
     &Left {
-        left: 0;
+        transition: left 200ms ease-in-out;
+        left: calc(var(--aside-width) * -1);
+
+        &Opened {
+            left: 0;
+        }
     }
 
     &Right {
         right: 0;
+        display: none;
     }
 }
 
 .container {
     background-color: rgb(var(--background-accent-color));
     padding: 32px;
-    width: calc(100% - var(--aside-width) * 2);
+    // width: calc(100% - var(--aside-width) * 2); Desktop
+    // width: calc(100% - var(--aside-width) - 16px); Menu Open
+    width: calc(100% - 32px);
+    margin-left: 16px;
     border-radius: 16px;
     box-shadow: inset 0 0 5px 0px rgba(0, 0, 0, 0.2);
-    margin: 0 auto 50px;
+    // margin: 0 auto 50px; Desktop
+    // margin-left: var(--aside-width); Menu Open
+    margin-bottom: 50px;
 
     h1 {
         margin-bottom: 0.2em;
@@ -102,16 +116,22 @@
         display: inline-block;
     }
 
-    &FullWidth {
-        padding: 0;
-        width: calc(100% - var(--aside-width) - 32px);
-        margin-left: var(--aside-width);
-
-        a {
-            color: rgb(var(--foreground-color));
-            text-decoration: none;
-        }
+    &FullWidth a {
+        color: rgb(var(--foreground-color));
+        text-decoration: none;
     }
+}
+
+.openButton {
+    position: fixed;
+    top: 100px;
+    left: 16px;
+    background-color: rgb(var(--background-accent-color));
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-content: center;
+    border-radius: 100%;
 }
 
 .menuItemTitle {
@@ -155,6 +175,37 @@
         &:hover {
             color: white;
             background: rgb(var(--primary-color));
+        }
+    }
+}
+
+@media only screen and (min-width: 48em) {
+    .closeButton,
+    .openButton {
+        display: none;
+    }
+
+    .asideLeft {
+        left: 0;
+    }
+
+    .container {
+        margin-left: calc(var(--aside-width) + 32px);
+        width: calc(100% - var(--aside-width) - 64px);
+    }
+}
+
+@media only screen and (min-width: 62em) {
+    .asideRight {
+        display: flex;
+    }
+
+    .container {
+        margin-left: var(--aside-width);
+        width: calc(100% - var(--aside-width) * 2);
+
+        &FullWidth {
+            width: calc(100% - var(--aside-width) - 16px);
         }
     }
 }

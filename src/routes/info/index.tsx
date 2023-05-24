@@ -27,7 +27,7 @@ export default component$(() => {
 
   return (
     <>
-      <Section pt={200} pr={0} pb={0}>
+      <Section pt={132} pr={0} pb={0}>
         <Group justify="space-between" align="flex-start">
           <div class={styles.textContainer}>
             <h1>Why Choose Hexa Center?</h1>

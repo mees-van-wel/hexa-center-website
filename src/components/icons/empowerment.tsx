@@ -2,8 +2,8 @@ import { component$ } from "@builder.io/qwik";
 
 export const IconEmpowerment = component$(() => (
   <svg
-    width="92"
-    height="92"
+    width="120"
+    height="120"
     viewBox="0 0 592 566"
     version="1.1"
     fill="currentColor"

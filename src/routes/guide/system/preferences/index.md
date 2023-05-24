@@ -18,7 +18,7 @@ By changing the color setting, you can alter the accent color used throughout th
 
 Changing your time zone setting will affect how dates are displayed in Hexa Center. When you modify your time zone setting, the displayed dates will adjust accordingly. You have the option to select from all available time zones.
 
-## 5. Work hours
+## 5. Working hours
 
 To add working hours for each weekday, fill in the `start` and `end` times and click the `+ ` button. Your working hours for that day will then appear below the fields. To remove existing working hours, click the `-` button next to the working hours. You can select a different weekday by clicking on the available weekdays on the left side of the `start` and `end` fields.
 

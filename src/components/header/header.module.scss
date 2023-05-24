@@ -1,29 +1,27 @@
-.container {
+.root {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 16px;
+  padding-left: var(--padding);
+  padding-right: var(--padding);
   backdrop-filter: blur(16px) saturate(180%);
   border-bottom: 1px solid rgb(var(--foreground-color) / 10%);
   background-color: rgb(var(--background-color) / 40%);
   height: 100px;
   z-index: 1;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
 
   &Guide {
     border: none;
     box-shadow: none;
+    // padding-left: 16px;
+    // padding-right: 16px;
   }
-}
-
-.left {
-  display: flex;
-  gap: 32px;
-  align-items: center;
 }
 
 .logo {
@@ -36,9 +34,55 @@
   margin-bottom: 0;
 }
 
+.dash {
+  display: none;
+}
+
 .nav {
+  gap: 16px;
   display: flex;
-  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(var(--background-color) / 90%);
+  transition: transform 300ms ease-in-out, border-radius 300ms ease-in-out, opacity 300ms ease-in-out;
+  border-radius: 100%;
+  opacity: 0;
+  transform: translate(100vw, -100vh);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  &Opened {
+    border-radius: 0;
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.openButton {
+  width: 32px;
+  height: 32px;
+
+  svg {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.closeButton {
+  position: absolute;
+  top: 34px;
+  right: 32px;
+  width: 32px;
+  height: 32px;
+
+  svg {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 .item {
@@ -52,10 +96,58 @@
   &:hover {
     background-color: rgb(var(--primary-color));
     color: rgb(233 236 239);
-    scale: 1.2;
+    scale: 1.1;
   }
 
   &Active {
     background-color: rgb(var(--primary-color) / 80%);
+  }
+}
+
+@media only screen and (min-width: 48em) {
+  .root {
+    justify-content: flex-start;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .openButton {
+    display: none;
+  }
+
+  .closeButton {
+    display: none;
+  }
+
+  .nav {
+    border-radius: 0;
+    opacity: 1;
+    transform: translate(0);
+    background-color: transparent;
+    width: unset;
+    height: unset;
+    position: relative;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 62em) {
+  .root {
+    gap: 32px;
+  }
+
+  .title {
+    font-size: 2.368593037rem;
+    font-size: clamp(1rem, 4vw + 1rem, 2.368593037rem);
+  }
+
+  .dash {
+    display: inline;
+  }
+
+  .nav {
+    gap: 32px;
   }
 }

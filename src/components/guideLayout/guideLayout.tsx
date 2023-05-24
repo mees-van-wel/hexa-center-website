@@ -1,34 +1,58 @@
 "use client";
 
-import { Slot, component$ } from "@builder.io/qwik";
+import { Slot, component$, $, useSignal } from "@builder.io/qwik";
 import styles from "./guideLayout.module.scss";
 import { Link, useContent, useLocation } from "@builder.io/qwik-city";
+import { IconX } from "../icons/x";
+import { Group } from "../generic/group/group";
+import { IconMenu2 } from "../icons/menu2";
 
 export const GuideLayout = component$(() => {
   const content = useContent();
+  const isMenuOpened = useSignal(false);
   const pathname = useLocation().url.pathname;
+
+  const closeHandler = $(() => {
+    isMenuOpened.value = false;
+  });
 
   return (
     <main class={styles.main}>
       {content.menu && (
-        <aside class={[styles.aside, styles.asideLeft]}>
+        <aside
+          class={[
+            styles.aside,
+            styles.asideLeft,
+            {
+              [styles.asideLeftOpened]: isMenuOpened.value,
+            },
+          ]}
+        >
           <div>
-            <Link href="/guide">
-              <h2>{content.menu.text}</h2>
-            </Link>
+            <Group justify="space-between">
+              <Link href="/guide">
+                <h3 onClick$={closeHandler}>{content.menu.text}</h3>
+              </Link>
+              <div onClick$={closeHandler} class={styles.closeButton}>
+                <IconX />
+              </div>
+            </Group>
             <ul>
               {content.menu.items?.map((item) => (
                 <li key={item.text}>
-                  <h3 class={styles.menuItemTitle}>{item.text}</h3>
+                  <h4 onClick$={closeHandler} class={styles.menuItemTitle}>
+                    {item.text}
+                  </h4>
                   <ul>
                     {item.items?.map((item) => (
                       <li key={item.text} class={styles.menuItemLink}>
                         <Link href={item.href}>
-                          <h4
+                          <p
+                            onClick$={closeHandler}
                             class={{ [styles.active]: pathname === item.href }}
                           >
                             {item.text}
-                          </h4>
+                          </p>
                         </Link>
                       </li>
                     ))}
@@ -47,6 +71,14 @@ export const GuideLayout = component$(() => {
           },
         ]}
       >
+        <div
+          onClick$={() => {
+            isMenuOpened.value = true;
+          }}
+          class={styles.openButton}
+        >
+          <IconMenu2 />
+        </div>
         <Slot />
       </div>
       {!!content.headings?.length && (

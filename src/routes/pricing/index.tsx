@@ -5,8 +5,8 @@ import { Stack } from "~/components/generic/stack/stack";
 import { Checkbox } from "~/components/generic/checkbox/checkbox";
 import { Group } from "~/components/generic/group/group";
 import styles from "./index.module.scss";
-import { IconInfoCircleFilled } from "~/components/icons/circleFilled";
 import { Link } from "@builder.io/qwik-city";
+import { IconHelpCircleFilled } from "~/components/icons/helpCircleFilled";
 
 const basePrice = 34.3;
 
@@ -60,8 +60,8 @@ export default component$(() => {
   });
 
   return (
-    <Section classList={styles.root} pt={200} pb={150}>
-      <Group noWrap justify="space-evenly" gap={64} align="center">
+    <Section classList={styles.root} pt={116} pb={66}>
+      <Group justify="space-evenly" gap={32} align="center">
         <Stack classList={styles.card}>
           <h1>Pricing Calculator</h1>
           <p>All prices are without VAT.</p>
@@ -84,7 +84,7 @@ export default component$(() => {
               <Group gap={8}>
                 <p>Custom Fields</p>
                 <Link class={styles.info} href="/features/#custom-fields">
-                  <IconInfoCircleFilled />
+                  <IconHelpCircleFilled />
                 </Link>
               </Group>
             }
@@ -118,7 +118,7 @@ export default component$(() => {
                       class={styles.info}
                       href="/features/#appointment-types"
                     >
-                      <IconInfoCircleFilled />
+                      <IconHelpCircleFilled />
                     </Link>
                   </Group>
                 }
@@ -138,7 +138,7 @@ export default component$(() => {
                       class={styles.info}
                       href="/features/#multi-calendar-view"
                     >
-                      <IconInfoCircleFilled />
+                      <IconHelpCircleFilled />
                     </Link>
                   </Group>
                 }
@@ -154,7 +154,7 @@ export default component$(() => {
                   <Group gap={8}>
                     <p>Video calls</p>
                     <Link class={styles.info} href="/features/#video-calls">
-                      <IconInfoCircleFilled />
+                      <IconHelpCircleFilled />
                     </Link>
                   </Group>
                 }
@@ -185,7 +185,7 @@ export default component$(() => {
                   <Group gap={8}>
                     <p>Programs</p>
                     <Link class={styles.info} href="/features/#programs">
-                      <IconInfoCircleFilled />
+                      <IconHelpCircleFilled />
                     </Link>
                   </Group>
                 }
@@ -198,7 +198,7 @@ export default component$(() => {
             </>
           )}
         </Stack>
-        <Stack gap={32} classList={styles.cardContainer}>
+        <Stack gap={32} classList={styles.cardContainer} align="center">
           <Stack classList={styles.card}>
             <h3>Total per month with 20% off for the first year</h3>
             <h2>{format(total * 0.8)}</h2>
