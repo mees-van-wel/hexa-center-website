@@ -2,6 +2,7 @@
 
 import { Slot, component$, $, useSignal } from "@builder.io/qwik";
 import styles from "./guideLayout.module.scss";
+import type { DocumentHead } from "@builder.io/qwik-city";
 import { Link, useContent, useLocation } from "@builder.io/qwik-city";
 import { IconX } from "../icons/x";
 import { Group } from "../generic/group/group";
@@ -99,3 +100,13 @@ export const GuideLayout = component$(() => {
     </main>
   );
 });
+
+export const head: DocumentHead = {
+  title: "Guide | Hexa Center",
+  meta: [
+    {
+      name: "description",
+      content: "Welcome to the guide",
+    },
+  ],
+};

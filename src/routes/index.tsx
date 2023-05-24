@@ -133,4 +133,10 @@ export default component$(() => {
 
 export const head: DocumentHead = {
   title: "Hexa Center",
+  meta: [
+    {
+      name: "description",
+      content: "Revolutionize Your Healthcare Practice with Digital Innovation",
+    },
+  ],
 };

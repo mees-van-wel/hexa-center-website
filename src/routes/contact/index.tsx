@@ -148,5 +148,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Hexa Center > Contact",
+  title: "Contact | Hexa Center",
+  meta: [
+    {
+      name: "description",
+      content: "Get in Touch with us",
+    },
+  ],
 };

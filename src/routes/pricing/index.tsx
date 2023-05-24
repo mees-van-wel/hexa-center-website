@@ -5,6 +5,7 @@ import { Stack } from "~/components/generic/stack/stack";
 import { Checkbox } from "~/components/generic/checkbox/checkbox";
 import { Group } from "~/components/generic/group/group";
 import styles from "./index.module.scss";
+import type { DocumentHead } from "@builder.io/qwik-city";
 import { Link } from "@builder.io/qwik-city";
 import { IconHelpCircleFilled } from "~/components/icons/helpCircleFilled";
 
@@ -214,3 +215,13 @@ export default component$(() => {
     </Section>
   );
 });
+
+export const head: DocumentHead = {
+  title: "Pricing | Hexa Center",
+  meta: [
+    {
+      name: "description",
+      content: "Pricing Calculator",
+    },
+  ],
+};

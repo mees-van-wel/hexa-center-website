@@ -4,6 +4,7 @@ import { Group } from "~/components/generic/group/group";
 import { Stack } from "~/components/generic/stack/stack";
 import { Section } from "~/components/section/section";
 import styles from "./index.module.scss";
+import type { DocumentHead } from "@builder.io/qwik-city";
 
 export default component$(() => {
   const hash = useSignal<string>();
@@ -269,3 +270,13 @@ export default component$(() => {
     </>
   );
 });
+
+export const head: DocumentHead = {
+  title: "Features | Hexa Center",
+  meta: [
+    {
+      name: "description",
+      content: "Make Hexa Center Truly Yours",
+    },
+  ],
+};
