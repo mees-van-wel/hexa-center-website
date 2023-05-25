@@ -128,7 +128,6 @@ export default component$(() => {
             Implementation Strategies
           </h1>
           <Group justify="center" gap={32}>
-            {" "}
             <a
               href="https://digitrust.ez2xs.com/portal/certificate?key=dVkpVS7PJkmVUxminELYKAAAQFNIimJ7m2fCp8QgH5spW5cTvtm2PtG0iwcwnmdX"
               rel="noopener noreferrer"
@@ -166,24 +165,44 @@ export default component$(() => {
               </picture>
             </a>
           </Group>
-          <a
-            href="https://www.zorgprestatiemodel.nl/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <picture>
-              <source srcSet="/images/zpm.avif" type="image/avif" />
-              <source srcSet="/images/zpm.webp" type="image/webp" />
-              <img
-                class={styles.logo}
-                src="/images/zpm.png"
-                alt="Zorgprestatiemodel"
-                title="Zorgprestatiemodel"
-                width="100%"
-                height={100}
-              />
-            </picture>
-          </a>
+          <Group justify="center" gap={32}>
+            <a
+              href="https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <picture>
+                <source srcSet="/images/gpdr.avif" type="image/avif" />
+                <source srcSet="/images/gpdr.webp" type="image/webp" />
+                <img
+                  class={styles.logo}
+                  src="/images/gpdr.png"
+                  alt="GPDR"
+                  title="GPDR"
+                  width="100%"
+                  height={150}
+                />
+              </picture>
+            </a>
+            <a
+              href="https://www.zorgprestatiemodel.nl/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <picture>
+                <source srcSet="/images/zpm.avif" type="image/avif" />
+                <source srcSet="/images/zpm.webp" type="image/webp" />
+                <img
+                  class={styles.logo}
+                  src="/images/zpm.png"
+                  alt="Zorgprestatiemodel"
+                  title="Zorgprestatiemodel"
+                  width="100%"
+                  height={100}
+                />
+              </picture>
+            </a>
+          </Group>
           <a
             href="https://profiles.eco/hexa"
             rel="noopener noreferrer"

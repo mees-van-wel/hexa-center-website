@@ -79,15 +79,7 @@ export const Header = component$(() => {
       >
         <IconMenu2 />
       </div>
-      <nav
-        class={[
-          styles.nav,
-          {
-            // [styles.navMobile]: !media.lg,
-            [styles.navOpened]: isMenuOpened.value,
-          },
-        ]}
-      >
+      <nav class={[styles.nav, { [styles.navOpened]: isMenuOpened.value }]}>
         <div onClick$={closeHandler} class={styles.closeButton}>
           <IconX />
         </div>
@@ -130,12 +122,7 @@ export const Header = component$(() => {
         </Link>
         <Link
           onClick$={closeHandler}
-          class={[
-            styles.item,
-            {
-              [styles.itemActive]: isGuide,
-            },
-          ]}
+          class={[styles.item, { [styles.itemActive]: isGuide }]}
           href="/guide"
         >
           Guide
@@ -149,6 +136,16 @@ export const Header = component$(() => {
           href="/contact"
         >
           Contact
+        </Link>
+        <Link
+          onClick$={closeHandler}
+          class={[
+            styles.item,
+            { [styles.itemActive]: pathname.includes("news") },
+          ]}
+          href="/news"
+        >
+          News
         </Link>
       </nav>
     </header>

@@ -1,0 +1,40 @@
+.newsItem {
+    background-color: rgb(var(--background-accent-color));
+    border-radius: 16px;
+    flex: 1 0 300px;
+    max-width: 100%;
+}
+
+.date {
+    background-color: rgb(var(--primary-color));
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title {
+    margin-bottom: 8px;
+}
+
+.content {
+    padding: 0 16px;
+    padding-top: 16px;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.dots {
+    padding-left: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.button {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    border-bottom-left-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
+}
