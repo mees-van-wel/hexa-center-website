@@ -6,6 +6,7 @@
   },
   "private": true,
   "scripts": {
+    "production": "git pull && pnpm install --frozen-lockfile --ignore-scripts && pnpm run build && pm2 reload ecosystem.config.js",
     "build": "qwik build",
     "build.client": "vite build",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
