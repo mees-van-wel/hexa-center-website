@@ -105,6 +105,14 @@
   max-width: 100%;
 }
 
+.logoTitle {
+  text-align: center;
+}
+
+.logo {
+  object-fit: contain;
+}
+
 @media only screen and (min-width: 48em) {
   .buttonContainer {
     gap: 16px;
