@@ -10,6 +10,13 @@ export default extendConfig(baseConfig, () => {
         input: ['src/entry.express.tsx', '@qwik-city-plan'],
       },
     },
-    plugins: [nodeServerAdapter({ name: 'express' })],
+    plugins: [nodeServerAdapter({ 
+      name: 'express',
+      ssg: {
+        include: ['/*'],
+        origin: 'https://www.hexa.center',
+        sitemapOutFile: 'sitemap.xml',
+      },
+    })],
   };
 });
