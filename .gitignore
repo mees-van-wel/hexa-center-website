@@ -33,7 +33,6 @@ lerna-debug.log*
 *.njsproj
 *.sln
 *.sw?
-.history
 
 # Yarn
 .yarn/*
