@@ -13,6 +13,10 @@ export const RouterHead = component$(() => {
       <title>{head.title}</title>
       <link rel="canonical" href={loc.url.href} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta
+        name="keywords"
+        content="Healthcare, Digital Healthcare, EMR, EPD, Netherlands, Dutch Healthcare, Hexa Center, Healthcare Innovation, Healthcare Documentation, Healthcare Efficiency"
+      />
       <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       <link
         rel="apple-touch-icon"
@@ -20,6 +24,7 @@ export const RouterHead = component$(() => {
         href="/apple-touch-icon.png"
       />
       <meta name="theme-color" content="#1971c2" />
+      <meta name="author" content="Hexa Center" />
 
       {head.meta.map((m) => (
         <meta key={m.key} {...m} />

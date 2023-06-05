@@ -224,11 +224,12 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Hexa Center",
+  title: "Hexa Center: Modern EMR (EPD) Solution for your Healthcare Practice",
   meta: [
     {
       name: "description",
-      content: "Revolutionize Your Healthcare Practice with Digital Innovation",
+      content:
+        "Revolutionize your healthcare practice with Hexa Center, a modern EMR (EPD) solution in the Netherlands. We bring efficiency, accuracy, and patient care to new heights with our digital healthcare innovation.",
     },
   ],
 };
