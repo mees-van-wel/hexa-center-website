@@ -77,14 +77,14 @@ export default component$(() => {
                 without having to adjust to a new system.
               </p>
             </Stack>
-            <Stack classList={styles.feature}>
-              <p class={styles.badge}>Dossier Resumability</p>
-              <h3>As Many Programs as You Need</h3>
+            <Stack id="program-resumability" classList={styles.feature}>
+              <p class={styles.badge}>Program Resumability</p>
+              <h3>As Many Program Steps as You Need</h3>
               <p>
-                Once you've made a program, you can add it to a patient's
-                dossier as often as necessary. This lets you keep track of
-                progress and ensure consistency in patient care, without any
-                extra hassle.
+                Once you've made a program, you can add it's steps to a
+                patient's dossier as often as necessary. This lets you keep
+                track of progress and ensure consistency in patient care,
+                without any extra hassle.
               </p>
             </Stack>
           </Group>
