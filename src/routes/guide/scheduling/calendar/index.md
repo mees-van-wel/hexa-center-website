@@ -1,6 +1,6 @@
 # Calendar
 
-The calendar function is part of the core block in Hexa Center. Use the calendar function to create appointments, view your colleagues appointments and create video calls.
+The calendar function is part of the essentials module in Hexa Center. Use the calendar function to create appointments, view your colleagues appointments and create video calls.
 
 ## 1. Navigating the calendar overview
 
@@ -10,7 +10,7 @@ The calendar overview can be found by navigating to the Calendar tab, found unde
 
 To collapse, or hide, the navigation menu, click on the small arrow icon located at the very top of the calendar overview page. This action will entirely conceal the menu, providing a more spacious view of the calendar content.
 
-![Calendar collapse button](/images/general/calendar/calendar-navigation-collapse-button.jpg "Calendar collapse button")
+![Calendar collapse button](/images/guide/calendar-navigation-collapse-button.jpg "Calendar collapse button")
 
 ## 1.2 Navigating through dates
 
@@ -24,7 +24,7 @@ Clicking on `today` brings you back to today's date.
 
 ## 2. Creating appointments
 
-Click on any square in the calendar overview screen to open the appointment creation screen, allowing you to input event details like the title, description, date, start time, and end time. The date / time you clicked on is used as the initial start and end date / time for the appointment, depending on the current scope.
+Click on any square in the calendar overview screen to open the appointment creation screen, next, input event details like the title, description, date, start time, and end time. The date / time you clicked on is used as the initial start and end date / time for the appointment, depending on the current scope.
 
 You will need to enter the appointment name, calendar, start and end time to create an appointment. Adding a description, appointment type, inviting guests and the video-call invite checkbox are all optional.
 
