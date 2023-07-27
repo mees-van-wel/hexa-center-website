@@ -54,7 +54,7 @@ export default component$(() => (
         </Link>
         <Link href="/guide/healthcare/dossiers" class={styles.link}>
           <IconClipboardHeart />
-          Dossiers 🚧
+          Dossiers
         </Link>
       </Group>
     </Stack>
