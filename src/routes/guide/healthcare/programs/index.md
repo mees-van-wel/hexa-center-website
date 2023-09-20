@@ -22,11 +22,15 @@ TODO: Finish this
 
 When creating or editing a step you will find 3 slide-toggles; `Responder Mode`, `Addition Mode`, and `Answer Mode`. An explanation for each of these toggles can be found below.
 
-**Responder mode:** this detemines whether a step is meant to be filled in by an internal user or external client. Setting this slider to external means the dossier's associated client(s) will have to fill in this step via the client portal. The internal slider setting means the step has to be completed by a user via Hexa Center's dossier system.
+**Responder mode:** this detemines whether a step is meant to be filled in by an internal user or external client. Setting this slider to `external` means the dossier's associated client(s) will have to fill in this step via the client portal. The `internal` slider setting means the step has to be completed by a user via Hexa Center's dossier system.
+
+Setting the slider to `External` disallows the `Answer mode` slider to be set to `Shared`, as each client has to fill in the step individually.
 
 Please refer to the [Dossiers](../dossiers/index.md "Dossiers") page for more information about the client portal and dossiers.
 
-**Addition Mode:**
+**Addition Mode:** steps set to `Manually` will not be automatically added to the program when adding it to a dossier. Whereas those set to `Automatically` will be. This means that steps which are set to `Manually` can be later added to the dossier.
+
+**Answer mode:** this option is only relevant when more than one client has been added to your file. When setting this slider to `Individual`, the step has to be filled out separately for each client in the file. Whereas setting the slider to `Shared` will mean that the answers will be shared among the dossier's clients, so each client wil register the same answer.
 
 ## 5. Adding steps to programs
 
