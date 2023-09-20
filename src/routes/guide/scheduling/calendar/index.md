@@ -22,17 +22,25 @@ Additionally, altering the scope of dates also affects the functionality of the 
 
 Clicking on `today` brings you back to today's date.
 
+### 1.3 Viewing other users's calendars
+
+To view other users' calendars, use the 'Calendars' field in the right-side navigation menu. If the navigation menu is not visible, it's likely collapsed. To make it visible again, simply click the small arrow icon at the top right of the calendar overview page. This will expand the menu and grant access to its options."
+
+Click on the Calendars field to generate a dropdown menu constisting of all users. Search for users by first clicking on the Calendar field, then proceed to type in a user's name, select the user to add them to the selection. To view multiple calendars at once, select multiple users from the dropdown menu.
+
+![Calendar select multiple users](/images/guide/calendar-select-multiple-users-calendars.jpg "Calendar select multiple users")
+
 ## 2. Creating appointments
 
 ![Calendar create appointment](/images/guide/calendar-create-appointment.jpg "Calendar create appointment")
 
-Click on any square in the calendar overview screen to open the appointment creation screen, next, fill in event details like the title, description, date, start time, and end time. The date / time you clicked on is used as the initial start and end date / time for the appointment, depending on the current scope.
+Click on any square in the calendar overview screen to open the appointment creation window, next, fill in event details like the title, description, date, start time, and end time. The date / time you clicked on is used as the initial start and end date / time for the appointment, depending on the current scope.
 
-Add guests via the `Guests` field. Click on the `Guests` field to see all available guests. To search for users, simply enter their name or a part of it in the search field. As you begin typing, the available options will be automatically updated in real-time.
+Add guests using the Guests field. Click on the `Guests` field to see all available guests. To search for users, simply enter their name or a part of it in the search field. As you begin typing, the available options will be automatically updated in real-time.
 
 ![Calendar create appointment search function](/images/guide/calendar-create-appointment-search.jpg "Calendar create appointment search function")
 
-You will need to enter the appointment name, calendar, start and end time to create an appointment.
+You will need to enter the appointment name, which users calendar the appointment is going to be made in, via the calendar field, start and end time to create an appointment.
 Adding a description, appointment type, inviting guests and the video-call invite checkbox are all optional.
 
 Save your appointment by clicking on the `+ create` button.
@@ -47,14 +55,22 @@ Click on `Send` to send out emails to all participants, informing them of the up
 
 Click on `Back to editing` to make further changes.
 
-### 2.2 Creating appointments in other calendars
+### 2.2 Creating appointments in someone's name
 
-To create appointments on behalf of someone else, begin by selecting that person through the Calendar dropdown option. You can only create appointments in another person's calendar if you have the necessary permissions to do so. This capability is determined by the `General > Appointments > Manage all appointments` permission.
+To create appointments on behalf of someone else, begin by selecting that person through the `Calendar field's dropdown options`. Search for users by first clicking on the Calendar field, then proceed to type in a user's name. Click on the user to add them to your selection. You can only create appointments in another person's calendar if you have the necessary permissions to do so. This is determined by the `General > Appointments > Manage all appointments` permission. Please refer to the [Roles & permissions page](/guide/essentials/roles "Roles Guide") for more information about how to create and assign roles and permissions.
+
+![Calendar create appointment in someone's name](/images/guide/calendar-create-appointment-in-name.jpg "Calendar create appointment in someone's name")
+
+Upon saving the appointment it will immediately show up in the selected user's calendar.
 
 ## 3. Editing appointments
 
 To edit an existing appointment, select it from the calendar overview screen, a new window will now open allowing you to make changes. Click on the `+ Save` button to save your changes.
 
+![Calendar editing appointments](/images/guide/calendar-edit-appointment.jpg "Calendar editing appointments")
+
 ## 4. Deleting appointments
 
-To delete an existing appointment, select it from the calendar overview screen. In the window click on the `delete` button to permanently delete the appointment.
+To delete an existing appointment, select it from the calendar overview screen. Click on the `delete` button to permanently delete the appointment.
+
+![Calendar editing delete appointment](/images/guide/calendar-delete-appointment.jpg "Calendar editing delete appointment")
