@@ -4,56 +4,78 @@ The Programs functionality is part of the Medical module. The Medical module is 
 
 ## 1. Program definition
 
-A program is a fully customizable step based solution to create simple yet powerful questionnaires for your clients to partake in. A program can, but does not have to, consist of multiple steps, each step consisting of one, or multiple sections and questions. Programs can be seen as templates which allow your team to save a lot of time by not having to create a unique seperate questionnaire for each client.
+A program is a fully customizable step based solution to create simple yet powerful questionnaires for your clients to partake in. A program can, but does not have to, consist of steps, each step consisting of one, or multiple sections and questions. Programs can be seen as templates which allows your team to reuse past questionnaires without having to create a new questionnaire for every new client, saving a lot of time.
 
 ## 2. Program overview
 
-The program overview screen can be found by clicking on Programs listed under the medical header section. Navigating to the program overview page will generate a list of all programs. You can only access the program overview if you have sufficient permissions to do so. The required permissions to view, edit or create dossiers are listed in the permissions overview section on the right side of this documentation page. For more information regarding roles and permissions please refer to the [Roles and Permissions](/system/roles "Roles and permissions") page.
-![Programs overview](/images/medical/programs/ProgramsOverview.PNG "Programs overview")
+The program overview screen can be found by clicking on Programs, listed under the medical header section. Navigating to the program overview page will generate a list of all programs. You can only access the program overview if you have sufficient permissions to do so. The required permissions to view, edit or create dossiers are listed in the permissions overview section on the right side of this documentation page. For more information regarding roles and permissions please refer to the [Roles and Permissions](/system/roles "Roles and permissions") page.
+
+![Programs overview](/images/guide/programs.jpg "Programs overview")
 
 ## 3. Creating a program
 
-To create a program, first, navigate to the program overview screen, then click on the `+ New` button to start creating a program. You must first name your program before it can be created. A description is not required for a program to be created. After typing out a suitable name for your program, click on the `+ Create` button to create the program.
+To create a program, first, navigate to the program overview screen, then click on the `+ New` button to start creating a program. Entering a name for a program is required, a description is not. After typing out a suitable name for your program, click on the `+ Create` button to finalize the creation process.
 
-## 4. Program modes
+## 4. Step modes
 
-There are 3 different
+TODO: Finish this
+
+When creating or editing a step you will find 3 slide-toggles; `Responder Mode`, `Addition Mode`, and `Answer Mode`. An explanation for each of these toggles can be found below.
+
+**Responder mode:** this detemines whether a step is meant to be filled in by an internal user or external client. Setting this slider to external means the dossier's associated client(s) will have to fill in this step via the client portal. The internal slider setting means the step has to be completed by a user via Hexa Center's dossier system.
+
+Please refer to the [Dossiers](../dossiers/index.md "Dossiers") page for more information about the client portal and dossiers.
+
+**Addition Mode:**
 
 ## 5. Adding steps to programs
 
-Adding steps to a program is made as simple and easy to understand as possible. Click on the `+ New` button to create a step. Alternatively, link an already existing step by clicking on the `Link Existing` field and selecting a step from there. Upon selecting a step from the list of available steps that step will immediately be added to the program. Linked steps have an icon next to the name indicating that the step is linked to a step originating from a different program. Changes made to a linked step are synchronised to every program where that step it linked to. So upon making changes to the original step or the linked copy of the step those changes will appear in both versions of the step. Keep this in mind when editing linked steps. When the `external checkbox` toggle is toggled on, the step is open to external clients.
-See screenshots below to see what the `External` and `Linked` step icons look like.
-![Linked step](/images/medical/programs/ProgramsLinkedStep.PNG "Linked step")
-![External step](/images/medical/programs/ProgramsExternalStep.PNG "External step")
+Adding steps to a program is made as simple and easy to understand as possible. Click on the `+ New` button to create a step. Alternatively, link an already existing step by clicking on the `Link Existing` field and selecting a step from there. Upon selecting a step from the list of available steps, that step will immediately be added to the program. Linked steps have an icon next to the name indicating that the step is linked to a step originating from a different program.
+
+Changes made to a linked step are synchronized across every program where that step is linked. So, any modifications made to the original step or the linked copy will appear in both versions of the step. Please keep this in mind when editing linked steps.
+
+The external checkbox toggle determines whether a step is open to external clients. Below are screenshots that illustrate the appearance of the 'External' and 'Linked Step' icons.
+
+![Linked step](/images/guide/programs-linked.jpg "Linked step")
+![External step](/images/guide/programs-external.jpg "External step")
 
 ## 5.1 Creating steps
 
-Selecting a program from the list of available programs and clicking on the `+ New` button found under the `steps` section will bring up the step creation screen. A name must be entered for a step to be created, typing out a description, however, is not required. Toggle the `external checkbox` checkbox if this step is meant to be sent to clients via email.
-![Creating step](/images/medical/programs/ProgramsCreatingStep.png "Creating step")
+Selecting a program from the list of available programs and clicking on the `+ New` button found under the `steps` section will bring up the step creation screen. A name must be entered for a step to be created. Entering a description is not required. Toggle the `external checkbox` checkbox if this step is meant to be sent to clients via email.
+
+![Creating step](/images/guide/programs-create.jpg "Creating step")
 
 ## 5.2 Adding sections to steps
 
-Adding sections to your steps is highly recommended because it generally improves the overall readability of a step. Sections can be easily collapsed allowing you to focus on another section, while avoiding making mistakes in sections you're not currently editing.
-To add sections to your steps first select a dossier you would like to edit the steps off, then select an existing step from the list of steps. Alternatively, create a new step via the `+ New` button. After selecting a step to edit, click on the `+ Add section` button to add a section to the step. The `+ Add section` button is always located at the bottom of all added items, so you might have to scroll down to get this button into view.
-Added sections are automatically numbered, meaning section 1 will have the number 1 next to it, section 2 number 2, etc. Sections act like an accordion menu, however unlike other accordion menus which are collapsed by default, ours are not. To open or close a section simply click anywhere next to the number, like the title.
-To name your sections, click on a section to expand it. On the right side of your screen you will be able to enter a lable and a description. Sections do not need to be named for them to function properly, an unnamed section will simply not have a title and only the number of the section will be visible. Any text entered into the description text field will appear under where the lable text normally is displayed.
+Adding sections to your steps is highly recommended because it improves the overall clarity and readability of steps.
+
+To add sections to your steps, start by selecting a dossier you would like to edit the steps off, then select an existing step from the list of steps. Alternatively, create a new step via the `+ New` button. Click on the `+ Add section` button to add a section to the step. The `+ Add section` button is always located at the bottom of all added items, so you might have to scroll down to get this button into view.
+
+Added sections are automatically numbered, meaning section 1 will have the number 1 next to it, section 2 number 2, etc. To open or close a section simply click anywhere next to the number, like the title.
+
+To name your sections, click on a section to expand it, then proceed to fill in the form which appears on the right side of your screen. The section number will be displayed at the top of the form. Sections do not need to be named for them to function properly, an unnamed section will simply not have a title and only the number of the section will be visible. Text entered into the description field will appear under the label when the section is expanded.
 
 ## 5.3 Adding items to steps
 
-To add an item to a step first expand the section by clicking on it. If your step does not include any sections you can simply drag the items to the dotted rectangle section by holding left mouse button, dragging the item to the dotted rectangle section and letting go of the left mouse button. If you do decide you want to create sections, but items have already been added to the step, all items will be added to the newly created section.
-To add items to a specific section, make sure the section is expanded first. Then, just like when you're adding items to a step without sections, drag the item to the dotted rectangle section by holding the left mouse button to grab an item from the list, drag the item over to the dotted rectangle section and let go off the left mouse button. The dotted rectangle section will light up when an item is ready to be added.
+To add an item to a step first expand the section by clicking on it. If your step does not include any sections you can simply add the item by holding the left mouse button, dragging the item to the dotted rectangle section and letting go of the left mouse button. If you do decide you want to create sections, but items have already been added to the step, all items will be added to the newly created section.
+
+To add items to a specific section, make sure the section is expanded first. Then, just like when you're adding items to a step without sections, hold the left mouse button to grab an item from the list and drag it to the dotted rectangle section, then let go off the left mouse button. The dotted rectangle section will light up when an item is ready to be added.
+
+![Adding step to section](/images/guide/programs-add-formitem-to-section.jpg "Adding step to section")
 
 ## 5.4 Rearranging items in steps
 
-It is currently not possible to drag form items from sections to other sections. Rearranging form items within a section however is possible, simply hold the left mouse button while hovering your cursor over the `arrows` icon next to the item you want to move, drag the form item either up or down and let go off the left mouse button to move the form item.
+Dragging form items from one section to another is currently not possible. Rearranging form items within a section however is possible, simply hold the left mouse button while hovering your cursor over the `arrows` icon next to the item you want to move, drag the form item to your desired location, and let go off the left mouse button to move the form item.
+
+![Dragging formitems in section](/images/guide/programs-drag-formitem-in-section.jpg "Dragging formitems in section")
 
 ## 6. Preview mode
 
-The programs functionality features a Preview mode to show you what a step looks like before sending it to a client. To access this functionality simply select a program, then, select a step from the list of available steps and click on the `Preview` button. The preview mode even allows you to test the different form items by allowing you to interact with them just like the client filling in the program normally would.
+The programs functionality features a Preview mode to show you what a step looks like before sending it to a client. To access this functionality simply select a program, proceed to select a step from the list of available steps and click on the `Preview` button. The preview mode even enables you to test the different form items by allowing you to interact with them just like the client filling in the program would.
 
 ## 7. Available items and descriptions
 
-Currently we offer a multitude of different form items that can be added to a step. A list of available form items, and their descriptions can be found below.
+We offer a multitude of different form items that can be added to a step. A list of available form items, and their descriptions can be found below.
 
 **Text:** static text, can be used to relay information to the client like instructions on how to fill in the questionnaire, or it can simply act as an intro text used as clarification.
 
@@ -79,8 +101,9 @@ Currently we offer a multitude of different form items that can be added to a st
 
 ## 7.1 Customizing form items & optional questions
 
-Every form item can be customized by adding a title, description, or by making the form item optional. Adding restrictions to form items like setting a max length or value in number inputs is not yet implemented.
-Optional questions can be skipped by the client and therefore do not required for the questionnaire to be completed. This checkbox can be found by clicking on cogwheel button next to any form item (except for the Text form item, because no selectable options can be added for this item). Check the `Optional` checkbox to make the question optional, answering that question will no longer be required for the survey to be completed.
+Every form item can be customized by adding a title, description, or by making the form item optional. Adding restrictions to form items like setting a max length or value in number inputs has not yet been implemented.
+
+Optional questions can be skipped by the client and therefore do not required for the questionnaire to be completed. This feature can be found by clicking on the cogwheel button next to any form item (except for the Text form item, because no selectable options can be added to this item). Check the `Optional` checkbox to make the question optional, answering that question will no longer be required for the survey to be completed.
 
 ## 8. Deleting programs
 
