@@ -6,6 +6,8 @@ The Programs functionality is part of the Medical module. The Medical module is 
 
 A program is a fully customizable step based solution to create simple yet powerful questionnaires for your clients to partake in. A program can, but does not have to, consist of steps, each step consisting of one, or multiple sections and questions. Programs can be seen as templates which allows your team to reuse past questionnaires without having to create a new questionnaire for every new client, saving a lot of time.
 
+Due to the nature of the step functionality, we will refer to steps as `Questionnaires` when in the context of a user or client filling in the step.
+
 ## 2. Program overview
 
 The program overview screen can be found by clicking on Programs, listed under the medical header section. Navigating to the program overview page will generate a list of all programs. You can only access the program overview if you have sufficient permissions to do so. The required permissions to view, edit or create dossiers are listed in the permissions overview section on the right side of this documentation page. For more information regarding roles and permissions please refer to the [Roles and Permissions](/system/roles "Roles and permissions") page.
@@ -18,34 +20,32 @@ To create a program, first, navigate to the program overview screen, then click 
 
 ## 4. Step modes
 
-TODO: Finish this
-
 When creating or editing a step you will find 3 slide-toggles; `Responder Mode`, `Addition Mode`, and `Answer Mode`. An explanation for each of these toggles can be found below.
 
-**Responder mode:** this detemines whether a step is meant to be filled in by an internal user or external client. Setting this slider to `external` means the dossier's associated client(s) will have to fill in this step via the client portal. The `internal` slider setting means the step has to be completed by a user via Hexa Center's dossier system.
+**Responder mode:** this detemines whether a step is meant to be completed by an internal user or an external client. Setting this slider to `external` means the dossier's associated client(s) will have to fill in this step via the client portal. The `internal` slider setting means the step has to be completed by a user via Hexa Center's dossier system.
 
-Setting the slider to `External` disallows the `Answer mode` slider to be set to `Shared`, as each client has to fill in the step individually.
+Setting the slider to `External` disables the `Answer mode` slider from being set to `Shared`, as each client must individually complete the questionnaire via the client portal.
 
-Please refer to the [Dossiers](../dossiers/index.md "Dossiers") page for more information about the client portal and dossiers.
+For more information about the client portal and dossiers, please refer to the [Dossiers](../dossiers/index.md "Dossiers") page.
 
-**Addition Mode:** steps set to `Manually` will not be automatically added to the program when adding it to a dossier. Whereas those set to `Automatically` will be. This means that steps which are set to `Manually` can be later added to the dossier.
+**Addition Mode** steps set to `Manually` will not be automatically added to the program when adding it to a dossier. Whereas those set to `Automatically` will be. Steps which are set to `Manually` can be later added to the dossier.
 
-**Answer mode:** this option is only relevant when more than one client has been added to your file. When setting this slider to `Individual`, the step has to be filled out separately for each client in the file. Whereas setting the slider to `Shared` will mean that the answers will be shared among the dossier's clients, so each client wil register the same answer.
+**Answer mode:** this option is only relevant when more than one client has been added to the dossier. When setting this slider to `Individual`, the step has to be filled in separately for each client in the dossier. Whereas setting the slider to `Shared` will mean that the answers will be shared among the dossier's clients, so each client will register the same answer.
 
 ## 5. Adding steps to programs
 
-Adding steps to a program is made as simple and easy to understand as possible. Click on the `+ New` button to create a step. Alternatively, link an already existing step by clicking on the `Link Existing` field and selecting a step from there. Upon selecting a step from the list of available steps, that step will immediately be added to the program. Linked steps have an icon next to the name indicating that the step is linked to a step originating from a different program.
+Adding steps to a program is made as simple and easy to understand as possible. Click on the `+ New` button to create a step. Alternatively, link an already existing step by clicking on the `Link Existing` field and selecting a step from there. Upon selecting a step from the list of available steps, the aforementioned step will immediately be added to the program. Linked steps have an icon next to the name indicating that the step is linked to a step originating from a different program.
 
-Changes made to a linked step are synchronized across every program where that step is linked. So, any modifications made to the original step or the linked copy will appear in both versions of the step. Please keep this in mind when editing linked steps.
+Changes made to a linked step are **synchronized** across every program where that step is linked. So, any modifications made to the original step or the linked copy will appear in both versions of the step. **Please keep this in mind when editing linked steps.**
 
-The external checkbox toggle determines whether a step is open to external clients. Below are screenshots that illustrate the appearance of the 'External' and 'Linked Step' icons.
+The `external checkbox toggle` determines whether a step is open to external clients. Below are screenshots that illustrate the appearance of the `External` and `Linked Step` icons.
 
 ![Linked step](/images/guide/programs-linked.jpg "Linked step")
 ![External step](/images/guide/programs-external.jpg "External step")
 
 ## 5.1 Creating steps
 
-Selecting a program from the list of available programs and clicking on the `+ New` button found under the `steps` section will bring up the step creation screen. A name must be entered for a step to be created. Entering a description is not required. Toggle the `external checkbox` checkbox if this step is meant to be sent to clients via email.
+Selecting a program from the list of available programs and clicking on the `+ New` button found under the `steps` section will bring up the step creation screen. To create a step, you must provide a name. Entering a description is however not required. Toggle the `external checkbox` checkbox if this step is meant to be sent to clients via email.
 
 ![Creating step](/images/guide/programs-create.jpg "Creating step")
 
@@ -63,13 +63,13 @@ To name your sections, click on a section to expand it, then proceed to fill in 
 
 To add an item to a step first expand the section by clicking on it. If your step does not include any sections you can simply add the item by holding the left mouse button, dragging the item to the dotted rectangle section and letting go of the left mouse button. If you do decide you want to create sections, but items have already been added to the step, all items will be added to the newly created section.
 
-To add items to a specific section, make sure the section is expanded first. Then, just like when you're adding items to a step without sections, hold the left mouse button to grab an item from the list and drag it to the dotted rectangle section, then let go off the left mouse button. The dotted rectangle section will light up when an item is ready to be added.
+To add items to a specific section, make sure the section is expanded first. Then, just like when you're adding items to a step without sections, hold the **left mouse button** to grab an item from the list and drag it to the **dotted rectangle section**, then let go off the **left mouse button.** The dotted rectangle section will light up when an item is ready to be added.
 
 ![Adding step to section](/images/guide/programs-add-formitem-to-section.jpg "Adding step to section")
 
 ## 5.4 Rearranging items in steps
 
-Dragging form items from one section to another is currently not possible. Rearranging form items within a section however is possible, simply hold the left mouse button while hovering your cursor over the `arrows` icon next to the item you want to move, drag the form item to your desired location, and let go off the left mouse button to move the form item.
+Dragging form items from one section to another is currently not supported. Rearranging form items within a section however is supported. Simply hold the left mouse button while hovering your cursor over the `arrows` icon next to the item you want to move, drag the form item to your desired location, and let go off the **left mouse button** to move the form item.
 
 ![Dragging formitems in section](/images/guide/programs-drag-formitem-in-section.jpg "Dragging formitems in section")
 
@@ -107,7 +107,7 @@ We offer a multitude of different form items that can be added to a step. A list
 
 Every form item can be customized by adding a title, description, or by making the form item optional. Adding restrictions to form items like setting a max length or value in number inputs has not yet been implemented.
 
-Optional questions can be skipped by the client and therefore do not required for the questionnaire to be completed. This feature can be found by clicking on the cogwheel button next to any form item (except for the Text form item, because no selectable options can be added to this item). Check the `Optional` checkbox to make the question optional, answering that question will no longer be required for the survey to be completed.
+Optional questions can be skipped by the client and therefore do not required for the questionnaire to be completed. This feature can be found by clicking on the `cogwheel button` next to any form item (except for the Text form item, because no selectable options can be added to this item). Check the `Optional` checkbox to make the question optional, answering that question will no longer be required for the survey to be completed.
 
 ## 8. Deleting programs
 
