@@ -77,6 +77,8 @@ Dragging form items from one section to another is currently not supported. Rear
 
 The programs functionality features a Preview mode to show you what a step looks like before sending it to a client. To access this functionality simply select a program, proceed to select a step from the list of available steps and click on the `Preview` button. The preview mode even enables you to test the different form items by allowing you to interact with them just like the client filling in the program would.
 
+![Preview mode](/images/guide/programs-previewmode.jpg "Preview mode")
+
 ## 7. Available items and descriptions
 
 We offer a multitude of different form items that can be added to a step. A list of available form items, and their descriptions can be found below.
@@ -112,3 +114,5 @@ Optional questions can be skipped by the client and therefore do not required fo
 ## 8. Deleting programs
 
 To delete a program simply select a program from the list of available programs via the program overview screen and click on the `Delete` button. A popup window will appear asking the user to confirm their choice, clicking on yes will **permanently** delete that program.
+
+![Deleting program](/images/guide/programs-delete.jpg "Deleting progrsm")
