@@ -1,6 +1,6 @@
 # Programs
 
-The Programs functionality is part of the Medical module. The Medical module is a paid feature, ask your Hexa Center representative for more information about paid features. The programs functionality is used in tandem with the dossier function to create a customizable journey for your clients to partake in.
+The Programs functionality is part of the Healthcare module. The Healthcare module is a paid feature, ask your Hexa Center representative for more information about paid features. The programs functionality is used in tandem with the dossier function to create a customizable journey for your clients to partake in.
 
 ## 1. Program definition
 
