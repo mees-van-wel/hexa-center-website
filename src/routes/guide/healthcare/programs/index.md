@@ -10,7 +10,7 @@ Due to the nature of the step functionality, we will refer to steps as `Question
 
 ## 2. Program overview
 
-The program overview screen can be found by clicking on Programs, listed under the medical header section. Navigating to the program overview page will generate a list of all programs. You can only access the program overview if you have sufficient permissions to do so. The required permissions to view, edit or create dossiers are listed in the permissions overview section on the right side of this documentation page. For more information regarding roles and permissions please refer to the [Roles and Permissions](/system/roles "Roles and permissions") page.
+The program overview screen can be found by clicking on Programs, listed under the medical header section. Navigating to the program overview page will generate a list of all programs. You can only access the program overview if you have sufficient permissions to do so. The required permissions to view, edit or create dossiers are listed in the permissions overview section on the right side of this documentation page. For more information regarding roles and permissions please refer to the [Roles and Permissions](../../essentials/roles/index.md "Roles and permissions") page.
 
 ![Programs overview](/images/guide/programs.jpg "Programs overview")
 
