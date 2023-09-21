@@ -22,9 +22,9 @@ Additionally, altering the scope of dates also affects the functionality of the 
 
 Clicking on `today` brings you back to today's date.
 
-### 1.3 Viewing other users's calendars
+### 1.3 Viewing other users' calendars
 
-To view other users' calendars, use the 'Calendars' field in the right-side navigation menu. If the navigation menu is not visible, it's likely collapsed. To make it visible again, simply click the small arrow icon at the top right of the calendar overview page. This will expand the menu and grant access to its options."
+To view other users' calendars, use the 'Calendars' field in the right-side navigation menu. If the navigation menu is not visible, it's likely in its collapsed state. To make it visible again, simply click the small arrow icon at the top right of the calendar overview page. This will expand the menu and grant access to its options."
 
 Click on the Calendars field to generate a dropdown menu constisting of all users. Search for users by first clicking on the Calendar field, then proceed to type in a user's name, select the user to add them to the selection. To view multiple calendars at once, select multiple users from the dropdown menu.
 
@@ -36,7 +36,7 @@ Click on the Calendars field to generate a dropdown menu constisting of all user
 
 Click on any square in the calendar overview screen to open the appointment creation window, next, fill in event details like the title, description, date, start time, and end time. The date / time you clicked on is used as the initial start and end date / time for the appointment, depending on the current scope.
 
-Add guests using the Guests field. Click on the `Guests` field to see all available guests. To search for users, simply enter their name or a part of it in the search field. As you begin typing, the available options will be automatically updated in real-time.
+Add guests using the `Guests field`. Click on the `Guests` field to see all available guests. To search for users, simply enter their name or a part of it in the search field. As you begin typing, the available options will be automatically updated in real-time.
 
 ![Calendar create appointment search function](/images/guide/calendar-create-appointment-search.jpg "Calendar create appointment search function")
 
@@ -65,7 +65,7 @@ Upon saving the appointment it will immediately show up in the selected user's c
 
 ## 3. Editing appointments
 
-To edit an existing appointment, select it from the calendar overview screen, a new window will now open allowing you to make changes. Click on the `+ Save` button to save your changes.
+To edit an existing appointment, select it from the calendar overview screen. A new window will now open allowing you to make changes to the appointment. Click on the `+ Save` button to save your changes.
 
 ![Calendar editing appointments](/images/guide/calendar-edit-appointment.jpg "Calendar editing appointments")
 
