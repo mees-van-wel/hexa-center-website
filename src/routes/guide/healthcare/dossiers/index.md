@@ -1,6 +1,6 @@
 # Dossiers
 
-The dossiers functionality is part of the Medical module. The Medical module is a paid feature, ask your Hexa Center representative for more information about paid features. The Dossier functionality is used to create a medical dossier for clients.
+The dossiers functionality is part of the Healthcare module. The Healthcare module is a paid feature, ask your Hexa Center representative for more information about paid features. The Dossier functionality is used to create a medical dossier for clients.
 
 ## 1. Dossier definition
 
