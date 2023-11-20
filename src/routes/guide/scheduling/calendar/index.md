@@ -2,17 +2,21 @@
 
 The calendar module is part of the essentials module in Hexa Center. Use the calendar function to create appointments, view your colleagues appointments and create video calls.
 
-## 1. Navigating the calendar overview
+## 1. Calendar definition
 
-The calendar overview can be found by navigating to the Calendar tab, found under the section `General`. The layout of the calendar overview is very similar to what most users are used to, bearing resemblance to the likes of Google and MacOS calendar apps.
+The calendar functionality in Hexa Center allows users to schedule and organize appointments, providing a centralized platform for managing time-sensitive tasks and events. View users' appointments, create appointments yourself, send out emails notifying users of your new or existing appointment, etc.
 
-### 1.1 Collapsing the navigation menu
+## 2. Navigating the calendar overview
+
+To access the calendar overview, navigate to the Calendar tab located under the General section. The layout of the calendar overview is very similar to what most users are used to, bearing resemblance to the likes of Google and MacOS calendar apps.
+
+### 2.1 Collapsing the navigation menu
 
 To collapse, or hide, the navigation menu, click on the small arrow icon located at the very top of the calendar overview page. This action will entirely conceal the menu, providing a more spacious view of the calendar content.
 
 ![Calendar collapse button](/images/guide/calendar-navigation-collapse-button.jpg "Calendar collapse button")
 
-### 1.2 Navigating through dates
+### 2.2 Navigating through dates
 
 By clicking on one the available time scope options: `month`, `week`, `workweek`, or `day`, you can switch between focused and broader overviews.
 
@@ -22,7 +26,9 @@ Additionally, altering the scope of dates also affects the functionality of the 
 
 Clicking on `today` brings you back to today's date.
 
-### 1.3 Viewing other users' calendars
+![Calendar selecting date timeframes](/images/guide/calendar-timeframe-navigation.jpg "Calendar selecting date timeframes")
+
+### 2.3 Viewing other users' calendars
 
 To view other users' calendars, use the 'Calendars' field in the right-side navigation menu. If the navigation menu is not visible, it's likely in its collapsed state. To make it visible again, simply click the small arrow icon at the top right of the calendar overview page. This will expand the menu and grant access to its options."
 
@@ -30,7 +36,7 @@ Click on the Calendars field to generate a dropdown menu constisting of all user
 
 ![Calendar select multiple users](/images/guide/calendar-select-multiple-users-calendars.jpg "Calendar select multiple users")
 
-## 2. Creating appointments
+## 3. Creating appointments
 
 ![Calendar create appointment](/images/guide/calendar-create-appointment.jpg "Calendar create appointment")
 
@@ -45,7 +51,7 @@ Adding a description, appointment type, inviting guests and the video-call invit
 
 Save your appointment by clicking on the `+ create` button.
 
-## 2.1 Sending emails
+## 3.1 Sending emails
 
 Upon creating, editing, or deleting an appointment which contains guests, you will be greeted by a window asking if you would like to send emails out to the appointments participants.
 
@@ -55,7 +61,7 @@ Click on `Send` to send out emails to all participants, informing them of the up
 
 Click on `Back to editing` to make further changes.
 
-### 2.2 Creating appointments in someone's name
+### 3.2 Creating appointments in someone's name
 
 To create appointments on behalf of someone else, begin by selecting that person through the `Calendar field's dropdown options`. Search for users by first clicking on the Calendar field, then proceed to type in a user's name. Click on the user to add them to your selection. You can only create appointments in another person's calendar if you have the necessary permissions to do so. This is determined by the `General > Appointments > Manage all appointments` permission. Please refer to the [Roles & permissions page](/guide/essentials/roles "Roles Guide") for more information about how to create and assign roles and permissions.
 
@@ -63,13 +69,13 @@ To create appointments on behalf of someone else, begin by selecting that person
 
 Upon saving the appointment it will immediately show up in the selected user's calendar.
 
-## 3. Editing appointments
+## 4. Editing appointments
 
-To edit an existing appointment, select it from the calendar overview screen. A new window will now open allowing you to make changes to the appointment. Click on the `+ Save` button to save your changes.
+Editing existing appointments is straightforward. Select the appointment from the calendar overview, make the necessary changes, and save with a click on the + Save button.
 
 ![Calendar editing appointments](/images/guide/calendar-edit-appointment.jpg "Calendar editing appointments")
 
-## 4. Deleting appointments
+## 5. Deleting appointments
 
 To delete an existing appointment, select it from the calendar overview screen. Click on the `delete` button to permanently delete the appointment.
 
