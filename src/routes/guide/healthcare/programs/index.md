@@ -85,9 +85,9 @@ We offer a multitude of different form items that can be added to a step. A list
 
 **Text:** static text, can be used to relay information to the client like instructions on how to fill in the questionnaire, or it can simply act as an intro text used as clarification.
 
-**Small Input:** a simple text field, allowing the client to enter some text, used for when a short answer is expected.
+**Small Input:** a simple text field, allowing the client to enter some text, use when a short answer is expected.
 
-**Large Input:** a simple text field, allowing the client to enter text consisting of multiple lines, used for when a larger answer is expected.
+**Large Input:** a simple text field, allowing the client to enter text consisting of multiple lines, use when a larger answer is expected.
 
 **Rich Text Editor:** a more advanced text field which allows for markup to be added to text, options include bold text, italic text, underlined text, strikethrough text, etc. This input also allows the client to enter text consisting of multiple lines.
 
@@ -111,7 +111,19 @@ Every form item can be customized by adding a title, description, or by making t
 
 Optional questions can be skipped by the client and therefore do not required for the questionnaire to be completed. This feature can be found by clicking on the `cogwheel button` next to any form item (except for the Text form item, because no selectable options can be added to this item). Check the `Optional` checkbox to make the question optional, answering that question will no longer be required for the survey to be completed.
 
-## 8. Deleting programs
+## 8. Editing programs
+
+To edit the details of a program, like the name, description or underlying steps, head over to the `Programs` page found under the `Medical` section on the left side of your screen. To start editing the name of a program, first click on the `Name` field, then proceed to type in your changes. Don't worry about accidentally forgetting to save your changes, Hexa Center automatically saves your changes as soon as you stop typing. The status icon; `Saved` next to the delete button briefly transforms to `Saving`, indicating that the system is saving your changes. It will change back to `Saved` when this proces is completed. The same proces can be repeated for the description field. How to edit the underlying steps is found down below, in section **8.1. Editing steps**
+
+### 8.1. Editing steps
+
+The process of editing a step is fairly similar to creating one. Just like when editing the details of a program, you can edit the name and description by clicking on name or description field and typing in your changes. As soon as you stop typing your changes will automatically be saved.
+
+Edit a individual form item by first selecting the item from the list of **added** form items, then edit the name or description by selecting the corresponding field on the right side of your screen. Just like when editing the step or program itself, your changes will automatically be saved as soon as you stop typing.
+
+Rearrange form items by holding the left mouse button down while hovering over one, moving your mouse to where you want the form item to go and letting go of the left mouse button. If the list of form items you're editing is large and your form item needs to beyond what is currently shown on the screen, you can grab the item like usual and hold it at the top or bottom of edit area to scroll in that direction.
+
+## 9. Deleting programs
 
 To delete a program simply select a program from the list of available programs via the program overview screen and click on the `Delete` button. A popup window will appear asking the user to confirm their choice, clicking on yes will **permanently** delete that program.
 
