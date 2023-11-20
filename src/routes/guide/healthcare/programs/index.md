@@ -4,13 +4,13 @@ The Programs functionality is part of the Healthcare module. The Healthcare modu
 
 ## 1. Program definition
 
-A program is a fully customizable step based solution to create simple yet powerful questionnaires for your clients to partake in. A program can, but does not have to, consist of steps, each step consisting of one, or multiple sections and questions. Programs can be seen as templates which allows your team to reuse past questionnaires without having to create a new questionnaire for every new client, saving a lot of time.
+A program is a fully customizable step based solution to create simple yet powerful questionnaires for your clients to partake in. A program can, but does not have to, consist of steps, each step consisting of one, or multiple sections and questions. Programs can be seen as templates which allow your team to reuse past questionnaires without having to create a new questionnaire from scratch for every new client, saving a lot of time and resources.
 
-Due to the nature of the step functionality, we will refer to steps as `Questionnaires` when in the context of a user or client filling in the step.
+Due to the nature of the step functionality, we will refer to steps as `Questionnaires` when a user or client is answering steps via the `Client portal`.
 
 ## 2. Program overview
 
-The program overview screen can be found by clicking on Programs, listed under the medical header section. Navigating to the program overview page will generate a list of all programs. You can only access the program overview if you have sufficient permissions to do so. The required permissions to view, edit or create dossiers are listed in the permissions overview section on the right side of this documentation page. For more information regarding roles and permissions please refer to the [Roles and Permissions](../../essentials/roles/index.md "Roles and permissions") page.
+The program overview screen can be found by clicking on Programs, listed under the medical header section. Navigating to the program overview page generates a list of all programs. You can only access the program overview if you have sufficient permissions to do so. For more information regarding roles and permissions please refer to the [Roles and Permissions](../../essentials/roles/index.md "Roles and permissions") page.
 
 ![Programs overview](/images/guide/programs.jpg "Programs overview")
 
@@ -45,7 +45,7 @@ The `external checkbox toggle` determines whether a step is open to external cli
 
 ## 5.1 Creating steps
 
-Selecting a program from the list of available programs and clicking on the `+ New` button found under the `steps` section will bring up the step creation screen. To create a step, you must provide a name. Entering a description is however not required. Toggle the `external checkbox` checkbox if this step is meant to be sent to clients via email.
+Selecting a program from the list of available programs and clicking on the `+ New` button found under the `steps` section will open up the step creation screen. To create a step, you must provide a name. Entering a description is however not required. Toggle the `external checkbox` checkbox if this step is meant to be sent to clients via email.
 
 ![Creating step](/images/guide/programs-create.jpg "Creating step")
 
@@ -58,6 +58,8 @@ To add sections to your steps, start by selecting a dossier you would like to ed
 Added sections are automatically numbered, meaning section 1 will have the number 1 next to it, section 2 number 2, etc. To open or close a section simply click anywhere next to the number, like the title.
 
 To name your sections, click on a section to expand it, then proceed to fill in the form which appears on the right side of your screen. The section number will be displayed at the top of the form. Sections do not need to be named for them to function properly, an unnamed section will simply not have a title and only the number of the section will be visible. Text entered into the description field will appear under the label when the section is expanded.
+
+Once a section has been added all form items must be added to sections, adding form items outside of a section is not possible.
 
 ## 5.3 Adding items to steps
 
@@ -75,7 +77,7 @@ Dragging form items from one section to another is currently not supported. Rear
 
 ## 6. Preview mode
 
-The programs functionality features a Preview mode to show you what a step looks like before sending it to a client. To access this functionality simply select a program, proceed to select a step from the list of available steps and click on the `Preview` button. The preview mode even enables you to test the different form items by allowing you to interact with them just like the client filling in the program would.
+The programs functionality features a Preview mode to show you what a step looks like before finalizing the creation proces. To access this functionality simply select a program, proceed to select a step from the list of available steps and click on the `Preview` button. The preview mode even enables you to test the different form items by allowing you to interact with them just like a client filling in the program would.
 
 ![Preview mode](/images/guide/programs-previewmode.jpg "Preview mode")
 
@@ -85,29 +87,33 @@ We offer a multitude of different form items that can be added to a step. A list
 
 **Text:** static text, can be used to relay information to the client like instructions on how to fill in the questionnaire, or it can simply act as an intro text used as clarification.
 
-**Small Input:** a simple text field, allowing the client to enter some text, use when a short answer is expected.
+**Link:** link to a webpage, can be used for a multitude of different reasons, like asking the user to review symptoms on a specific webpage. Edit the URL by clicking on the cogwheel icon next to the form item. There you will find the URL field. The webpage always opens in a new tab on the user's browser. The link will take the form of a button. When leaving the `Label` field empty the button will simple say: **Link**.
 
-**Large Input:** a simple text field, allowing the client to enter text consisting of multiple lines, use when a larger answer is expected.
+**Small Input:** a simple text field, allowing the client to enter some text. Use this when a short answer is expected.
+
+**Large Input:** a simple text field, allowing the client to enter text consisting of multiple lines. Use this when a larger answer is expected.
 
 **Rich Text Editor:** a more advanced text field which allows for markup to be added to text, options include bold text, italic text, underlined text, strikethrough text, etc. This input also allows the client to enter text consisting of multiple lines.
 
 **Number Input:** an input field which only allows numbers to be entered. Normal text will automatically be cleared.
 
-**Date Input:** a form item which opens a date-selector when clicking on the field. Click on the year to open the year-month view, allowing the client to select a month, clicking on the year again opens the year selector, where a user can select any year they want to. Upon selecting a year the input switches back to the year-month view where the client can select a month from that year. Selecting a month allows the client to choose a specific day from that month.
+**Date Input:** a form item which opens a date-selector when clicking on the field. Click on the year to open the year-month view, allowing the client to select a month, clicking on the year again opens the year selector. Upon selecting a year the input switches back to the year-month view where the client can select a month from that year. Selecting a month allows the client to choose a specific day from that month.
 
 **Checkbox:** a form item that can be clicked to either check or uncheck it, used for simple confirmation questions, for example: "Check this box if you feel like X or Y."
 
 **Score:** an advanced form item which allows a user to build a set of questions with options, just like a Single Choice question, only each option has a point value assigned to it. Points are tallied up based on the option that was selected under each question. So for example if you have 2 questions and you select an option that is worth 3 points on question 1, and an option that is worth 1 point on question 2, your point total would be 5. You can add as many questions as are needed.
 
-**Single Choice:** a form item consisting of one or more options that can be checked or unchecked. Allows only one option to be chosen.
+**Single Choice:** a form item consisting of one or more options that can be checked or unchecked. Allows only one option to be chosen. Use this when only a single answer is expected.
 
-**Multiple Choice:** a form item consisting of one or more options that can be checked or unchecked. Unlike the Single Choice form item, this item allows for multiple options to be selected.
+**Multiple Choice:** a form item consisting of one or more options that can be checked or unchecked. Unlike the Single Choice form item, this item allows for multiple options to be selected. Use this when multiple answers are expected.
 
-**Dropdown:** a form item which allows the user to add multiple options which are nested inside of a togglable menu. The client can click on the field to reveal all options, selecting an option will fill the field with the selected option. To allow for multiple answers to be selected by a client, simply click on the cogwheel button next to the question and check the `Multiple` checkbox. All answers chosen by the client will then appear in the field. A client can remove an answer simply by clicking on the X icon next to the answer.
+**Dropdown:** a form item that allows the user to add multiple options which are nested inside of a togglable menu. The client can click on the field to reveal all options, selecting an option will fill the field with the selected option. To allow for multiple answers to be selected by a client, simply click on the cogwheel button next to the question and check the `Multiple` checkbox. All answers chosen by the client will then appear in the field. A client can remove an answer simply by clicking on the X icon next to the answer.
+
+Almost all form items can be made **optional**. Use the **optional** checkbox to allow the client or user to skip the question. The **optional** checkbox can be found by clicking on an individual added form item.
 
 ## 7.1 Customizing form items & optional questions
 
-Every form item can be customized by adding a title, description, or by making the form item optional. Adding restrictions to form items like setting a max length or value in number inputs has not yet been implemented.
+Every form item can be customized by adding a title, description, or by making the form item optional. Adding restrictions to form items like setting a max length or value in number inputs is not yet supported.
 
 Optional questions can be skipped by the client and therefore do not required for the questionnaire to be completed. This feature can be found by clicking on the `cogwheel button` next to any form item (except for the Text form item, because no selectable options can be added to this item). Check the `Optional` checkbox to make the question optional, answering that question will no longer be required for the survey to be completed.
 
@@ -119,9 +125,9 @@ To edit the details of a program, like the name, description or underlying steps
 
 The process of editing a step is fairly similar to creating one. Just like when editing the details of a program, you can edit the name and description by clicking on name or description field and typing in your changes. As soon as you stop typing your changes will automatically be saved.
 
-Edit a individual form item by first selecting the item from the list of **added** form items, then edit the name or description by selecting the corresponding field on the right side of your screen. Just like when editing the step or program itself, your changes will automatically be saved as soon as you stop typing.
+Edit a individual form item by first selecting the item from the list of **added** form items, then proceed to click on the cogwheel icon next to the added form item, proceed to edit the label or description by selecting the corresponding field on the right side of your screen. Just like when editing the step or program itself, your changes will automatically be saved as soon as you stop typing.
 
-Rearrange form items by holding the left mouse button down while hovering over one, moving your mouse to where you want the form item to go and letting go of the left mouse button. If the list of form items you're editing is large and your form item needs to beyond what is currently shown on the screen, you can grab the item like usual and hold it at the top or bottom of edit area to scroll in that direction.
+Rearrange form items by holding the left mouse button down while hovering over the arrows icon next to the added item, moving your mouse to where you want the form item to go and letting go of the left mouse button. If the list of form items you're editing is large and your form item needs to beyond what is currently shown on the screen, you can grab the item like usual and hold it at the top or bottom of edit area to scroll in that direction.
 
 ## 9. Deleting programs
 
