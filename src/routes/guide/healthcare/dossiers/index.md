@@ -1,6 +1,6 @@
 # Dossiers
 
-The dossiers functionality is part of the Healthcare module. The Healthcare module is a paid feature, ask your Hexa Center representative for more information about paid features. The Dossier functionality is used to create a medical dossier for clients.
+The dossier functionality is part of the Healthcare module. The Healthcare module is a paid feature, ask your Hexa Center representative for more information about paid features. The Dossier functionality is used to create a medical dossier for clients.
 
 ## 1. Dossier definition
 
@@ -106,8 +106,6 @@ Reference the list below for an overview of allowed filetypes:
 - .AVI
 
 ## 6.3.1 Viewing, downloading and deleting files
-
-TODO: Probably rewrite this, it sucks
 
 To view, download or delete a file, select it from the `timeline overview` by clicking on the button containing the file's name.
 
