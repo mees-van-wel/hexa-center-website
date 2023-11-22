@@ -119,7 +119,7 @@ Changes made to programs are not carried over to the programs in the dossier tim
 
 There are two ways a questionnaire can be filled in. By sending it out to clients via email, or by a user manually inputting the answers of the clients via the Dossier page. Both ways of filling in a questionnaire are explained below.
 
-## 8.1 Via the client portal
+## 8.1. Via the client portal
 
 Sending out questionnaires to clients was designed to be as simple and easy to understand as possible, however there are some guidelines worth studying before sending out questionnaires.
 
@@ -131,10 +131,30 @@ Use the `Mail to clients` button to send out questionnaire(s) to clients. Make s
 
 After sending out the email, the `Mailed on` field will update to show the last date an email has been send out, which should be the date you pressed the `Mail to clients` button.
 
-### 8.1.2 The client experience
+### 8.1.2. Client email
 
 Clicking on the `Mail to clients` button sends out an email to the clients added to the dossier, requesting them to fill in the questionnaire via the client portal. An overview of what the email looks like can be found down below.
 
 After a client clicks on the included link found in the email they will be send to the client portal where they can fill in the questionnaire.
 
-## 8.2 Via the Dossier page
+![Client portal email](/images/guide/client-portal-email.jpg "Client portal email")
+
+### 8.1.3. The client portal step selection page
+
+The client portal page is designed to be as barebones and easy to understand as possible. Clients can select a step via the the on screen button(s). Multiple step dossiers are represented by multiple buttons on the step selection screen. Clients can click on a button to navigate to that step. Use the `back` button to go back to the step selection screen.
+
+An overview of the step selection screen can be found below:
+
+![Client portal step selection screen](/images/guide/dossier-client-portal-step-selection-screen.JPG "Client portal step selection screen")
+
+### 8.1.4. Filling out questions via the client portal
+
+After selecting a step the client is presented with the step's questions. The overall look of this page differs based on whether the step consists of sections or individual questions. For this example we will be representing a step consisting of sections, as we recommend dividing (large) steps in sections.
+
+Click on a section to expand it and reveal the questions. Labels and descriptions of questions and sections are all visible to clients.
+
+![Client portal filling out step](/images/guide/dossier-client-portal-filling-out-step.JPG "Client portal filling out step")
+
+## 8.2. Via the Dossier page
+
+TODO
