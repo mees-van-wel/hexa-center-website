@@ -105,16 +105,36 @@ Clicking on `Download` saves the selected file using your browsers built-in down
 
 Clicking on `Delete` **permanently** deletes the selected file from the dossier.
 
-## 6. Editing programs which have already been added to dossiers
-
-Changes made to programs are not carried over to the programs in the dossier timeline, for example, changing the title of a program will not also change the title of a program which has already been added to a client's dossier. Adding a program to a dossier is more akin to **copying** over that program,rather than linking it to the already existing dossier. Keep this in mind when adding a program to a dossier, its best to **finish editing a program before adding it to dossiers**.
-
-## 7. Sending questionnaires to clients via the client portal
-
-Sending out questionnaires to clients was designed to be as simple and easy to understand as possible, however there are some guidelines worth studying before sending out questionnaires.
-
-## 8. Deleting dossiers
+## 6. Deleting dossiers
 
 To delete a dossier first navigate to the dossier you would like to delete. On the dossier editing page you can delete a dossier via the `Delete` button. You will be prompted to confirm the deletion. Click on `Yes` to delete the dossier. Clicking on `No`, or anywhere outside of the pop-up will cancel the deletion process. Deleting a dossier is permanent and **cannot** be undone.
 
 ![Dossier deleting](/images/guide/dossiers-delete.jpg "Dossier deleting")
+
+## 7. Editing programs which have already been added to dossiers
+
+Changes made to programs are not carried over to the programs in the dossier timeline, for example, changing the title of a program will not also change the title of a program which has already been added to a client's dossier. Adding a program to a dossier is more akin to **copying** over that program,rather than linking it to the already existing dossier. Keep this in mind when adding a program to a dossier, its best to **finish editing a program before adding it to dossiers**.
+
+## 8. Filling out questionnaires
+
+There are two ways a questionnaire can be filled in. By sending it out to clients via email, or by a user manually inputting the answers of the clients via the Dossier page. Both ways of filling in a questionnaire are explained below.
+
+## 8.1 Via the client portal
+
+Sending out questionnaires to clients was designed to be as simple and easy to understand as possible, however there are some guidelines worth studying before sending out questionnaires.
+
+Pay close attention to the `Responder mode`, `Addition Mode` and `Answer Mode` options when creating your program steps, as these options determine whether your step is send out to clients, what steps are added by default, and whether answers are shared among clients. Read more about these options on the [Programs](../programs/index.md "Programs") page.
+
+### 8.1.1. Sending out questionnares to clients
+
+Use the `Mail to clients` button to send out questionnaire(s) to clients. Make sure you have added a step first, otherwise this button will not be visible. Please review your step before sending it out as a questionnaire, as the email sending proces can **not** be undone.
+
+After sending out the email, the `Mailed on` field will update to show the last date an email has been send out, which should be the date you pressed the `Mail to clients` button.
+
+### 8.1.2 The client experience
+
+Clicking on the `Mail to clients` button sends out an email to the clients added to the dossier, requesting them to fill in the questionnaire via the client portal. An overview of what the email looks like can be found down below.
+
+After a client clicks on the included link found in the email they will be send to the client portal where they can fill in the questionnaire.
+
+## 8.2 Via the Dossier page
