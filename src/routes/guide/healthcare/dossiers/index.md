@@ -149,12 +149,24 @@ An overview of the step selection screen can be found below:
 
 ### 8.1.4. Filling out questions via the client portal
 
-After selecting a step the client is presented with the step's questions. The overall look of this page differs based on whether the step consists of sections or individual questions. For this example we will be representing a step consisting of sections, as we recommend dividing (large) steps in sections.
+After selecting a step the client is presented with the step's questions. The overall look of this page differs based on whether the step consists of sections or individual questions. For this example we will be representing a step consisting of sections, as we recommend dividing (large) steps into sections. This improved readability and easy of management. More information about the benefits of sections can be found on the [Programs](../programs/index.md "Programs") page.
 
-Click on a section to expand it and reveal the questions. Labels and descriptions of questions and sections are all visible to clients.
+Click on a section to expand it and reveal the questions. Labels and descriptions of questions and sections are all visible to clients. Label text is larger, while description text is smaller. Label text is always placed above descriptions text.
+
+Our client portal questionnaire system is not that much different from other questionnaire websites. Each question in the questionnaire is accompanied by clear and concise form fields. Inputting your responses is as easy as filling in the blanks, ensuring a seamless experience for every client.
 
 ![Client portal filling out step](/images/guide/dossier-client-portal-filling-out-step.JPG "Client portal filling out step")
 
 ## 8.2. Via the Dossier page
 
-TODO
+Questionnaires can also be filled in by (internal) users working in Hexa Center. This is especially useful for in-person interviews, a client can answers questions while those answers are written down by the user during the interview.
+
+Blablabla leg uit hoe je answers doorvoerd via de dossier page, leg uit hoe dit de 3 sliders affect enzo
+
+## 9. Viewing given answers
+
+Blablabla leg uit hoe je answers inziet via de dossier page
+
+### 9.1 Editing given answers
+
+Blablabla leg uit dat je answers kan editen en dat de client dit ook ziet
