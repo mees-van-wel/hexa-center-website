@@ -123,11 +123,13 @@ There are two ways a questionnaire can be filled in. By sending it out to client
 
 Sending out questionnaires to clients was designed to be as simple and easy to understand as possible, however there are some guidelines worth studying before sending out questionnaires.
 
-Pay close attention to the `Responder mode`, `Addition Mode` and `Answer Mode` options when creating your program steps, as these options determine whether your step is send out to clients, what steps are added by default, and whether answers are shared among clients. Read more about these options on the [Programs](../programs/index.md "Programs") page.
+Pay close attention to the `Responder mode`, `Addition Mode` and `Answer Mode` options when creating your program steps, as these options determine whether your step is available to be send out to clients, what steps are added by default, and whether answers are shared among clients. Read more about these options on the [Programs](../programs/index.md "Programs") page.
 
 ### 8.1.1. Sending out questionnares to clients
 
 Use the `Mail to clients` button to send out questionnaire(s) to clients. Make sure you have added a step first, otherwise this button will not be visible. Please review your step before sending it out as a questionnaire, as the email sending proces can **not** be undone.
+
+The the `Mail to clients` button is only visible when that step's `Responder mode` is set to `External`. Read more about the different step options on the [Programs](../programs/index.md "Programs") page.
 
 After sending out the email, the `Mailed on` field will update to show the last date an email has been send out, which should be the date you pressed the `Mail to clients` button.
 
@@ -157,16 +159,24 @@ Our client portal questionnaire system is not that much different from other que
 
 ![Client portal filling out step](/images/guide/dossier-client-portal-filling-out-step.JPG "Client portal filling out step")
 
-## 8.2. Via the Dossier page
+### 8.2. Via the Dossier page
 
-Questionnaires can also be filled in by (internal) users working in Hexa Center. This is especially useful for in-person interviews, a client can answers questions while those answers are written down by the user during the interview.
+Questionnaires can also be filled in by (internal) users working in Hexa Center. This is especially useful for in-person interviews, a client can answers questions given by the user while those answers are written down by the user during the interview.
 
-Blablabla leg uit hoe je answers doorvoerd via de dossier page, leg uit hoe dit de 3 sliders affect enzo
+Simply select the right program, step and client and start filling in the answers. Mark the step as completed via the `Mark as complete` button.
+
+![Dossier program manual completion](/images/guide/dossier-program-manual-completion.JPG "Dossier program manual completion")
 
 ## 9. Viewing given answers
 
-Blablabla leg uit hoe je answers inziet via de dossier page
+Answers given by clients are automatically send to the dossier's step page and can be viewed on a per-client basis. The same goes for answers entered manually by users.
+
+The completion status of the program can be viewed via the dossiers' page.
+
+![Dossier step completion status](/images/guide/dossier-program-completion-status.JPG "Dossier step completion status")
 
 ### 9.1 Editing given answers
 
-Blablabla leg uit dat je answers kan editen en dat de client dit ook ziet
+A user can edit the answers given by clients via the client portal by clicking on the `Edit` button. This allows for the client to fill out answers like they would when the responder mode is set to `Internal`. Read more about filling in answers via the dossier page in **section 8.2. Via the Dossier page**. Read more about different responder modes on the [Programs](../programs/index.md "Programs") page.
+
+![Dossier program edit button](/images/guide/dossier-program-edit-button.JPG "Dossier program edit button")
