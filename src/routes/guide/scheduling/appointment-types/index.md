@@ -1,6 +1,6 @@
 # Appointment types
 
-Appointment types are part of the `Scheduling` module. Appointment types are an easy way to quickly categorize all types of appointments you might need. This functionality saves you a lot of time as you do not have to enter all details of a (recurring) appointment from scratch.
+Appointment types are part of the `Scheduling` addon. Appointment types are an easy way to quickly categorize all types of appointments you might need. This functionality saves you a lot of time as you do not have to enter all details of a (recurring) appointment from scratch.
 
 ## 1. Appointment types definition
 
