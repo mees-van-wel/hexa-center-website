@@ -1,6 +1,6 @@
 # Programs
 
-The Programs functionality is part of the Healthcare module. The Healthcare module is a paid feature, ask your Hexa Center representative for more information about paid features. The programs functionality is used in tandem with the dossier function to create a customizable journey for your clients to partake in.
+The programs functionality is used together with the dossier function to create a customizable journey for your clients to partake in.
 
 ## 1. Program definition
 
@@ -22,9 +22,13 @@ To create a program, first, navigate to the program overview screen, then click 
 
 When creating or editing a step you will find 3 slide-toggles; `Responder Mode`, `Addition Mode`, and `Answer Mode`. An explanation for each of these toggles can be found below.
 
-**Responder mode:** this detemines whether a step is meant to be completed by an internal user or an external client. Setting this slider to `external` means the dossier's associated client(s) will have to fill in this step via the client portal. The `internal` slider setting means the step has to be completed by a user via Hexa Center's dossier system.
+**Responder mode:** this detemines whether a step is meant to be completed by an internal user or an external client.
 
-Setting the slider to `External` disables the `Answer mode` slider from being set to `Shared`, as each client must individually complete the questionnaire via the client portal.
+- Setting this slider to `external` means the dossier's associated client(s) will have to fill in this step via the client portal.
+
+- The `internal` slider setting means the step has to be completed by a user via Hexa Center's dossier system.
+
+- Setting the slider to `External` disables the `Answer mode` slider from being set to `Shared`, as each client must individually complete the questionnaire via the client portal.
 
 For more information about the client portal and dossiers, please refer to the [Dossiers](../dossiers/index.md "Dossiers") page.
 
@@ -85,29 +89,76 @@ The programs functionality features a Preview mode to show you what a step looks
 
 We offer a multitude of different form items that can be added to a step. A list of available form items, and their descriptions can be found below.
 
-**Text:** static text, can be used to relay information to the client like instructions on how to fill in the questionnaire, or it can simply act as an intro text used as clarification.
+**Text:** static text: can be used to:
 
-**Link:** link to a webpage, can be used for a multitude of different reasons, like asking the user to review symptoms on a specific webpage. Edit the URL by clicking on the cogwheel icon next to the form item. There you will find the URL field. The webpage always opens in a new tab on the user's browser. The link will take the form of a button. When leaving the `Label` field empty the button will simple say: **Link**.
+- relay information to the client like instructions on how to fill in the questionnaire.
+- act as an intro text used as clarification.
 
-**Small Input:** a simple text field, allowing the client to enter some text. Use this when a short answer is expected.
+**Link:** link to a webpage, can be used to:
 
-**Large Input:** a simple text field, allowing the client to enter text consisting of multiple lines. Use this when a larger answer is expected.
+- Ask the user to review symptoms on a specific webpage.
+- Send the user to a video on another platform, like Youtube
 
-**Rich Text Editor:** a more advanced text field which allows for markup to be added to text, options include bold text, italic text, underlined text, strikethrough text, etc. This input also allows the client to enter text consisting of multiple lines.
+Edit the URL by clicking on the cogwheel icon next to the form item. The webpage always opens in a new tab on the user's browser. The link will take the form of a button. When leaving the `Label` field empty the button will simple say: **Link**.
 
-**Number Input:** an input field which only allows numbers to be entered. Normal text will automatically be cleared.
+**Small Input:** a simple text field, can be used to:
 
-**Date Input:** a form item which opens a date-selector when clicking on the field. Click on the year to open the year-month view, allowing the client to select a month, clicking on the year again opens the year selector. Upon selecting a year the input switches back to the year-month view where the client can select a month from that year. Selecting a month allows the client to choose a specific day from that month.
+- Allow the client to enter some text.
+- Use this when a short answer is expected.
 
-**Checkbox:** a form item that can be clicked to either check or uncheck it, used for simple confirmation questions, for example: "Check this box if you feel like X or Y."
+**Large Input:** a simple text field, can be used to:
 
-**Score:** an advanced form item which allows a user to build a set of questions with options, just like a Single Choice question, only each option has a point value assigned to it. Points are tallied up based on the option that was selected under each question. So for example if you have 2 questions and you select an option that is worth 3 points on question 1, and an option that is worth 1 point on question 2, your point total would be 5. You can add as many questions as are needed.
+- Allow the client to enter text consisting of multiple lines.
+- Use this when a larger answer is expected.
 
-**Single Choice:** a form item consisting of one or more options that can be checked or unchecked. Allows only one option to be chosen. Use this when only a single answer is expected.
+**Rich Text Editor:** a more advanced text field, can be used to:
 
-**Multiple Choice:** a form item consisting of one or more options that can be checked or unchecked. Unlike the Single Choice form item, this item allows for multiple options to be selected. Use this when multiple answers are expected.
+- Add markup to text.
+- Options include bold text, italic text, underlined text, strikethrough text, etc.
+- This input also allows the client to enter text consisting of multiple lines.
 
-**Dropdown:** a form item that allows the user to add multiple options which are nested inside of a togglable menu. The client can click on the field to reveal all options, selecting an option will fill the field with the selected option. To allow for multiple answers to be selected by a client, simply click on the cogwheel button next to the question and check the `Multiple` checkbox. All answers chosen by the client will then appear in the field. A client can remove an answer simply by clicking on the X icon next to the answer.
+**Number Input:** an number input field, can be used to:
+
+- Prevent the user from entering text, only numbers are allowed.
+- Normal text will automatically be cleared.
+
+**Date Input:** a date input field, can be used to:
+
+- Allow the user to easily enter a date. Click on the year to open the year-month view, allowing the client to select a month, clicking on the year again opens the year selector.
+- Upon selecting a year the input switches back to the year-month view where the client can select a month from that year. Selecting a month allows the client to choose a specific day from that month.
+
+**Checkbox:** a checkbox input, can be used to:
+
+- Can be clicked to either check or uncheck the checkbox.
+- used for simple confirmation questions, for example: "Check this box if you feel like X or Y."
+
+**Score:** an advanced form item, can be used to:
+
+- Allow a user to build a set of questions with options, just like a Single Choice question, only each option has a point value assigned to it.
+- Points are tallied up based on the option that was selected under each question.
+- So for example if you have 2 questions and you select an option that is worth 3 points on question 1, and an option that is worth 1 point on question 2, your point total would be 5.
+- You can add as many questions as needed.
+
+**Single Choice:** a single choice form item, can be used to:
+
+- Allows only one option to be chosen.
+- Consists of one or more options that can be checked or unchecked.
+- Use this when only a single answer is expected.
+
+**Multiple Choice:** a multiple choice form item, can be used to:
+
+- Unlike the Single Choice form item, this item allows for multiple options to be selected.
+- Consists of one or more options that can be checked or unchecked.
+- Use this when multiple answers are expected.
+
+**Dropdown:** a dropdown form item, can be used to:
+
+- Allow the user to add multiple options which are nested inside of a togglable menu.
+- The client can click on the field to reveal all options.
+- Selecting an option will fill the field with the selected option.
+- To allow for multiple answers to be selected by a client, simply click on the cogwheel button next to the question and check the `Multiple` checkbox.
+- All answers chosen by the client will appear next to each other in the field.
+- A client can remove an answer simply by clicking on the X icon next to the answer.
 
 Almost all form items can be made **optional**. Use the **optional** checkbox to allow the client or user to skip the question. The **optional** checkbox can be found by clicking on an individual added form item.
 
