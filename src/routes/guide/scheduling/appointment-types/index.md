@@ -1,6 +1,6 @@
 # Appointment types
 
-Appointment types are part of the `Scheduling` addon. Appointment types are an easy way to quickly categorize all types of appointments you might need. This functionality saves you a lot of time as you do not have to enter all details of a (recurring) appointment from scratch.
+Appointment types are an easy way to quickly categorize all types of appointments you might need. This addon saves you a lot of time as you do not have to enter all details of a (recurring) appointment from scratch.
 
 ## 1. Appointment types definition
 
@@ -16,7 +16,7 @@ The appointment types overview can be accessed by clicking on the `Appointment t
 
 To start creating an appointment type, click on the `+ New` button. This will open a new page where you can fill in the details of the appointment type. Entering a name and a color is required for the appointment type to be created. The length as well as the description of an appointment type are optional and therefore do not need to be filled in.
 
-![Appointment types create](/images/guide/appointment-types-create.JPG "Appointment types create")
+![Appointment types creation](/images/guide/appointment-types-creation.JPG "Appointment types creation")
 
 ### 3.1. Choosing a color
 
@@ -32,7 +32,7 @@ The length of an appointment can be predefined via the `Hours` and `Minutes` fie
 
 ### 3.3. Entering a description
 
-An appointment type's description is automatically added to an appointment when selecting that appointment type. The description editor uses the rich text editor feature. The rich text editor feature allows you to edit text like you would in programs like Word or Pages.
+An appointment type's description is automatically added to an appointment when selecting that appointment type in the appointment creation menu. The description text field uses the rich text editor feature. The rich text editor feature allows you to edit text like you would in programs like Word or Pages.
 
 ![Appointment types description](/images/guide/appointment-types-description.JPG "Appointment types description")
 
@@ -46,7 +46,9 @@ When creating an appointment type you have to finalize the creation process by c
 
 ## 4. Editing Appointment types
 
-Edit an appointment type via the appointment type page. Click on an appointment type and make the necessary changes, your changes will automatically be saved as soon as you stop editing.
+Edit an appointment type via the appointment type page. Click on an appointment type and make the necessary changes, your changes will automatically be saved as soon as you stop editing. You can view the save-status of your appointment type via the `Saving status` icon next to the delete button.
+
+![Appointment types save status](/images/guide/appointment-types-save-status.JPG "Appointment types save status")
 
 ## 5. Deleting Appointment types
 
