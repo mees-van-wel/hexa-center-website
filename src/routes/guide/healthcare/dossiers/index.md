@@ -64,10 +64,11 @@ Click on the `+ Add` button to add the program to the dossier. Changes made to a
 
 ### 5.2 Adding notes
 
-Add a note by selecting the `Note` menu option from dropdown menu in the timeline section. A dialog box containing an empty field will now appear, allowing you to type out a name for your note. Currently there are no restrictions relating to the length of a note's title, you can use special characters, cyrillic or other writing methods, and even emojis!
+Open the timeline section and create a Note using the `Note` menu option in the dropdown. This action opens a dialog box, allowing you to specify a name for your note. Currently there are no restrictions relating to the length of a note's title, you can use special characters, cyrillic or other writing methods, and even emojis!
 
 After entering a name for your note note and clicking on the `+ Add` button, the note will be added and it will subsequently appear in the timeline.
-Upon adding a note you will gain access to a Rich Text Editor. Editing text using a Rich Text Editor can be compared to editing text via applications like Microsoft Word or Wordpad. It works with the same ribbon system as those applications, but simplified to purely focus on text editing.
+
+The `Note` item allows you to input text via the **Rich text editor**. Editing text using a Rich Text Editor can be compared to editing text via applications like Microsoft Word or Wordpad. It works with the same ribbon system as those aforementioned applications, but simplified to purely focus on text editing.
 
 ### 5.3 Uploading files
 
@@ -103,7 +104,7 @@ Clicking on `View` opens the file in a new tab. Depending on your browser's capa
 
 Clicking on `Download` saves the selected file using your browsers built-in download function to your computer. Select the file from either the top right or bottom left to open it, again depending on the browser used.
 
-Clicking on `Delete` **permanently** deletes the selected file from the dossier.
+Clicking on `Delete` **permanently** deletes the selected file from the dossier and timeline overview.
 
 ## 6. Deleting dossiers
 
@@ -113,23 +114,25 @@ To delete a dossier first navigate to the dossier you would like to delete. On t
 
 ## 7. Editing programs which have already been added to dossiers
 
-Changes made to programs are not carried over to the programs in the dossier timeline, for example, changing the title of a program will not also change the title of a program which has already been added to a client's dossier. Adding a program to a dossier is more akin to **copying** over that program,rather than linking it to the already existing dossier. Keep this in mind when adding a program to a dossier, its best to **finish editing a program before adding it to dossiers**.
+Changes made to programs are not carried over to programs already added to the dossier timeline. For example, changes made to the title of a program will not carry over to the version of the program already added to the dossier.
+
+Adding a program to a dossier is more akin to **copying** over that program,rather than linking it to the already existing dossier. Keep this in mind when adding a program to a dossier, its best to **finish editing a program before adding it to dossiers**.
 
 ## 8. Filling out questionnaires
 
-There are two ways a questionnaire can be filled in. By sending it out to clients via email, or by a user manually inputting the answers of the clients via the Dossier page. Both ways of filling in a questionnaire are explained below.
+There are two ways a questionnaire can be filled in. By sending it out to clients via email, or by a user manually inputting the answers of the clients via the Dossier page. Both ways of filling out questionnaires are explained below.
 
 ## 8.1. Via the client portal
 
 Sending out questionnaires to clients was designed to be as simple and easy to understand as possible, however there are some guidelines worth studying before sending out questionnaires.
 
-Pay close attention to the `Responder mode`, `Addition Mode` and `Answer Mode` options when creating your program steps, as these options determine whether your step is available to be send out to clients, what steps are added by default, and whether answers are shared among clients. Read more about these options on the [Programs](../programs/index.md "Programs") page.
+Pay close attention to the `Responder mode`, `Addition Mode` and `Answer Mode` options when creating your program steps, as these options determine whether your step is available to be send out to clients, what steps are added by default when creating a dossier, and whether answers are shared among clients. Read more about these options on the [Programs](../programs/index.md "Programs") page.
 
 ### 8.1.1. Sending out questionnares to clients
 
 Use the `Mail to clients` button to send out questionnaire(s) to clients. Make sure you have added a step first, otherwise this button will not be visible. Please review your step before sending it out as a questionnaire, as the email sending proces can **not** be undone.
 
-The the `Mail to clients` button is only visible when that step's `Responder mode` is set to `External`. Read more about the different step options on the [Programs](../programs/index.md "Programs") page.
+The `Mail to clients` button is only visible when that step's `Responder mode` is set to `External`. Read more about the different step options on the [Programs](../programs/index.md "Programs") page.
 
 After sending out the email, the `Mailed on` field will update to show the last date an email has been send out, which should be the date you pressed the `Mail to clients` button.
 
@@ -143,7 +146,7 @@ After a client clicks on the included link found in the email they will be send 
 
 ### 8.1.3. The client portal step selection page
 
-The client portal page is designed to be as barebones and easy to understand as possible. Clients can select a step via the the on screen button(s). Multiple step dossiers are represented by multiple buttons on the step selection screen. Clients can click on a button to navigate to that step. Use the `back` button to go back to the step selection screen.
+The client portal page is designed to be as barebones and easy to understand as possible. Multiple step dossiers are represented by multiple buttons on the step selection screen. Clients can click on a button to navigate to that step. The `back` button navigates back to the step selection screen.
 
 An overview of the step selection screen can be found below:
 
@@ -153,7 +156,7 @@ An overview of the step selection screen can be found below:
 
 After selecting a step the client is presented with the step's questions. The overall look of this page differs based on whether the step consists of sections or individual questions. For this example we will be representing a step consisting of sections, as we recommend dividing (large) steps into sections. This improved readability and easy of management. More information about the benefits of sections can be found on the [Programs](../programs/index.md "Programs") page.
 
-Click on a section to expand it and reveal the questions. Labels and descriptions of questions and sections are all visible to clients. Label text is larger, while description text is smaller. Label text is always placed above descriptions text.
+Click on a section to expand it and reveal the questions. Labels and descriptions of questions and sections are all visible to clients. Label text is larger, while description text is smaller.
 
 Our client portal questionnaire system is not that much different from other questionnaire websites. Each question in the questionnaire is accompanied by clear and concise form fields. Inputting your responses is as easy as filling in the blanks, ensuring a seamless experience for every client.
 
@@ -167,13 +170,17 @@ Simply select the right program, step and client and start filling in the answer
 
 ![Dossier program manual completion](/images/guide/dossier-program-manual-completion.JPG "Dossier program manual completion")
 
-## 9. Viewing given answers
+## 9. Viewing given answers & completion status
 
 Answers given by clients are automatically send to the dossier's step page and can be viewed on a per-client basis. The same goes for answers entered manually by users.
 
-The completion status of the program can be viewed via the dossiers' page.
+The completion status of a program can be viewed via the dossiers' page. The completion status of an individual step can be found via the dossier's program page. A checkmark next to the step's name indicates the step is marked as completed.
 
-![Dossier step completion status](/images/guide/dossier-program-completion-status.JPG "Dossier step completion status")
+An example of a completed step with che checkmark icon:
+![Dossier step completion status](/images/guide/dossier-program-step-completion-status.JPG "Dossier step completion status")
+
+An example of a completed program with the checkmark icon:
+![Dossier program completion status](/images/guide/dossier-program-completion-status.JPG "Dossier program completion status")
 
 ### 9.1 Editing given answers
 
