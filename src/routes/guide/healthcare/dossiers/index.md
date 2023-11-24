@@ -38,7 +38,7 @@ To edit a dossier, first select the dossier you would like to edit from the list
 
 ![Dossier editing](/images/guide/dossiers-update.jpg "Dossier editing")
 
-After navigating to the dossier you want to edit you will be able to add dossier items via the timeline system. A detailed explanation on how to add dossier items can be found by reading section 6: **Adding dossier items**.
+After navigating to the dossier you want to edit you will be able to add dossier items via the timeline system. A detailed explanation on how to add dossier items can be found by reading section 5: **Adding dossier items**.
 
 ### 4.1 Adding and removing clients
 
@@ -120,49 +120,11 @@ Adding a program to a dossier is more akin to **copying** over that program,rath
 
 ## 8. Filling out questionnaires
 
-There are two ways a questionnaire can be filled in. By sending it out to clients via email, or by a user manually inputting the answers of the clients via the Dossier page. Both ways of filling out questionnaires are explained below.
+There are two ways a questionnaire can be filled in. By sending it out to clients via email, to have clients fill out the questionnaire via the client portal page, or by a user manually inputting the answers of the clients via the Dossier page.
 
-## 8.1. Via the client portal
+More information about the client portal page can be found on the [Client portal](../client-portal/index.md "Client portal") page.
 
-Sending out questionnaires to clients was designed to be as simple and easy to understand as possible, however there are some guidelines worth studying before sending out questionnaires.
-
-Pay close attention to the `Responder mode`, `Addition Mode` and `Answer Mode` options when creating your program steps, as these options determine whether your step is available to be send out to clients, what steps are added by default when creating a dossier, and whether answers are shared among clients. Read more about these options on the [Programs](../programs/index.md "Programs") page.
-
-### 8.1.1. Sending out questionnares to clients
-
-Use the `Mail to clients` button to send out questionnaire(s) to clients. Make sure you have added a step first, otherwise this button will not be visible. Please review your step before sending it out as a questionnaire, as the email sending proces can **not** be undone.
-
-The `Mail to clients` button is only visible when that step's `Responder mode` is set to `External`. Read more about the different step options on the [Programs](../programs/index.md "Programs") page.
-
-After sending out the email, the `Mailed on` field will update to show the last date an email has been send out, which should be the date you pressed the `Mail to clients` button.
-
-### 8.1.2. Client email
-
-Clicking on the `Mail to clients` button sends out an email to the clients added to the dossier, requesting them to fill in the questionnaire via the client portal. An overview of what the email looks like can be found down below.
-
-After a client clicks on the included link found in the email they will be send to the client portal where they can fill in the questionnaire.
-
-![Client portal email](/images/guide/client-portal-email.jpg "Client portal email")
-
-### 8.1.3. The client portal step selection page
-
-The client portal page is designed to be as barebones and easy to understand as possible. Multiple step dossiers are represented by multiple buttons on the step selection screen. Clients can click on a button to navigate to that step. The `back` button navigates back to the step selection screen.
-
-An overview of the step selection screen can be found below:
-
-![Client portal step selection screen](/images/guide/dossier-client-portal-step-selection-screen.JPG "Client portal step selection screen")
-
-### 8.1.4. Filling out questions via the client portal
-
-After selecting a step the client is presented with the step's questions. The overall look of this page differs based on whether the step consists of sections or individual questions. For this example we will be representing a step consisting of sections, as we recommend dividing (large) steps into sections. This improved readability and easy of management. More information about the benefits of sections can be found on the [Programs](../programs/index.md "Programs") page.
-
-Click on a section to expand it and reveal the questions. Labels and descriptions of questions and sections are all visible to clients. Label text is larger, while description text is smaller.
-
-Our client portal questionnaire system is not that much different from other questionnaire websites. Each question in the questionnaire is accompanied by clear and concise form fields. Inputting your responses is as easy as filling in the blanks, ensuring a seamless experience for every client.
-
-![Client portal filling out step](/images/guide/dossier-client-portal-filling-out-step.JPG "Client portal filling out step")
-
-### 8.2. Via the Dossier page
+### 8.1. Via the Dossier page
 
 Questionnaires can also be filled in by (internal) users working in Hexa Center. This is especially useful for in-person interviews, a client can answers questions given by the user while those answers are written down by the user during the interview.
 
@@ -184,6 +146,6 @@ An example of a completed program with the checkmark icon:
 
 ### 9.1 Editing given answers
 
-A user can edit the answers given by clients via the client portal by clicking on the `Edit` button. This allows for the client to fill out answers like they would when the responder mode is set to `Internal`. Read more about filling in answers via the dossier page in **section 8.2. Via the Dossier page**. Read more about different responder modes on the [Programs](../programs/index.md "Programs") page.
+A user can edit the answers given by clients via the client portal by clicking on the `Edit` button. This allows for the client to fill out answers like they would when the responder mode is set to `Internal`. Read more about filling in answers via the dossier page in **section 8.1. Via the Dossier page**. Read more about different responder modes on the [Programs](../programs/index.md "Programs") page.
 
 ![Dossier program edit button](/images/guide/dossier-program-edit-button.JPG "Dossier program edit button")
