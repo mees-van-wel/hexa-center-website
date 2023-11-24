@@ -26,13 +26,15 @@ Clicking on the color field will open a small color selector like those seen in 
 
 ### 3.2. Length of an appointment
 
-The length of an appointment can be predefined via the `Hours` and `Minutes` fields. If you want your appointment to last for one hour and thirty minutes, enter one in the `hours` field and thrity in the `minutes` field. Don't worry, you can always change the length of your appointment after selecting the appointment type. The appointment type only fills in that length when initially adding it to an appointment.
+The length of an appointment can be predefined via the `Hours` and `Minutes` fields. If you want your appointment to last for one hour and thirty minutes, enter one in the `hours` field and thirty in the `minutes` field. Don't worry, you can always change the length of your appointment after selecting the appointment type. The appointment type only fills in that length when initially adding it to an appointment.
 
 ![Appointment types length](/images/guide/appointment-types-length.JPG "Appointment types length")
 
 ### 3.3. Entering a description
 
-An appointment type's description is automatically added to an appointment when selecting that appointment type in the appointment creation menu. The description text field uses the rich text editor feature. The rich text editor feature allows you to edit text like you would in programs like Word or Pages.
+An appointment type's description is automatically added to an appointment when selecting that appointment type in the appointment creation menu. More information about creating appointments can be found on the [Calendar page](/guide/scheduling/calendar/index.md "Calendar page").
+
+The description text field uses the rich text editor feature. The rich text editor feature allows you to edit text like you would in programs like Word or Pages.
 
 ![Appointment types description](/images/guide/appointment-types-description.JPG "Appointment types description")
 
@@ -43,6 +45,12 @@ When editing your appointment type will automatically save as soon as you stop m
 When creating an appointment type you have to finalize the creation process by clicking on the `+ Create` button.
 
 ![Appointment types finalize creation](/images/guide/appointment-types-create-button.JPG "Appointment types finalize creation")
+
+### 3.5 Adding your appointment type to an appointment
+
+To add an appointment type to your appointment visit the Calendar page under the `Scheduling` addon section. First, click on a date and time on the calendar, then add the appointment type by selecting it via the `Appointment type` dropdown. More information about creating appointments can be found on the [Calendar page](/guide/scheduling/calendar/index.md "Calendar page").
+
+![Appointment types add appointment type to appointment via calendar](/images/guide/appointment-types-add-appointment-type-via-calendar.JPG "Appointment types add appointment type to appointment via calendar")
 
 ## 4. Editing Appointment types
 
