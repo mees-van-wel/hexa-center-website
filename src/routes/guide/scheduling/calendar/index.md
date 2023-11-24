@@ -1,18 +1,18 @@
 # Calendar
 
-The calendar module is part of the essentials module in Hexa Center. Use the calendar function to create appointments, view your colleagues appointments and create video calls.
+The calendar addon is part of the scheduling module in Hexa Center. Use the calendar addon to create appointments, view your colleagues appointments and create video calls.
 
 ## 1. Calendar definition
 
-The calendar functionality in Hexa Center allows users to schedule and organize appointments, providing a centralized platform for managing time-sensitive tasks and events. View users' appointments, create appointments yourself, send out emails notifying users of your new or existing appointment, etc.
+The calendar addon in Hexa Center allows users to schedule and organize appointments, providing a centralized platform for managing time-sensitive tasks and events. View users' appointments, create appointments yourself, send out emails notifying users of your new or existing appointment, etc.
 
 ## 2. Navigating the calendar overview
 
-To access the calendar overview, navigate to the Calendar tab located under the General section. The layout of the calendar overview is very similar to what most users are used to, bearing resemblance to the likes of Google and MacOS calendar apps.
+To access the calendar overview, navigate to the Calendar tab located under the Scheduling module. The layout of the calendar overview is very similar to what most users are used to, bearing resemblance to the likes of Google and MacOS calendar apps.
 
 ### 2.1 Collapsing the navigation menu
 
-To collapse, or hide, the navigation menu, click on the small arrow icon located at the very top of the calendar overview page. This action will entirely conceal the menu, providing a more spacious view of the calendar content.
+To collapse, or hide, the navigation menu, click on the small arrow icon located at the very top of the calendar overview page. This action will close the menu, providing a more spacious view of the calendar content.
 
 ![Calendar collapse button](/images/guide/calendar-navigation-collapse-button.jpg "Calendar collapse button")
 
@@ -20,15 +20,15 @@ To collapse, or hide, the navigation menu, click on the small arrow icon located
 
 By clicking on one the available time scope options: `month`, `week`, `workweek`, or `day`, you can switch between focused and broader overviews.
 
-&nbsp;
+- Month: When selecting `month`, the calendar will display all the days in a month, allowing you to have a comprehensive view of the entire month's events and appointments.
 
-When selecting `month`, the calendar will display all the days in a month, allowing you to have a comprehensive view of the entire month's events and appointments. Similarly, choosing 'week' will narrow down the display to show a week's worth of activities, while 'workweek' will focus on weekdays excluding weekends. If you opt for `day`, the calendar will concentrate solely on the events and tasks of the selected day.
+- Week: Similarly, choosing 'week' will narrow down the display to show a week's worth of activities, while 'workweek' will focus on weekdays excluding weekends.
 
-&nbsp;
+- Day: If you opt for `day`, the calendar will concentrate solely on the events and tasks of the selected day.
 
-Additionally, altering the scope of dates also affects the functionality of the navigation buttons. On the calendar interface, you will find two navigation buttons: a left button and a right button. When the scope is set to 'month', clicking the right button will advance the calendar by one month. Similarly, clicking the left button will take you back one month. This navigation behavior applies to the other scope options as well, aligning with your current selection.
+Additionally, changing the scope of the overview also affects the way the navigation buttons behave.
 
-&nbsp;
+On the calendar interface, you will find two navigation buttons: a left button and a right button. When the scope is set to 'month', clicking the right button will advance the calendar by one month. Similarly, clicking the left button will take you back one month. This navigation behavior applies to the other scope options as well, aligning with your current selection.
 
 Clicking on `today` brings you back to today's date.
 
@@ -38,11 +38,7 @@ Clicking on `today` brings you back to today's date.
 
 To view other users' calendars, use the `Calendars` field on the right-side navigation menu. If the navigation menu is not visible, it's likely in its collapsed state. To make it visible again, simply click the small arrow icon at the top right of the calendar overview page. This will expand the menu and grant access to its options.
 
-&nbsp;
-
 Click on the `Calendars` field to generate a dropdown menu constisting of all users. Search for users by first clicking on the Calendar field, then typing in a user's name. Select the user to add them to the selection. To view multiple calendars at once, select multiple users from the dropdown menu.
-
-&nbsp;
 
 To remove all added users at once click on the small `x icon` next to the list of users. This `x icon` is seperate from the `x icon` next to the user's name, which is used to remove that specific user from the overview.
 
@@ -54,19 +50,13 @@ To remove all added users at once click on the small `x icon` next to the list o
 
 Click on any square in the calendar overview screen to open the appointment creation window, next, fill in event details like the title, description, date, start time, and end time. The date / time you clicked on is used as the initial start and end date / time for the appointment, depending on the current scope.
 
-&nbsp;
-
 Add guests using the `Guests field`. Click on the `Guests` field to see all available guests. To search for users, simply enter their name or a part of it in the search field. Suggestions will automatically be generated based on what you type out. For example, to find a user named John Doe, simply enter either "John" or "Doe" (without quotation marks) to find all users with either "John" or "Doe" in their names. The field even recognizes part of users' names, for example to find a user named "Matthew", simply enter: "Matt" or "Thew" to find all users with either of those phrases in their name.
 
 ![Calendar create appointment search function](/images/guide/calendar-create-appointment-search.jpg "Calendar create appointment search function")
 
 You will need to enter the appointment name as well as for what user you're creating the appointment for. Remember, the `Guest field` is for inviting users to your meeting. The `Calendar` field is for choosing in which users' calendar the appointment is going to be created. This is especially useful for assistants doing administrative work, as the original organizer of the meeting does not have to be the one who actually creates the meeting.
 
-&nbsp;
-
 The roles and permissions needed to create appointments in another users's calendar are defined via the **roles & permissions** system. Read more about the **\*roles & permissions** system by visiting the following page: [Roles Guide](/guide/essentials/roles "Roles Guide").
-
-&nbsp;
 
 Adding a description, appointment type, inviting guests and the video-call invite checkbox are all optional.
 
