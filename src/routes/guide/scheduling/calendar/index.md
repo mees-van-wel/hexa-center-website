@@ -22,7 +22,11 @@ By clicking on one the available time scope options: `month`, `week`, `workweek`
 
 - Month: When selecting `month`, the calendar will display all the days in a month, allowing you to have a comprehensive view of the entire month's events and appointments.
 
-- Week: Similarly, choosing 'week' will narrow down the display to show a week's worth of activities, while 'workweek' will focus on weekdays excluding weekends.
+- Week: Similarly, choosing 'week' will narrow down the display to show a week's worth of activities
+
+- Workweek: The workweek overview is the most costomizable of these options. This overview changes based on your work hour preferences, as set on the [Preferences page](/guide/system/preferences "Preferences page").
+
+Only days where work time is scheduled on are shown. The exact schedulded work time, per day, is highlighted in a shade of grey on the calendar overview. In this mode the overview only shows your working days and the scheduled times on those working days, it doesn't change based on which user's calendar you're viewing.
 
 - Day: If you opt for `day`, the calendar will concentrate solely on the events and tasks of the selected day.
 
@@ -64,7 +68,7 @@ Save your appointment by clicking on the `+ create` button.
 
 ## 3.1 Sending emails
 
-Upon creating, editing, or deleting an appointment which contains guests, you will be greeted by a window asking if you would like to send emails out to the appointments participants.
+Upon creating, editing, or deleting an appointment which contains guests, you will be greeted by a window asking if you would like to send emails out to the appointments participants. An email will also be send out to the owner of the appointment, change the owner of an appointment via the `Calendar` field.
 
 Click on `Don't send` to not send out any emails and save your changes.
 
@@ -82,7 +86,7 @@ Upon saving the appointment it will immediately show up in the selected user's c
 
 ## 4. Editing appointments
 
-Editing existing appointments is straightforward. Select the appointment from the calendar overview, make the necessary changes, and save with a click of the + Save button.
+Editing existing appointments is straightforward. Select the appointment from the calendar overview, make the necessary changes, and save the appointment via a click of the `+ Save` button.
 
 ![Calendar editing appointments](/images/guide/calendar-edit-appointment.jpg "Calendar editing appointments")
 
