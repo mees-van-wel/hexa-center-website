@@ -1,6 +1,6 @@
 # Appointment types
 
-Appointment types are an easy way to quickly categorize all types of appointments you might need. This addon saves you a lot of time as you do not have to enter all details of a (recurring) appointment from scratch.
+Appointment types are an easy way to quickly categorize all types of appointments you might need. This addon saves you a lot of time as you do not have to enter all details of a (recurring) appointment from scratch. Appointment types are templates used for creating appointments on the [Calendar page](/guide/scheduling/calendar "Calendar page").
 
 ## 1. Appointment types definition
 
@@ -26,7 +26,9 @@ Clicking on the color field will open a small color selector like those seen in 
 
 ### 3.2. Length of an appointment
 
-The length of an appointment can be predefined via the `Hours` and `Minutes` fields. If you want your appointment to last for one hour and thirty minutes, enter one in the `hours` field and thirty in the `minutes` field. Don't worry, you can always change the length of your appointment after selecting the appointment type. The appointment type only fills in that length when initially adding it to an appointment.
+The length of an appointment can be predefined via the `Hours` and `Minutes` fields. If you want your appointment to last for one hour and thirty minutes, enter one in the `hours` field and thirty in the `minutes` field.
+
+Consider creating multiple appointment types for different meetings that might take longer or shorter. The duration of an appointment is always equal to what is set in the appointment type. Read more about appointments on the [Calendar page](/guide/scheduling/calendar "Calendar page").
 
 ![Appointment types length](/images/guide/appointment-types-length.JPG "Appointment types length")
 
