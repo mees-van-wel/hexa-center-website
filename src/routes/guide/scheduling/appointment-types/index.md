@@ -28,7 +28,7 @@ Clicking on the color field will open a small color selector like those seen in 
 
 The length of an appointment can be predefined via the `Hours` and `Minutes` fields. If you want your appointment to last for one hour and thirty minutes, enter one in the `hours` field and thirty in the `minutes` field.
 
-Consider creating multiple appointment types for different meetings that might take longer or shorter. The duration of an appointment is always equal to what is set in the appointment type. Read more about appointments on the [Calendar page](/guide/scheduling/calendar "Calendar page").
+Consider creating multiple appointment types for different meetings that might take longer or shorter. The duration of an appointment is always equal to what is set in the appointment type and cannot be changed later. Read more about appointments on the [Calendar page](/guide/scheduling/calendar "Calendar page").
 
 ![Appointment types length](/images/guide/appointment-types-length.JPG "Appointment types length")
 
