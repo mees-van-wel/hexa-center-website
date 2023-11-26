@@ -66,7 +66,15 @@ Adding a description, appointment type, inviting guests and the video-call invit
 
 Save your appointment by clicking on the `+ create` button.
 
-## 3.1 Sending emails
+### 3.1 Appointment types
+
+Appointment types are customizable templates created on the `Appointment type` page. Read more about appointment types on the [Appointment types page](/guide/scheduling/appointment-types "Appointment types page").
+
+When creating an appointment you can select an appointment type via the `Appointment type` field. Appointment types are especially useful for quickly creating repetitive meetings, where most details don't change that often.
+
+The duration of an appointment type automatically sets the meeting to that specific length when selected. The duration of the meeting must be the same as the duration set in the appointment type. This allows you to easily change the time a meeting takes place, while keeping the duration the same.
+
+### 3.2 Sending emails
 
 Upon creating, editing, or deleting an appointment which contains guests, you will be greeted by a window asking if you would like to send emails out to the appointments participants. An email will also be send out to the owner of the appointment, change the owner of an appointment via the `Calendar` field.
 
@@ -76,7 +84,7 @@ Click on `Send` to send out emails to all participants, informing them of the up
 
 Click on `Back to editing` to make further changes.
 
-### 3.2 Creating appointments in someone's name
+### 3.3 Creating appointments in someone's name
 
 To create appointments on behalf of someone else, begin by selecting that person through the `Calendar field's dropdown options`. Search for users by first clicking on the Calendar field, then proceed to type in a user's name. Click on the user to add them to your selection. You can only create appointments in another person's calendar if you have the necessary permissions to do so. This is determined by the `General > Appointments > Manage all appointments` permission. Please refer to the [Roles & permissions page](/guide/essentials/roles "Roles Guide") for more information about how to create and assign roles and permissions.
 
