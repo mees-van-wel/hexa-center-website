@@ -47,7 +47,7 @@ An overview of all available Quality of Life features can be found below. We wil
 - Export
 - Custom fields
 
-## 3. Text filtering
+## 3. General features: Text filtering
 
 --todo: Ask if differentiate is allowed
 
@@ -61,7 +61,7 @@ This example is taken from the `appointment creation` screen in the `calendar ad
 
 ![Example of dropdown fields](/images/guide/tipsandtricks-example-of-dropdown.JPG "Example of dropdown fields")
 
-## 4. Date selector
+## 4. General features: Date selector
 
 The date selector is a feature used to easily select a specific date using intuitive button layouts. Its opened by clicking on a date field. The date selector consists of 3 different screens, the:
 
@@ -81,7 +81,7 @@ The date selector is a feature used to easily select a specific date using intui
 
 ![Example of year selector screen](/images/guide/tipsandtricks-example-of-date-selector-year.JPG "Example of year selector screen")
 
-## 5. Time selector
+## 5. General features: Time selector
 
 The time selector feature allows you to effortlessly select a specific time of day through modern UI design. The time field allows you to type in a specific time, as well as select a specific time via the time selector.
 
@@ -91,7 +91,7 @@ Close the time selector by clicking anywhere on the pop-up/screen you're current
 
 ![Example of time selector screen](/images/guide/tipsandtricks-example-of-time-selector.jpg "Example of time selector screen")
 
-## 6. Rich text editor
+## 6. General features: Rich text editor
 
 The rich text editor is a feature we are especially proud of. Using the rich text editor you can use markup to customize and style text according to their preferences. This capability empowers users to apply a wide range of formatting options to achieve the desired look and feel for their text content.
 
@@ -118,3 +118,37 @@ Clear formatting by using the `Clear formatting` button on the rich text editor.
 Hovering over a button shows a tooltip explaining the buttons functionality.
 
 ![Example of rich text editor](/images/guide/tipsandtricks-example-of-rich-text-editor.JPG "Example of rich text editor")
+
+## 7. General features: Automatic saving
+
+Automatic saving is a feature that allows certain forms to automatically save as soon as no further changes are made.
+
+Not all forms support this feature. In forms where this feature is enabled the save button is replaced by the `Save status icon`. This icon shows the current saving status of the form you're currently editing.
+
+![Example of rich text editor](/images/guide/tipsandtricks-example-of-saved-icon.JPG "Example of rich text editor")
+
+When making changes to the form the `Save status icon` briefly changes from `Saved` to `Saving`. The saving process is usually done within a second, though it might take longer depending on the changes made and the size of the item you are currently editing.
+
+![Example of rich text editor](/images/guide/tipsandtricks-example-of-saving-icon.JPG "Example of rich text editor").
+
+## 8. General features: Notification system
+
+TODO: Fact check this, finishing this later
+
+The notification system refers to the way you are notified by Hexa Center about the results of actions like **creating**, **deleting** and **updating** items. On forms where the **Automatic saving** feature is enabled, no notifications are generated when creating or updating items.
+
+## 9. Advanced features: Metadata
+
+--TODO: ask what happens with the created by and updated by fields when a user is deleted.
+
+An item's Metadata stores all kind of useful information like: the number (id), creation date, created by, updated at, updated by. An explanation about all of these fields can be found below:
+
+- **Number (id)**: Shows the number assigned to the item. Numbers start at 1 and count up from there for each created item of that type.
+- **Creation date**: Shows the creation date of the selected item.
+- **Created by**: Shows what user the item was created by.
+- **Updated at**: Shows the **last** date the item was updated on.
+- **Created by**: Shows what user the item was **last** updated by.
+
+## 10. Advanced features: Export
+
+All overview pages feature an `Export` button.
