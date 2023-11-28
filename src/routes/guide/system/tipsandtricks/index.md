@@ -2,28 +2,9 @@
 
 There are a lot of different quality of life features available in Hexa Center. This page will go into more detail about these features and how you can use them to enhance your experience.
 
-(Rename page to Quality of Life?)
+- SUGGEST TO TONY AND MEES: Status page of online services - low prio, kan gemaakt worden
 
-TIPS AND TRICKS PAGE BUILDUP:
-
-General tips and tricks
-
-- Text filtering
-- Time selector in calendar
-- Rich text editor
-- Automatic saving
-- Notification system (button changing color, error message, status message top right)
-
-Advanced tips and tricks
-
-- Metadata
-- Export
-- Custom fields
-- SUGGEST TO TONY AND MEES: Status page of online services
-
-Explain where features are used, perhaps give examples per page where relevant
-
-TODO: ADD TIPS AND TRICKS TO LEFT NAVIGATION
+Explain where features are used, perhaps give examples per page where relevant.
 
 ## 1. Tips and Tricks definition
 
@@ -40,6 +21,7 @@ An overview of all available Quality of Life features can be found below. We wil
 - Time selector
 - Rich text editor
 - Automatic saving
+- Refinement
 
 **Advanced tips and tricks**
 
@@ -49,7 +31,7 @@ An overview of all available Quality of Life features can be found below. We wil
 
 ## 3. General features: Text filtering
 
---todo: Ask if differentiate is allowed
+--todo: Ask if differentiate is allowed -- change differentiate to something else, maube chanhe the sentence all together
 
 Text filtering is a feature used for finding specific items from a (long) list. This makes it extremely easy to find items based on even a small part of that items name.
 
@@ -137,7 +119,46 @@ TODO: Fact check this, finishing this later
 
 The notification system refers to the way you are notified by Hexa Center about the results of actions like **creating**, **deleting** and **updating** items. On forms where the **Automatic saving** feature is enabled, no notifications are generated when creating or updating items.
 
-## 9. Advanced features: Metadata
+## 9. General features: Refinement
+
+Use refinement to fine tune your results through the use of (advanced) conditions. Filter dossiers by filtering for a single, or group, of clients on the `Dossiers` page. Filter through users that meet your criteria, based on: age, gender, role, any value you can use to filter between individual items is available in the refinement feature.
+
+The values from which you can create a condition obviously differ per page. Every column can be used to filter results via the refinement feature. We recommend expermimenting with the different available options to see what is truly possible via the refinement feature.
+
+## 9.1 Filter text fields
+
+Filtering through text based fields is very similar to using the dropdown text filtering, as explained in **section 3, Text filtering**. Instead of showing options through a dropdown, it shows the filtered results in the table itself.
+
+Filter through dates via the: equals, later than, earlier than and between options.
+
+- **Equals**: Filters items where the date in the field is from the specified date.
+- **Later than** Filters items where the date in the field is beyond the entered date.
+- **Earlier Than**: Filters items where the date in the field is not yet past the entered date.
+- **Between**: Filters items where the date in the field falls within the range of the 2 inputted dates.
+
+## 9.2 Filter dropdown fields
+
+Dropdown fields are used when values are clearly limited and defined. For example when wanting to find users through their role, the roles are already defined beforehand, so the entire selection can
+
+Filter through the pre defined values of a dropdown field using the **Text filtering** feature. Please (re)visit **section 3** to read more about the text filtering feature.
+
+The filtering through the use of a dropdown field works exactly the same way as when filtering for users or clients on the calendar page, program page and other pages. Add 1 or multiple items to the dropdown field, filter for text by using the text filtering feature, and select the options you want to filter for using the dropdown menu.
+
+For example lets say you want to find all dossiers belong to 3 different clients. You can very easily filter for multiple clients via the users page by adding the clients to the dropdown field.
+
+## 9.3 Quick search
+
+Use the quick search function to quickly search for part of an item's name. For example you can easily find all users named: "John" by simply entering "John" in the quick search field.
+
+--TODO, screenshot
+
+## 9.4 Ordering results
+
+Order filtered results through the use of the sort buttons next to the fields. Sort by ascending values or descending values, as represented by the icons. When not selecting either of these options the system will sort by **ascending**, putting smaller values first.
+
+--TODO, screenshot
+
+## 10. Advanced features: Metadata
 
 --TODO: ask what happens with the created by and updated by fields when a user is deleted.
 
@@ -149,6 +170,6 @@ An item's Metadata stores all kind of useful information like: the number (id), 
 - **Updated at**: Shows the **last** date the item was updated on.
 - **Created by**: Shows what user the item was **last** updated by.
 
-## 10. Advanced features: Export
+## 11. Advanced features: Export
 
-All overview pages feature an `Export` button.
+All overview pages feature an `Export` button. The export feature allows you to quickly convert all on screen items to an Excel based dataset. The export feature works together with the `Refinement` feature, explained in section 9, to allow for the creation of customizable datasets exported right to Excel.
