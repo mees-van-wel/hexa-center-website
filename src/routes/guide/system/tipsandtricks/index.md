@@ -8,11 +8,11 @@ Explain where features are used, perhaps give examples per page where relevant.
 
 ## 1. Tips and Tricks definition
 
-This page goes into detail about the quality of life features available to users of Hexa Center. We aim to make your experience in Hexa Center the best it can possibly be.
+This page goes into detail about the quality of life features available to users of Hexa Center. Through explaining these Quality of Life features we aim to make the user experience the best it can be, hopefully saving you a lot of time.
 
 ## 2. Overview of Tips and Tricks in Hexa Center
 
-An overview of all available Quality of Life features can be found below. We will start off by explaining general features you use very often, basically on a daily basis. Further down this page we will highlight some more advanced tips and tricks.
+An overview of all available Quality of Life features can be found below. We will start off by explaining general features you use on a daily basis. Further down this page we will highlight some more advanced tips and tricks that might not be used often, but are still good to know about.
 
 **General tips and tricks**
 
@@ -31,13 +31,11 @@ An overview of all available Quality of Life features can be found below. We wil
 
 ## 3. General features: Text filtering
 
---todo: Ask if differentiate is allowed -- change differentiate to something else, maube chanhe the sentence all together
-
 Text filtering is a feature used for finding specific items from a (long) list. This makes it extremely easy to find items based on even a small part of that items name.
 
-Every dropdown field in Hexa Center supports text filtering. Dropdown fields have a small `up and down` arrow icon next to them, to differentiate them from regular text fields. Clicking on the field shows all relevant selectable items. When entering text only items containing that text in their name are shown.
+Every dropdown field in Hexa Center supports text filtering. Dropdown fields have a small `up and down` arrow icon next to them, to make them look slightly different compared to regular text fields. Clicking on the field shows all relevant selectable items. Typing in text will filter for items containing that text in their name.
 
-Examples dropdown fieldw. The dropdown fields are highlighted in red.
+Some examples of dropdown fields. The dropdown fields are highlighted in red.
 
 This example is taken from the `appointment creation` screen in the `calendar addon`
 
@@ -55,21 +53,21 @@ The date selector is a feature used to easily select a specific date using intui
 
 ![Example of date selector](/images/guide/tipsandtricks-example-of-date-selector-initial-screen.JPG "Example of date selector")
 
-**The Month selector** In the day selector, click on the year and month to open the Month selector. This screen allows you to select a year via the `left and right arrow buttons`, and a specific month from that year via the abbreviated month names.
+**The Month selector** In the day selector, click on the year and month to open the Month selector. This screen allows you to select a year via the `left and right arrow buttons`, and a specific month from that year via the abbreviated month names. Selecting a month brings you back to the Day selector, where you can now choose a specific date from the selected month.
 
 ![Example of month selector](/images/guide/tipsandtricks-example-of-date-selector-month.JPG "Example of month selector")
 
-**Year selector:** Clicking on the year from the **Month selector** opens the Year Selector. Navigate through years by using the `left and right arrow buttons`, just like you would when selecting a day in the **Day selector**. Selecting a year brings you to the **month selector**, followed by the **Day selector**, basically allowing you to work back from years, to months, to individual days again.
+**Year selector:** Clicking on the year from the **Month selector** opens the Year Selector. Navigate through sets of years by using the `left and right arrow buttons`, just like you would when selecting a day in the **Day selector**. Selecting a year brings you to the **month selector**, after selecting a month you are presented with the **Day selector** again, basically allowing you to work back from years, to months, to individual days again.
 
 ![Example of year selector screen](/images/guide/tipsandtricks-example-of-date-selector-year.JPG "Example of year selector screen")
 
 ## 5. General features: Time selector
 
-The time selector feature allows you to effortlessly select a specific time of day through modern UI design. The time field allows you to type in a specific time, as well as select a specific time via the time selector.
+The time selector feature allows you to effortlessly select a specific time of day through an intuitive pop-up screen. The time field allows you to type in a specific time, as well as select a specific time via the time selector.
 
 Start by clicking on the small clock icon next to the time field, this opens a dropdown-like menu in which you can scroll through specific times. Both the hour and minutes sections are individually scrollable. Chosen hours and minutes are automatically inserted into the time field.
 
-Close the time selector by clicking anywhere on the pop-up/screen you're currently editing on.
+Close the time selector by clicking anywhere on the pop-up/screen you're currently editing on. Clicking anywhere outside of the pop-up screen acts as if you are clicking the `Back` or `X` button. If you have any unssaved changes you will also see a pop-up asking if you would like to discard your changes.
 
 ![Example of time selector screen](/images/guide/tipsandtricks-example-of-time-selector.jpg "Example of time selector screen")
 
@@ -107,11 +105,11 @@ Automatic saving is a feature that allows certain forms to automatically save as
 
 Not all forms support this feature. In forms where this feature is enabled the save button is replaced by the `Save status icon`. This icon shows the current saving status of the form you're currently editing.
 
-![Example of rich text editor](/images/guide/tipsandtricks-example-of-saved-icon.JPG "Example of rich text editor")
+![Example of saved icon](/images/guide/tipsandtricks-example-of-saved-icon.JPG "Example of saved icon")
 
 When making changes to the form the `Save status icon` briefly changes from `Saved` to `Saving`. The saving process is usually done within a second, though it might take longer depending on the changes made and the size of the item you are currently editing.
 
-![Example of rich text editor](/images/guide/tipsandtricks-example-of-saving-icon.JPG "Example of rich text editor").
+![Example of saving icon](/images/guide/tipsandtricks-example-of-saving-icon.JPG "Example of saving icon").
 
 ## 8. General features: Notification system
 
@@ -121,9 +119,13 @@ The notification system refers to the way you are notified by Hexa Center about 
 
 ## 9. General features: Refinement
 
-Use refinement to fine tune your results through the use of (advanced) conditions. Filter dossiers by filtering for a single, or group, of clients on the `Dossiers` page. Filter through users that meet your criteria, based on: age, gender, role, any value you can use to filter between individual items is available in the refinement feature.
+Use refinement to fine tune your results through the use of (advanced) conditions. Filter dossiers by filtering for a single, or group, of clients on the `Dossiers` page. Filter through users that meet your criteria, based on: age, gender, role, any value you see in the column headers can be used to filter results via the refinement feature.
 
-The values from which you can create a condition obviously differ per page. Every column can be used to filter results via the refinement feature. We recommend expermimenting with the different available options to see what is truly possible via the refinement feature.
+Click on the `Show refinement` button to open the refinement window. This window will open on the right side of your screen, allowing you to still see the entire item overview.
+
+The values from which you can create a condition obviously differ per page. We recommend expermimenting with the different available options to see what is truly possible via the refinement feature.
+
+![Example of show refinement button](/images/guide/tipsandtricks-example-of-show-refinement-button.JPG "Example of show refinement button").
 
 ## 9.1 Filter text fields
 
@@ -138,25 +140,27 @@ Filter through dates via the: equals, later than, earlier than and between optio
 
 ## 9.2 Filter dropdown fields
 
-Dropdown fields are used when values are clearly limited and defined. For example when wanting to find users through their role, the roles are already defined beforehand, so the entire selection can
-
-Filter through the pre defined values of a dropdown field using the **Text filtering** feature. Please (re)visit **section 3** to read more about the text filtering feature.
+Dropdown fields are used when values are clearly limited and defined. For example when filtering for a role on the `Users` page, all roles can be selected through the dropdown.Filter through the pre defined values of a dropdown field using the **Text filtering** feature. Please (re)visit **section 3** to read more about the text filtering feature.
 
 The filtering through the use of a dropdown field works exactly the same way as when filtering for users or clients on the calendar page, program page and other pages. Add 1 or multiple items to the dropdown field, filter for text by using the text filtering feature, and select the options you want to filter for using the dropdown menu.
 
 For example lets say you want to find all dossiers belong to 3 different clients. You can very easily filter for multiple clients via the users page by adding the clients to the dropdown field.
 
+![Example of refinement](/images/guide/tipsandtricks-example-of-refinement.JPG "Example of refinement").
+
 ## 9.3 Quick search
 
 Use the quick search function to quickly search for part of an item's name. For example you can easily find all users named: "John" by simply entering "John" in the quick search field.
 
---TODO, screenshot
+Or enter "doctor" to quickly display all roles with "doctor" in the name.
+
+![Example of quick search](/images/guide/tipsandtricks-example-of-quick-search.JPG "Example of quick search").
 
 ## 9.4 Ordering results
 
 Order filtered results through the use of the sort buttons next to the fields. Sort by ascending values or descending values, as represented by the icons. When not selecting either of these options the system will sort by **ascending**, putting smaller values first.
 
---TODO, screenshot
+![Example of order by button](/images/guide/tipsandtricks-example-of-order-by.JPG "Example of order by button").
 
 ## 10. Advanced features: Metadata
 
@@ -172,4 +176,16 @@ An item's Metadata stores all kind of useful information like: the number (id), 
 
 ## 11. Advanced features: Export
 
-All overview pages feature an `Export` button. The export feature allows you to quickly convert all on screen items to an Excel based dataset. The export feature works together with the `Refinement` feature, explained in section 9, to allow for the creation of customizable datasets exported right to Excel.
+All overview pages feature an `Export` button. The export feature allows you to quickly convert all on screen items to an Excel based dataset. The export feature works together with the `Refinement` feature, explained in section 9, to allow for the creation of customizable datasets in .XLXS format.
+
+The export feature only exports items which are currently rendered on the page, this makes it work together with the refinement feature to allow you to only export items based on your refinement criteria. If you want an export of all items you will have to scroll down to load all items first.
+
+Exports are generated in .XLXS format, this is the standard Microsoft Excel format for spreadsheets. If Excel is not installed on your computer, for example when working on a Mac, you might recieve a message asking you with what app you would like to open the file. If this is the case, and your organization owns Office365 licenses, you can open the file via the browser. Read more about opening Excel files via the browser on this official Microsoft documentation page: [How to open office files online](https://support.microsoft.com/en-us/office/upload-a-document-to-work-with-it-online-904fb519-338b-4a2d-889c-f92abbc443a8 "How to open office files online]").
+
+## 12. Advanced features: Custom fields
+
+Custom fields is a feature used in the `Roles` addon. It uses the same drag and drop features as in the `Programs` adddon. Read more about the programs feature on the [Programs page](/guide/healthcare/programs "Programs page").
+
+--TODO: dit verder schrijven wanneer ik weet dat de potential bug waarbij de custom fields alleen ge-assigned worden wanneer de user voor de eerste keer een role krijgt.
+
+Custom fields added to a role will be copied over to a user who is also assigned that role. These custom fields will appear under the `Custom fields` section on a users page.
