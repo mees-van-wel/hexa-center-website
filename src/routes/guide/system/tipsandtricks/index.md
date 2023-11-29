@@ -8,7 +8,7 @@ Explain where features are used, perhaps give examples per page where relevant.
 
 ## 1. Tips and Tricks definition
 
-This page goes into detail about the quality of life features available to users of Hexa Center. Through explaining these Quality of Life features we aim to make the user experience the best it can be, hopefully saving you a lot of time.
+This page goes into detail about the quality of life features available to users of Hexa Center. Through explaining these Quality of Life features we aim to make the user experience the best it can be, potentially saving you a lot of time.
 
 ## 2. Overview of Tips and Tricks in Hexa Center
 
@@ -35,9 +35,7 @@ Text filtering is a feature used for finding specific items from a (long) list. 
 
 Every dropdown field in Hexa Center supports text filtering. Dropdown fields have a small `up and down` arrow icon next to them, to make them look slightly different compared to regular text fields. Clicking on the field shows all relevant selectable items. Typing in text will filter for items containing that text in their name.
 
-Some examples of dropdown fields. The dropdown fields are highlighted in red.
-
-This example is taken from the `appointment creation` screen in the `calendar addon`
+Some examples of dropdown fields. The dropdown fields are highlighted in red. This example is taken from the `appointment creation` screen in the `calendar addon:`
 
 ![Example of dropdown fields](/images/guide/tipsandtricks-example-of-dropdown.JPG "Example of dropdown fields")
 
@@ -101,9 +99,9 @@ Hovering over a button shows a tooltip explaining the buttons functionality.
 
 ## 7. General features: Automatic saving
 
-Automatic saving is a feature that allows certain forms to automatically save as soon as no further changes are made.
+Automatic saving is a feature that allows **certain forms** to automatically save as soon as **no further changes are made**.
 
-Not all forms support this feature. In forms where this feature is enabled the save button is replaced by the `Save status icon`. This icon shows the current saving status of the form you're currently editing.
+**Not all** forms support this feature. In forms where this feature is enabled the save button is replaced by the `Save status icon`. This icon shows the current saving status of the form you're currently editing.
 
 ![Example of saved icon](/images/guide/tipsandtricks-example-of-saved-icon.JPG "Example of saved icon")
 
@@ -113,9 +111,12 @@ When making changes to the form the `Save status icon` briefly changes from `Sav
 
 ## 8. General features: Notification system
 
-TODO: Fact check this, finishing this later
+The notification system refers to the way you are notified by Hexa Center about the results of actions like **creating**, **deleting** and **updating** items. When creating, deleting or updating an item the system will notify you about the items status via a notification. Motifications always appear at the top right of your screen.
 
-The notification system refers to the way you are notified by Hexa Center about the results of actions like **creating**, **deleting** and **updating** items. On forms where the **Automatic saving** feature is enabled, no notifications are generated when creating or updating items.
+The status of an update action is not always shown via a notification because of the the `Automatic saving` feature. On forms where the automatic saving feature is enabled, no notifications for updating an item will be generated. Creating or deleting items will still show a notifcation. Read more about the automatic saving feature in **section 7**.
+
+![Example of creation notification](/images/guide/tipsandtricks-example-of-notification-creation.JPG "Example of creation notification").
+![Example of deletion notification](/images/guide/tipsandtricks-example-of-notification-deletion.JPG "Example of deletionnotification").
 
 ## 9. General features: Refinement
 
@@ -176,15 +177,15 @@ An item's Metadata stores all kind of useful information like: the number (id), 
 
 ## 11. Advanced features: Export
 
-All overview pages feature an `Export` button. The export feature allows you to quickly convert all on screen items to an Excel based dataset. The export feature works together with the `Refinement` feature, explained in section 9, to allow for the creation of customizable datasets in .XLXS format.
+All overview pages feature an `Export` button. The export feature allows you to quickly convert all on screen items to an Excel based dataset. The export feature works together with the **Refinement** feature, read more about the **refinement** feature in **section 9**., to allow for the creation of customizable datasets in .XLXS format.
 
 The export feature only exports items which are currently rendered on the page, this makes it work together with the refinement feature to allow you to only export items based on your refinement criteria. If you want an export of all items you will have to scroll down to load all items first.
 
-Exports are generated in .XLXS format, this is the standard Microsoft Excel format for spreadsheets. If Excel is not installed on your computer, for example when working on a Mac, you might recieve a message asking you with what app you would like to open the file. If this is the case, and your organization owns Office365 licenses, you can open the file via the browser. Read more about opening Excel files via the browser on this official Microsoft documentation page: [How to open office files online](https://support.microsoft.com/en-us/office/upload-a-document-to-work-with-it-online-904fb519-338b-4a2d-889c-f92abbc443a8 "How to open office files online]").
+Exports are generated in **.XLXS format**, this is the standard Microsoft Excel format for spreadsheets. If Excel is **not** installed on your computer, for example when working on a Mac, you might recieve a message asking you with what app you would like to open the file. If this is the case, and your organization owns Office365 licenses, you can open the file via the browser. Read more about opening Excel files via the browser on this official Microsoft documentation page: [How to open office files online](https://support.microsoft.com/en-us/office/upload-a-document-to-work-with-it-online-904fb519-338b-4a2d-889c-f92abbc443a8 "How to open office files online]").
 
 ## 12. Advanced features: Custom fields
 
-Custom fields is a feature used in the `Roles` addon. It uses the same drag and drop features as in the `Programs` adddon. Read more about the programs feature on the [Programs page](/guide/healthcare/programs "Programs page").
+Custom fields is a feature used in the `Roles` addon. It uses the same **drag and drop** features as in the `Programs` adddon. Read more about the programs feature on the [Programs page](/guide/healthcare/programs "Programs page").
 
 --TODO: dit verder schrijven wanneer ik weet dat de potential bug waarbij de custom fields alleen ge-assigned worden wanneer de user voor de eerste keer een role krijgt.
 
