@@ -2,8 +2,6 @@
 
 Hexa Center boasts a lot of quality-of-life features. This page will go into more detail about these features, providing insights on how to leverage them to optimize your user experience.
 
-- SUGGEST TO TONY AND MEES: Status page of online services - low prio, kan gemaakt worden
-
 Explain where features are used, perhaps give examples per page where relevant.
 
 ## 1. Tips and Tricks definition
@@ -79,7 +77,7 @@ TODO: add underlined, strikethrough, code, text, text sizes to markdown
 
 - **Bold text**
 - _Italic text_
-- Underlined text
+- Underline
 - Strikethrough text
 - Code
 
