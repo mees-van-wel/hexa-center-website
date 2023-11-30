@@ -73,10 +73,8 @@ The rich text editor is a feature we are especially proud of. Using the rich tex
 
 A list of supported markup elements can be found below:
 
-TODO: add underlined, strikethrough, code, text, text sizes to markdown
-
-- **Bold text**
-- _Italic text_
+- Bold text
+- Italic text
 - Underline
 - Strikethrough text
 - Code
@@ -163,7 +161,7 @@ Order filtered results through the use of the sort buttons next to the fields. S
 
 ## 10. Advanced features: Metadata
 
---TODO: ask what happens with the created by and updated by fields when a user is deleted.
+--TODO: ask what happens with the created by and updated by fields when a user is deleted. -Datums blijven staan, usersname blijft staan, user is gewoon deactivated
 
 An item's Metadata stores all kind of useful information like: the number (ID), creation date, created by, updated at, updated by. Below is an explanation of these fields:
 
@@ -185,6 +183,4 @@ Exports are generated in **.XLXS format**, this is the standard Microsoft Excel 
 
 Custom fields is a feature used in the `Roles` addon. It uses the same **drag and drop** features as in the `Programs` adddon. Read more about the programs feature on the [Programs page](/guide/healthcare/programs "Programs page").
 
---TODO: dit verder schrijven wanneer ik weet dat de potential bug waarbij de custom fields alleen ge-assigned worden wanneer de user voor de eerste keer een role krijgt.
-
-Custom fields added to a role will be copied over to a user who is also assigned that role. These custom fields will appear under the `Custom fields` section on a users page.
+A role's custom fields are copied over to the user assigned to that role. These custom fields will appear under the `Custom fields` section on a users page. The role's custom fields are **copied** over when initially creating the user and assigning a role to that user _(a user can not exist without an assigned role)_. You can later add or modify a user's custom fields via the **users page**.
