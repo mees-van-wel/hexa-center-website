@@ -1,6 +1,6 @@
 # Calendar
 
-The calendar `addon` is part of the scheduling module in Hexa Center. Use the calendar addon to create appointments, view your colleagues appointments and create video calls.
+The calendar page is part of the scheduling `addon` in Hexa Center. Use the calendar addon to create appointments, view your colleagues appointments and create video calls.
 
 ## 1. Calendar definition
 
@@ -8,7 +8,7 @@ The calendar addon in Hexa Center allows users to schedule and organize appointm
 
 ## 2. Navigating the calendar overview
 
-To access the calendar overview, navigate to the Calendar tab located under the Scheduling module. The layout of the calendar overview is very similar to what most users are used to, bearing resemblance to the likes of Google and MacOS calendar apps.
+To access the calendar overview, navigate to the Calendar tab located under the Scheduling addon. The layout of the calendar overview is very similar to what most users are used to, bearing resemblance to the likes of Google and MacOS calendar apps.
 
 ### 2.1 Collapsing the navigation menu
 
@@ -27,6 +27,8 @@ By clicking on one the available time scope options: `month`, `week`, `workweek`
 - Workweek: The workweek overview is the most costomizable of these options. This overview changes based on your work hour preferences, as set on the [Preferences page](/guide/system/preferences "Preferences page").
 
 Only days where work time is scheduled on are shown. The exact schedulded work time, per day, is highlighted in a shade of grey on the calendar overview. In this mode the overview only shows your working days and the scheduled times on those working days, it doesn't change based on which user's calendar you're viewing.
+
+If your working day preferences are not set the workweek overview will default to showing the default Monday to Friday workweek.
 
 - Day: If you opt for `day`, the calendar will concentrate solely on the events and tasks of the selected day.
 
