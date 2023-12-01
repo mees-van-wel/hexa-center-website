@@ -161,15 +161,15 @@ Order filtered results through the use of the sort buttons next to the fields. S
 
 ## 10. Advanced features: Metadata
 
---TODO: ask what happens with the created by and updated by fields when a user is deleted. -Datums blijven staan, usersname blijft staan, user is gewoon deactivated
-
 An item's Metadata stores all kind of useful information like: the number (ID), creation date, created by, updated at, updated by. Below is an explanation of these fields:
 
 - **Number (ID)**: Shows the number assigned to the item. Numbers start at 1 and count up for each created item of that type.
 - **Creation date**: Shows the creation date of the selected item.
-- **Created by**: Shows what user the item was created by.
+- **Created by**: Shows what **user** the item was created by.
 - **Updated at**: Shows the **last** date the item was updated on.
-- **Created by**: Shows what user the item was **last** updated by.
+- **Updated by**: Shows what **user** the item was **last** updated by.
+
+The system continues to display the user's name in the metadata fields even after deactivation. The **Created By** and **Updated By** fields serve as documentation, reflecting the user responsible for creating and modifying items.
 
 ## 11. Advanced features: Export
 
