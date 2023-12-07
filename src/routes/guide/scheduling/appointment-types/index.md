@@ -16,7 +16,7 @@ The appointment types overview can be accessed by clicking on the `Appointment t
 
 To start creating an appointment type, click on the `+ New` button. This will open a new page where you can fill in the details of the appointment type. Entering a name and a color is required for the appointment type to be created. The length as well as the description of an appointment type are optional and therefore do not need to be filled in.
 
-![Appointment types creation](/images/guide/appointment-types-creation.JPG "Appointment types creation")
+![Appointment types creation](/images/guide/appointment-types-create.JPG "Appointment types creation")
 
 ### 3.1. Choosing a color
 
