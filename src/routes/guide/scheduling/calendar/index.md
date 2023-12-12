@@ -1,6 +1,6 @@
 # Calendar
 
-The calendar page is part of the scheduling `addon` in Hexa Center. Use the calendar addon to create appointments, view your colleagues appointments and create video calls.
+The calendar module is part of the scheduling `addon` in Hexa Center. Use the calendar addon to create appointments, view your colleagues appointments and create video calls.
 
 ## 1. Calendar definition
 
