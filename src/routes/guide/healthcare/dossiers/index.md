@@ -8,7 +8,7 @@ A dossier in Hexa Center is a fully customizable report linked to an individual 
 
 ## 2. Dossier overview
 
-To access the dossier overview simply click on the `Dossiers` button under the `Healthcare` section. Navigating to the dossier overview page will generate a list of all available dossiers. To view a users' dossier you can also navigate to the user overview, there that users' dossiers are listed by **date** and **number**. Each dossier, and other items, have a **unique** number assigned to them. If no dossiers exist for that user, the dossier section will not be visible.
+To access the dossier overview simply click on the `Dossiers` button under the `Healthcare` section. Navigating to the dossier overview page shows you a list of all available dossiers. To view a users' dossier you can also navigate to the user overview, there that users' dossiers are listed by **date** and **number**. Each dossier, and other items, have a **unique** number assigned to them. If no dossiers exist for that user, the dossier section will not be visible.
 
 You can only access the dossier overview if you have sufficient permissions to do so. More information about roles and permissions can be found on the [Roles and Permissions](../../essentials/roles/index.md "Roles and permissions") page. We are still working on creating a per-page based overview of all relevant roles & permissions.
 
@@ -30,7 +30,7 @@ Click on the empty `Clients field` to to add clients to the dossier. Added clien
 
 Just like when adding users in other parts of Hexa Center, you can easily filter for part of a users' name to speed up the adding process. For example, the name **John Doe** can be easily found by filtering for **any part** of John's name, like **jo**, **john**, **Doe** or **hn Do**.
 
-![Dossier add initial client(s)](/images/guide/dossier-new-add-client.JPG "Dossier add initial client(s)")
+![Dossier add initial client(s)](/images/guide/dossiers-new-add-client.JPG "Dossier add initial client(s)")
 
 ## 4. Editing dossiers
 
@@ -60,7 +60,15 @@ Add a program to a dossier by first clicking on the `+ Add` button in the timeli
 
 Click on the `+ Add` button to add the program to the dossier. Changes made to a program will not be synced to dossiers where that program has already been added. Think of adding a program to a dossier like copying over the contents of that program to the dossier.
 
-![Dossier adding program](/images/guide/dossier-add-program.jpg "Dossier adding programs")
+![Dossier adding program](/images/guide/dossiers-add-program.jpg "Dossier adding programs")
+
+#### 5.1.1 Adding steps to the program
+
+Steps in which the `Addition mode` is set to `Manually` are not automatically added to any program you add to a dossier. Manually add a step to the program by first navigating to the correct program via the `Dossier timeline` section.
+
+Then proceed by clicking on the `+ Add` button, continue by clicking on the empty field to select a step from the dropdown.
+
+The same step can be added to a dossier multiple times. Read more about steps and programs on the [Programs](../programs/index.md "Programs") page.
 
 ### 5.2 Adding notes
 
@@ -74,25 +82,9 @@ The `Note` item allows you to input text via the **Rich text editor**. Editing t
 
 By clicking on the `+ Add` button under the timeline section and clicking on `File` option, you are presented with your operating system's file explorer. From there you will able to select a file.
 
-Hexa Center allows users to upload **image files**, **audio files** and even **video files**.
+Hexa Center allows users to upload a multitude of different file types, like **image files**, **audio files**, **video files**, **PDFs**, **Excel and other Office files like Word**
 
 Select a file using your system's file explorer, this process will vary depending on the operating system used, if you are unable to select a file please contact your Hexa Center representative. Hexa Center will now process your file, uploading it to our servers. Just like when adding notes or dossiers, the file is registered in the `timeline overview`.
-
-Reference the list below for an overview of allowed filetypes:
-
-- .PNG
-- .JFIF
-- .PJPEG
-- .JPEG
-- .PJPEG
-- .JPG
-- .MP3
-- .WAV
-- .PDF
-- .M4V
-- .MP4
-- .MOV
-- .AVI
 
 ## 5.3.1 Viewing, downloading and deleting files
 
@@ -116,7 +108,7 @@ To delete a dossier first navigate to the dossier you would like to delete. On t
 
 Changes made to programs are not carried over to programs already added to the dossier timeline. For example, changes made to the title of a program will not carry over to the version of the program already added to the dossier.
 
-Adding a program to a dossier is more akin to **copying** over that program,rather than linking it to the already existing dossier. Keep this in mind when adding a program to a dossier, its best to **finish editing a program before adding it to dossiers**.
+Adding a program to a dossier is more akin to **copying** over that program, rather than linking it to the already existing dossier. Keep this in mind when adding a program to a dossier, its best to **finish editing a program before adding it to dossiers**.
 
 ## 8. Filling out questionnaires
 
@@ -130,7 +122,7 @@ Questionnaires can also be filled in by (internal) users working in Hexa Center.
 
 Simply select the right program, step and client and start filling in the answers. Mark the step as completed via the `Mark as complete` button.
 
-![Dossier program manual completion](/images/guide/dossier-program-manual-completion.JPG "Dossier program manual completion")
+![Dossier program manual completion](/images/guide/dossiers-program-manual-completion.JPG "Dossier program manual completion")
 
 ## 9. Viewing given answers & completion status
 
@@ -139,13 +131,13 @@ Answers given by clients are automatically send to the dossier's step page and c
 The completion status of a program can be viewed via the dossiers' page. The completion status of an individual step can be found via the dossier's program page. A checkmark next to the step's name indicates the step is marked as completed.
 
 An example of a completed step with che checkmark icon:
-![Dossier step completion status](/images/guide/dossier-program-step-completion-status.JPG "Dossier step completion status")
+![Dossier step completion status](/images/guide/dossiers-program-step-completion-status.JPG "Dossier step completion status")
 
 An example of a completed program with the checkmark icon:
-![Dossier program completion status](/images/guide/dossier-program-completion-status.JPG "Dossier program completion status")
+![Dossier program completion status](/images/guide/dossiers-program-completion-status.JPG "Dossier program completion status")
 
 ### 9.1 Editing given answers
 
 A user can edit the answers given by clients via the client portal by clicking on the `Edit` button. This allows for the client to fill out answers like they would when the responder mode is set to `Internal`. Read more about filling in answers via the dossier page in **section 8.1. Via the Dossier page**. Read more about different responder modes on the [Programs](../programs/index.md "Programs") page.
 
-![Dossier program edit button](/images/guide/dossier-program-edit-button.JPG "Dossier program edit button")
+![Dossier program edit button](/images/guide/dossiers-program-edit-button.JPG "Dossier program edit button")
