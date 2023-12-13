@@ -51,7 +51,7 @@ The `external checkbox toggle`, found under the description field on the **step 
 
 Selecting a program from the list of available programs and clicking on the `+ New` button found under the `steps` section will open up the step creation screen. To create a step, you must provide a name. Entering a description is however not required. Toggle the `external checkbox` checkbox if this step is meant to be sent to clients via email.
 
-![Creating step](/images/guide/programs-create.jpg "Creating step")
+![Creating step](/images/guide/programs-create-step.jpg "Creating step")
 
 ## 5.2 Adding sections to steps
 
