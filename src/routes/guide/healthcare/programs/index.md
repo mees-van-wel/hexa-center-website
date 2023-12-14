@@ -81,7 +81,7 @@ Dragging form items from one section to another is currently not supported. Rear
 
 ## 6. Preview mode
 
-The programs functionality features a Preview mode to show you what a step looks like before finalizing the creation proces. To access this functionality simply select a program, proceed to select a step from the list of available steps and click on the `Preview` button. The preview mode even enables you to test the different form items by allowing you to interact with them just like a client filling in the program would.
+The programs functionality features a Preview mode to show you what a step looks like before finalizing the creation process. To access this functionality simply select a program, proceed to select a step from the list of available steps and click on the `Preview` button. The preview mode even enables you to test the different form items by allowing you to interact with them just like a client filling in the program would.
 
 ![Preview mode](/images/guide/programs-previewmode.jpg "Preview mode")
 
@@ -174,7 +174,7 @@ Optional questions can be skipped by the client and therefore do not required fo
 
 ## 8. Editing programs
 
-To edit the details of a program, like the name, description or underlying steps, head over to the `Programs` page found under the `Medical` section on the left side of your screen. To start editing the name of a program, first click on the `Name` field, then proceed to type in your changes. Don't worry about accidentally forgetting to save your changes, Hexa Center automatically saves your changes as soon as you stop typing. The status icon; `Saved` next to the delete button briefly transforms to `Saving`, indicating that the system is saving your changes. It will change back to `Saved` when this proces is completed. The same proces can be repeated for the description field. How to edit the underlying steps is found down below, in section **8.1. Editing steps**
+To edit the details of a program, like the name, description or underlying steps, head over to the `Programs` page found under the `Medical` section on the left side of your screen. To start editing the name of a program, first click on the `Name` field, then proceed to type in your changes. Don't worry about accidentally forgetting to save your changes, Hexa Center automatically saves your changes as soon as you stop typing. The status icon; `Saved` next to the delete button briefly transforms to `Saving`, indicating that the system is saving your changes. It will change back to `Saved` when this process is completed. The same process can be repeated for the description field. How to edit the underlying steps is found down below, in section **8.1. Editing steps**
 
 ### 8.1. Editing steps
 
