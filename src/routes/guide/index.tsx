@@ -50,7 +50,7 @@ export default component$(() => (
         </Link>
         <Link href="/guide/healthcare/programs" class={styles.link}>
           <IconClipboardList />
-          Programs 🚧
+          Programs
         </Link>
         <Link href="/guide/healthcare/dossiers" class={styles.link}>
           <IconClipboardHeart />

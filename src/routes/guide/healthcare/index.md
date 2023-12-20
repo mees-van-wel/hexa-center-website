@@ -1,4 +1,4 @@
 # Healthcare
 
-- [🚧 Programs](/guide/healthcare/programs/index.md)
+- [Programs](/guide/healthcare/programs/index.md)
 - [🚧 Dossiers](/guide/healthcare/dossiers/index.md)
