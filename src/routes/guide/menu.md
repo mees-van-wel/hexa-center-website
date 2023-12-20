@@ -15,9 +15,9 @@
 ## Scheduling
 
 - [Appointment Types](/guide/scheduling/appointment-types/index.md)
-- [🚧 Calendar](/guide/scheduling/calendar/index.md)
+- [Calendar](/guide/scheduling/calendar/index.md)
 
 ## Healthcare
 
-- [🚧 Programs](/guide/healthcare/programs/index.md)
+- [Programs](/guide/healthcare/programs/index.md)
 - [🚧 Dossiers](/guide/healthcare/dossiers/index.md)
