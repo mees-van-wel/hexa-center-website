@@ -40,7 +40,7 @@
     "eslint": "8.40.0",
     "eslint-plugin-qwik": "^1.1.4",
     "express": "4.18.2",
-    "postcss": "^8.4.23",
+    "postcss": "^8.4.24",
     "postcss-preset-env": "^8.3.2",
     "prettier": "2.8.8",
     "sass": "^1.62.1",
@@ -54,6 +54,7 @@
     "csstype": "^3.1.2",
     "gray-matter": "^4.0.3",
     "marked": "^5.0.4",
-    "postmark": "^3.0.18"
+    "postmark": "^3.0.18",
+    "truncate-html": "^1.0.4"
   }
 }
