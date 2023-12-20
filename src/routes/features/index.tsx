@@ -52,7 +52,7 @@ export default component$(() => {
               <p>
                 For each role, you can easily add custom fields. Need to note
                 allergies for each client? No problem, just drag and drop a new
-                field into their role. Need to keep track of a supplier's VAT
+                input into their role. Need to keep track of a supplier's VAT
                 ID? Easy peasy, just add it in! With Hexa Center, you have the
                 freedom to note down exactly what you need, when you need it.
               </p>

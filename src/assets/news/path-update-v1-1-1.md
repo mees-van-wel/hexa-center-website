@@ -1,5 +1,5 @@
 ---
-title: Path update v1.1.1
+title: Patch update v1.1.1
 date: 2023-05-08
 ---
 

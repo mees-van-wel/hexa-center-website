@@ -34,7 +34,11 @@ $level-unitless: 1;
       $fluid-min: if($fluid-min > $type-base-size, $fluid-min, 1);
       $fluid-scaler: ($level-unitless - $fluid-min) + 4vw;
 
-      font-size: clamp(#{$fluid-min}rem, #{$fluid-scaler} + 1rem, #{$level-size});
+      font-size: clamp(
+        #{$fluid-min}rem,
+        #{$fluid-scaler} + 1rem,
+        #{$level-size}
+      );
     }
   }
 }
@@ -42,13 +46,19 @@ $level-unitless: 1;
 p {
   font-size: $type-base-size;
   line-height: 1.5;
+
+  &:not(:first-of-type) {
+    margin-top: 1rem;
+  }
 }
 
 @font-face {
   font-family: "Eurostile";
   src: url("/fonts/eurostile.eot");
-  src: url("/fonts/eurostile.eot?#iefix") format("embedded-opentype"), url("/fonts/eurostile.woff2") format("woff2"),
-    url("/fonts/eurostile.woff") format("woff"), url("/fonts/eurostile.ttf") format("truetype"),
+  src: url("/fonts/eurostile.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/eurostile.woff2") format("woff2"),
+    url("/fonts/eurostile.woff") format("woff"),
+    url("/fonts/eurostile.ttf") format("truetype"),
     url("/fonts/eurostile.svg#Eurostile") format("svg");
   font-weight: normal;
   font-style: normal;
@@ -61,7 +71,14 @@ p {
   --foreground-accent-color: 26 27 30;
   --background-color: 255 255 255;
   --background-accent-color: 233 236 239;
-  --gradient: linear-gradient(to right bottom, #ffffff, #d7d7ef, #aab2e0, #7490d1, #1971c2);
+  --gradient: linear-gradient(
+    to right bottom,
+    #ffffff,
+    #d7d7ef,
+    #aab2e0,
+    #7490d1,
+    #1971c2
+  );
   --padding: 16px;
 }
 
@@ -103,7 +120,14 @@ html {
     --foreground-accent-color: 233 236 239;
     --background-color: 0 0 0;
     --background-accent-color: 26 27 30;
-    --gradient: linear-gradient(to right bottom, #000000, #2c1925, #472e51, #4e4c88, #1971c2);
+    --gradient: linear-gradient(
+      to right bottom,
+      #000000,
+      #2c1925,
+      #472e51,
+      #4e4c88,
+      #1971c2
+    );
   }
 
   html {

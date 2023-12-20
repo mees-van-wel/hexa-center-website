@@ -5,6 +5,7 @@
 - [Login](/guide/system/login/index.md)
 - [Profile](/guide/system/profile/index.md)
 - [Preferences](/guide/system/preferences/index.md)
+- [Tips and Tricks](/guide/system/tipsandtricks/index.md)
 
 ## Essentials
 
@@ -14,10 +15,10 @@
 
 ## Scheduling
 
-- [🚧 Appointment Types](/guide/scheduling/appointment-types/index.md)
-- [🚧 Calendar](/guide/scheduling/calendar/index.md)
+- [Appointment Types](/guide/scheduling/appointment-types/index.md)
+- [Calendar](/guide/scheduling/calendar/index.md)
 
 ## Healthcare
 
-- [🚧 Programs](/guide/healthcare/programs/index.md)
+- [Programs](/guide/healthcare/programs/index.md)
 - [Dossiers](/guide/healthcare/dossiers/index.md)
