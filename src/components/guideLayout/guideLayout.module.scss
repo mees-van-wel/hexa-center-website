@@ -1,211 +1,211 @@
 :root {
-    --aside-width: 250px;
+  --aside-width: 300px;
 }
 
 .main {
-    padding-top: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 .aside {
-    position: fixed;
-    width: var(--aside-width);
-    background-color: rgb(var(--background-color));
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-height: calc(100vh - 100px);
-    z-index: 1;
-    overflow-y: auto;
+  position: fixed;
+  width: var(--aside-width);
+  background-color: rgb(var(--background-color));
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: calc(100vh - 100px);
+  z-index: 1;
+  overflow-y: auto;
 
-    p {
-        font-weight: normal;
-        padding: 4px 8px;
-        display: inline-block;
-        border-radius: 4px;
-        transition: background-color 100ms ease-in-out, color 100ms ease-in-out;
+  p {
+    font-weight: normal;
+    padding: 4px 8px;
+    display: inline-block;
+    border-radius: 4px;
+    transition: background-color 100ms ease-in-out, color 100ms ease-in-out;
 
-        &:hover,
-        &.active {
-            color: white;
-            background: rgb(var(--primary-color));
-        }
+    &:hover,
+    &.active {
+      color: white;
+      background: rgb(var(--primary-color));
     }
+  }
 
-    &Left {
-        transition: left 200ms ease-in-out;
-        left: calc(var(--aside-width) * -1);
+  &Left {
+    transition: left 200ms ease-in-out;
+    left: calc(var(--aside-width) * -1);
 
-        &Opened {
-            left: 0;
-        }
+    &Opened {
+      left: 0;
     }
+  }
 
-    &Right {
-        right: 0;
-        display: none;
-    }
+  &Right {
+    right: 0;
+    display: none;
+  }
 }
 
 .container {
-    background-color: rgb(var(--background-accent-color));
-    padding: 32px;
-    // width: calc(100% - var(--aside-width) * 2); Desktop
-    // width: calc(100% - var(--aside-width) - 16px); Menu Open
-    width: calc(100% - 32px);
-    margin-left: 16px;
+  background-color: rgb(var(--background-accent-color));
+  padding: 32px;
+  // width: calc(100% - var(--aside-width) * 2); Desktop
+  // width: calc(100% - var(--aside-width) - 16px); Menu Open
+  width: calc(100% - 32px);
+  margin-left: 16px;
+  border-radius: 16px;
+  box-shadow: inset 0 0 5px 0px rgba(0, 0, 0, 0.2);
+  // margin: 0 auto 50px; Desktop
+  // margin-left: var(--aside-width); Menu Open
+  margin-bottom: 50px;
+
+  h1 {
+    margin-bottom: 0.2em;
+    scroll-margin-top: 116px;
+  }
+
+  h2 {
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+    scroll-margin-top: 116px;
+  }
+
+  h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+    scroll-margin-top: 116px;
+  }
+
+  a {
+    color: -webkit-link;
+    text-decoration: underline;
+  }
+
+  img {
+    max-width: 100%;
     border-radius: 16px;
-    box-shadow: inset 0 0 5px 0px rgba(0, 0, 0, 0.2);
-    // margin: 0 auto 50px; Desktop
-    // margin-left: var(--aside-width); Menu Open
-    margin-bottom: 50px;
+    border: solid 2px rgb(var(--foreground-color));
+    margin: 16px 0;
+  }
 
-    h1 {
-        margin-bottom: 0.2em;
-        scroll-margin-top: 116px;
+  blockquote {
+    background: rgb(var(--background-color) / 30%);
+    border-left: 10px solid rgb(var(--primary-color));
+    margin: 16px 0;
+    padding: 8px 16px;
+
+    p {
+      font-weight: bold;
+      display: inline;
     }
+  }
 
-    h2 {
-        margin-top: 1em;
-        margin-bottom: 0.2em;
-        scroll-margin-top: 116px;
-    }
+  code {
+    font-family: "Eurostile", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgb(var(--foreground-accent-color));
+    color: rgb(var(--background-accent-color));
+    padding: 2px 4px;
+    margin: 2px 0;
+    border-radius: 4px;
+    display: inline-block;
+  }
 
-    h3 {
-        margin-top: 0.5em;
-        margin-bottom: 0.2em;
-        scroll-margin-top: 116px;
-    }
-
-    a {
-        color: -webkit-link;
-        text-decoration: underline;
-    }
-
-    img {
-        max-width: 100%;
-        border-radius: 16px;
-        border: solid 2px rgb(var(--foreground-color));
-        margin: 16px 0;
-    }
-
-    blockquote {
-        background: rgb(var(--background-color) / 30%);
-        border-left: 10px solid rgb(var(--primary-color));
-        margin: 16px 0;
-        padding: 8px 16px;
-
-        p {
-            font-weight: bold;
-            display: inline;
-        }
-    }
-
-    code {
-        font-family: "Eurostile", sans-serif;
-        font-size: 16px;
-        font-weight: bold;
-        background: rgb(var(--foreground-accent-color));
-        color: rgb(var(--background-accent-color));
-        padding: 2px 4px;
-        margin: 2px 0;
-        border-radius: 4px;
-        display: inline-block;
-    }
-
-    &FullWidth a {
-        color: rgb(var(--foreground-color));
-        text-decoration: none;
-    }
+  &FullWidth a {
+    color: rgb(var(--foreground-color));
+    text-decoration: none;
+  }
 }
 
 .openButton {
-    position: fixed;
-    top: 100px;
-    left: 16px;
-    background-color: rgb(var(--background-accent-color));
-    width: 32px;
-    height: 32px;
-    display: grid;
-    place-content: center;
-    border-radius: 100%;
+  position: fixed;
+  top: 100px;
+  left: 16px;
+  background-color: rgb(var(--background-accent-color));
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-content: center;
+  border-radius: 100%;
 }
 
 .menuItemTitle {
-    margin-top: 16px;
-    margin-bottom: 8px;
+  margin-top: 16px;
+  margin-bottom: 8px;
 }
 
 .heading {
-    display: block;
+  display: block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 100ms ease-in-out, color 100ms ease-in-out;
+
+  &Level1 {
+    font-size: 32px;
+
+    &:not(:first-of-type) {
+      margin-top: 32px;
+    }
+  }
+
+  &Level2 {
+    margin-top: 16px;
     padding: 4px 8px;
     border-radius: 4px;
     transition: background-color 100ms ease-in-out, color 100ms ease-in-out;
 
-    &Level1 {
-        font-size: 32px;
-
-        &:not(:first-of-type) {
-            margin-top: 32px;
-        }
+    &:hover {
+      color: white;
+      background: rgb(var(--primary-color));
     }
+  }
 
-    &Level2 {
-        margin-top: 16px;
-        padding: 4px 8px;
-        border-radius: 4px;
-        transition: background-color 100ms ease-in-out, color 100ms ease-in-out;
+  &Level3 {
+    margin-top: 16px;
+    margin-left: 24px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background-color 100ms ease-in-out, color 100ms ease-in-out;
 
-        &:hover {
-            color: white;
-            background: rgb(var(--primary-color));
-        }
+    &:hover {
+      color: white;
+      background: rgb(var(--primary-color));
     }
-
-    &Level3 {
-        margin-top: 16px;
-        margin-left: 24px;
-        padding: 4px 8px;
-        border-radius: 4px;
-        transition: background-color 100ms ease-in-out, color 100ms ease-in-out;
-
-        &:hover {
-            color: white;
-            background: rgb(var(--primary-color));
-        }
-    }
+  }
 }
 
 @media only screen and (min-width: 48em) {
-    .closeButton,
-    .openButton {
-        display: none;
-    }
+  .closeButton,
+  .openButton {
+    display: none;
+  }
 
-    .asideLeft {
-        left: 0;
-    }
+  .asideLeft {
+    left: 0;
+  }
 
-    .container {
-        margin-left: calc(var(--aside-width) + 32px);
-        width: calc(100% - var(--aside-width) - 64px);
-    }
+  .container {
+    margin-left: calc(var(--aside-width) + 32px);
+    width: calc(100% - var(--aside-width) - 64px);
+  }
 }
 
 @media only screen and (min-width: 62em) {
-    .asideRight {
-        display: flex;
-    }
+  .asideRight {
+    display: flex;
+  }
 
-    .container {
-        margin-left: var(--aside-width);
-        width: calc(100% - var(--aside-width) * 2);
+  .container {
+    margin-left: var(--aside-width);
+    width: calc(100% - var(--aside-width) * 2);
 
-        &FullWidth {
-            width: calc(100% - var(--aside-width) - 16px);
-        }
+    &FullWidth {
+      width: calc(100% - var(--aside-width) - 16px);
     }
+  }
 }

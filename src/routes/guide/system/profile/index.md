@@ -12,4 +12,4 @@ These fields allow you to edit your personal information. You might notice some 
 
 ## 2. Editing your personal details
 
-Upon making any updates to your personal details Hexa Center will automatically save the changes made. You can see this in action via the status field next to the `back` button. If an error has been detected while attempting to save your changes, you will be notified via an error text that appears under the input field. If you suspect this message does not apply, please contact your Hexa Center representative.
+Upon making any updates to your personal details Hexa Center will automatically save the changes made. You can see this in action via the status badge next to the `back` button. If an error has been detected while attempting to save your changes, you will be notified via an error text that appears under the input field. If you suspect this message does not apply, please contact your Hexa Center representative.

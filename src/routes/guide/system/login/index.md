@@ -24,10 +24,10 @@ When first navigating to Hexa Center you are greeted by a login page, here you m
 
 This is what the login-form in Hexa Center looks like. Both of these fields must be filled in to be able to log-in. Failure to do so will result in an error message.
 
-In the email field you must enter your email associated with your Hexa Center account. Usually this is the same as the email provided by your organization\
+In the email input you must enter your email associated with your Hexa Center account. Usually this is the same as the email provided by your organization\
 (e.g. firstname.lastname@organization.com).
 
-In the phone number field you must enter the phone number which is associated with your Hexa Center account.
+In the phone number input you must enter the phone number which is associated with your Hexa Center account.
 
 ![Finish login](/images/guide/finish-login.jpg "Finish login")
 

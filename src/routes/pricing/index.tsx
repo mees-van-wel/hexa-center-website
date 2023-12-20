@@ -62,7 +62,7 @@ export default component$(() => {
 
   return (
     <Section classList={styles.root} pt={116} pb={66}>
-      <Group justify="space-evenly" gap={32} align="center">
+      <Group justify="space-evenly" gap={32} align="flex-start">
         <Stack classList={styles.card}>
           <h1>Pricing Calculator</h1>
           <p>All prices are without VAT.</p>
