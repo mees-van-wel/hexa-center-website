@@ -56,6 +56,10 @@ export default component$(() => (
           <IconClipboardHeart />
           Dossiers
         </Link>
+        <Link href="/guide/bookings" class={styles.link}>
+          <IconCalendar />
+          Bookings
+        </Link>
       </Group>
     </Stack>
   </Section>
