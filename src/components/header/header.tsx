@@ -110,7 +110,7 @@ export const Header = component$(() => {
         >
           Info
         </Link> */}
-        <Link
+        {/* <Link
           onClick$={closeHandler}
           class={[
             styles.item,
@@ -119,7 +119,7 @@ export const Header = component$(() => {
           href="/pricing"
         >
           Pricing
-        </Link>
+        </Link> */}
         <Link
           onClick$={closeHandler}
           class={[styles.item, { [styles.itemActive]: isGuide }]}
