@@ -8,6 +8,8 @@ import { Stack } from "~/components/generic/stack/stack";
 import { Section } from "~/components/section/section";
 import { Button } from "~/components/generic/button/button";
 
+// https://v0.dev/r/WZHm5cuGL8r
+// https://v0.dev/r/rWvnlZtOTuh
 export default component$(() => {
   const scrollHandler = $(() => {
     const element = document.getElementById("offer");
@@ -21,12 +23,12 @@ export default component$(() => {
           <Stack classList={styles.homeText}>
             <IconEmpowerment />
             <h1 class={styles.title}>
-              Revolutionize Your Healthcare Practice with Digital Innovation
+              Empower Your Business with the All-in-One ERP Software Solution
             </h1>
             <p class={styles.subtext}>
-              Modern healthcare calls for modern solutions. Welcome to the
-              future of healthcare documentation – where efficiency, accuracy,
-              and patient care reach new heights.
+              A Modern Business calls for a modern solution, streamline Your
+              Workflow with Integrated Invoicing, CRM, HRM, Inventory, and
+              Logistics Management.
             </p>
             <div class={styles.buttonContainer}>
               <Button href="/features">Features</Button>
@@ -35,18 +37,18 @@ export default component$(() => {
           </Stack>
           <picture class={[styles.imageContainer, styles.homeImage]}>
             <source
-              srcSet="/images/calendar-dark-frame.avif"
+              srcSet="/images/calendar-light-frame.avif"
               type="image/avif"
             />
             <source
-              srcSet="/images/calendar-dark-frame.webp"
+              srcSet="/images/calendar-light-frame.webp"
               type="image/webp"
             />
             <img
               class={styles.image}
-              src="/images/calendar-dark-frame.jpg"
+              src="/images/calendar-light-frame.jpg"
               width="100%"
-              height={400}
+              height={500}
               alt="Laptop"
               title="Laptop"
             />
@@ -61,7 +63,7 @@ export default component$(() => {
         <Group
           classList={styles.offerContainer}
           justify="space-between"
-          gap={16}
+          gap={48}
         >
           <picture class={styles.imageContainer}>
             <source srcSet="/images/offer.avif" type="image/avif" />
@@ -79,10 +81,10 @@ export default component$(() => {
             <Stack>
               <p>
                 We're thrilled to announce the launch of Hexa Center, our
-                game-changing Electronic Medical Record system. To celebrate,
-                we're offering an exclusive discount to help your healthcare
-                organization embrace digital innovation and experience the many
-                benefits of our state-of-the-art solution.
+                game-changing Enterprise Resource Planning system. To celebrate,
+                we're offering an exclusive discount to help your business
+                embrace digital innovation and experience the many benefits of
+                our state-of-the-art solution.
               </p>
               <p>
                 <b>
@@ -100,11 +102,11 @@ export default component$(() => {
                   staff, valued at €1.600,00-
                 </li>
                 <li>
-                  Get 2 months of free priority technical support to ensure a
-                  smooth transition and ongoing success
+                  Get 2 months of priority technical support to ensure a smooth
+                  transition and ongoing success
                 </li>
                 <li>
-                  Free data migration from your existing EMR system, ensuring a
+                  Free data migration from your existing solution, ensuring a
                   smooth and hassle-free transition
                 </li>
                 <li>
@@ -113,123 +115,167 @@ export default component$(() => {
                 </li>
               </ul>
               <p>
-                Don't miss out on this incredible opportunity to upgrade your
-                healthcare organization's EMR system at a fraction of the cost.
+                Don't miss out on this opportunity to upgrade your business's
+                ERP system at a fraction of the cost.
               </p>
-              <Button href="/pricing">Check our pricing</Button>
+              <Button href="/contact">Request a quote</Button>
             </Stack>
           </div>
         </Group>
       </Section>
       <Section pt={0} pb={66}>
-        <Stack gap={32} align="center">
-          <h1 class={styles.logoTitle}>
+        <Group>
+          <h1
+            style={{
+              maxWidth: "800px",
+              flex: 1,
+            }}
+          >
             Recognized Excellence, Seamless Integrations, and Proven
             Implementation Strategies
           </h1>
-          <Group justify="center" gap={32}>
-            <a
-              href="https://digitrust.ez2xs.com/portal/certificate?key=dVkpVS7PJkmVUxminELYKAAAQFNIimJ7m2fCp8QgH5spW5cTvtm2PtG0iwcwnmdX"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <picture>
-                <source srcSet="/images/iso-27001.avif" type="image/avif" />
-                <source srcSet="/images/iso-27001.webp" type="image/webp" />
+          <Stack gap={32} align="center">
+            <Group justify="center" gap={32}>
+              <a
+                href="https://digitrust.ez2xs.com/portal/certificate?key=dVkpVS7PJkmVUxminELYKAAAQFNIimJ7m2fCp8QgH5spW5cTvtm2PtG0iwcwnmdX"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <picture>
+                  <source srcSet="/images/iso-27001.avif" type="image/avif" />
+                  <source srcSet="/images/iso-27001.webp" type="image/webp" />
+                  <img
+                    class={styles.logo}
+                    src="/images/iso-27001.png"
+                    alt="ISO 27001"
+                    title="ISO 27001"
+                    width="100%"
+                    height={250}
+                  />
+                </picture>
+              </a>
+              <a
+                href="https://digitrust.ez2xs.com/portal/certificate?key=CTyS5EmTniaQqjfsJASyuponO0P3ClaScir09s8VtWk6mWu4iLaXigJ2rSrmk6oZ"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <picture>
+                  <source srcSet="/images/nen-7510.avif" type="image/avif" />
+                  <source srcSet="/images/nen-7510.webp" type="image/webp" />
+                  <img
+                    class={styles.logo}
+                    src="/images/nen-7510.png"
+                    alt="NEN 7510"
+                    title="NEN 7510"
+                    width="100%"
+                    height={250}
+                  />
+                </picture>
+              </a>
+              <a
+                href="https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <picture>
+                  <source srcSet="/images/gpdr.avif" type="image/avif" />
+                  <source srcSet="/images/gpdr.webp" type="image/webp" />
+                  <img
+                    class={styles.logo}
+                    src="/images/gpdr.png"
+                    alt="GPDR"
+                    title="GPDR"
+                    width="100%"
+                    height={150}
+                  />
+                </picture>
+              </a>
+            </Group>
+            <Group justify="center" gap={32}>
+              <a
+                href="https://profiles.eco/hexa"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <img
                   class={styles.logo}
-                  src="/images/iso-27001.png"
-                  alt="ISO 27001"
-                  title="ISO 27001"
-                  width="100%"
-                  height={250}
-                />
-              </picture>
-            </a>
-            <a
-              href="https://digitrust.ez2xs.com/portal/certificate?key=CTyS5EmTniaQqjfsJASyuponO0P3ClaScir09s8VtWk6mWu4iLaXigJ2rSrmk6oZ"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <picture>
-                <source srcSet="/images/nen-7510.avif" type="image/avif" />
-                <source srcSet="/images/nen-7510.webp" type="image/webp" />
-                <img
-                  class={styles.logo}
-                  src="/images/nen-7510.png"
-                  alt="NEN 7510"
-                  title="NEN 7510"
-                  width="100%"
-                  height={250}
-                />
-              </picture>
-            </a>
-          </Group>
-          <Group justify="center" gap={32}>
-            <a
-              href="https://eur-lex.europa.eu/eli/reg/2016/679/oj"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <picture>
-                <source srcSet="/images/gpdr.avif" type="image/avif" />
-                <source srcSet="/images/gpdr.webp" type="image/webp" />
-                <img
-                  class={styles.logo}
-                  src="/images/gpdr.png"
-                  alt="GPDR"
-                  title="GPDR"
+                  src="/images/eco.svg"
+                  alt="ECO"
+                  title="ECO"
                   width="100%"
                   height={150}
                 />
-              </picture>
-            </a>
-            <a
-              href="https://www.zorgprestatiemodel.nl/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <picture>
-                <source srcSet="/images/zpm.avif" type="image/avif" />
-                <source srcSet="/images/zpm.webp" type="image/webp" />
-                <img
-                  class={styles.logo}
-                  src="/images/zpm.png"
-                  alt="Zorgprestatiemodel"
-                  title="Zorgprestatiemodel"
-                  width="100%"
-                  height={100}
-                />
-              </picture>
-            </a>
-          </Group>
-          <a
-            href="https://profiles.eco/hexa"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <img
-              class={styles.logo}
-              src="/images/eco.svg"
-              alt="ECO"
-              title="ECO"
-              width="100%"
-              height={150}
-            />
-          </a>
-        </Stack>
+              </a>
+              <a
+                href="https://www.zorgprestatiemodel.nl/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <picture>
+                  <source srcSet="/images/zpm.avif" type="image/avif" />
+                  <source srcSet="/images/zpm.webp" type="image/webp" />
+                  <img
+                    class={styles.logo}
+                    src="/images/zpm.png"
+                    alt="Zorgprestatiemodel"
+                    title="Zorgprestatiemodel"
+                    width="100%"
+                    height={100}
+                  />
+                </picture>
+              </a>
+            </Group>
+            <Group justify="center" gap={32}>
+              <a
+                href="https://www.wolterskluwer.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <picture>
+                  <source srcSet="/images/wk.avif" type="image/avif" />
+                  <source srcSet="/images/wk.webp" type="image/webp" />
+                  <img
+                    class={styles.logo}
+                    src="/images/wk.png"
+                    alt="Wolters Kluwer"
+                    title="Wolters Kluwer"
+                    width="100%"
+                    height={60}
+                  />
+                </picture>
+              </a>
+              <a
+                href="https://www.wolterskluwer.com/nl-nl/solutions/twinfield-accounting"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <picture>
+                  <source srcSet="/images/twinfield.avif" type="image/avif" />
+                  <source srcSet="/images/twinfield.webp" type="image/webp" />
+                  <img
+                    class={styles.logo}
+                    src="/images/twinfield.png"
+                    alt="Twinfield"
+                    title="Twinfield"
+                    width="100%"
+                    height={50}
+                  />
+                </picture>
+              </a>
+            </Group>
+          </Stack>
+        </Group>
       </Section>
     </>
   );
 });
-
 export const head: DocumentHead = {
-  title: "Hexa Center: Modern EMR (EPD) Solution for your Healthcare Practice",
+  title: "Hexa Center - Modern ERP Solution for Your Business",
   meta: [
     {
       name: "description",
       content:
-        "Revolutionize your healthcare practice with Hexa Center, a modern EMR (EPD) solution in the Netherlands. We bring efficiency, accuracy, and patient care to new heights with our digital healthcare innovation.",
+        "Empower Your Business with the All-in-One ERP Software Solution. A Modern Business calls for a modern solution, streamline Your Workflow with Integrated Invoicing, CRM, HRM, Inventory, and Logistics Management.",
     },
   ],
 };

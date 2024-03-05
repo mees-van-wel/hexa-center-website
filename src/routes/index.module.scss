@@ -1,28 +1,61 @@
 .hero {
-  background-image: var(--gradient);
-  box-shadow: inset 0 -4px 10px 0 rgb(var(--background-color));
+  // background-image: var(--gradient);
+  // box-shadow: inset 0 -4px 10px 0 rgb(var(--background-color));
+
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    // background-image: url("/images/bg-support.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    z-index: -1;
+  }
 }
 
 .title {
   margin-bottom: 0;
+  // font-family: Eurostile;
+  flex: 1;
 }
 
 .imageContainer {
   flex: 1 0 250px;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
 .image {
   width: 100%;
   border-radius: 16px;
-  object-position: center top;
+  object-position: left top;
   object-fit: cover;
 }
 
 .homeText {
   flex: 1 0;
-  max-width: 500px;
+  max-width: 600px;
+
+  h1 {
+    border-top: solid rgb(var(--foreground-accent-color)) 3px;
+    border-left: solid rgb(var(--foreground-accent-color)) 3px;
+    border-top-left-radius: 32px;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    margin-left: -2rem;
+    margin-top: -2rem;
+  }
+
+  p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
 }
 
 .homeImage {
@@ -73,7 +106,7 @@
   position: absolute;
   margin: 0 auto;
   transform: rotate(45deg);
-  top: -24px;
+  top: -4rem;
   left: 0;
   right: 0;
   animation: bounce 2s infinite;
@@ -91,7 +124,8 @@
 
   &:hover {
     border-color: rgb(var(--primary-color) / 70%);
-    box-shadow: 10px 10px 10px -3px rgba(0, 0, 0, 0.2), inset 0px 0px 8px 0px rgb(var(--primary-color)),
+    box-shadow: 10px 10px 10px -3px rgba(0, 0, 0, 0.2),
+      inset 0px 0px 8px 0px rgb(var(--primary-color)),
       0px 0px 8px 0px rgb(var(--primary-color));
   }
 }

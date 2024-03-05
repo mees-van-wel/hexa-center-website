@@ -33,6 +33,7 @@
 
 .title {
   margin-bottom: 0;
+  font-family: Eurostile;
 }
 
 .dash {
@@ -46,7 +47,8 @@
   justify-content: center;
   flex-direction: column;
   background-color: rgb(var(--background-color) / 90%);
-  transition: transform 300ms ease-in-out, border-radius 300ms ease-in-out, opacity 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, border-radius 300ms ease-in-out,
+    opacity 300ms ease-in-out;
   border-radius: 100%;
   opacity: 0;
   transform: translate(100vw, -100vh);
@@ -90,7 +92,8 @@
   scale: 1;
   padding: 4px 8px;
   border-radius: 4px;
-  transition: scale 200ms ease-in-out, background-color 200ms ease-in-out, color 200ms ease-in-out;
+  transition: scale 200ms ease-in-out, background-color 200ms ease-in-out,
+    color 200ms ease-in-out;
   font-size: 20px;
 
   &Active,

@@ -2,8 +2,8 @@ import { component$ } from "@builder.io/qwik";
 
 export const IconEmpowerment = component$(() => (
   <svg
-    width="120"
-    height="120"
+    width="144"
+    height="144"
     viewBox="0 0 592 566"
     version="1.1"
     fill="currentColor"
@@ -11,7 +11,7 @@ export const IconEmpowerment = component$(() => (
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xml:space="preserve"
     xmlns:serif="http://www.serif.com/"
-    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
+    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;margin-left:-137px;margin-bottom:-29px;transform:rotate(-45deg);background-color:rgb(var(--background-color));"
   >
     <g transform="matrix(1,0,0,1,-194,-207.07)">
       <g transform="matrix(0.1,0,0,-0.1,0,980)">
