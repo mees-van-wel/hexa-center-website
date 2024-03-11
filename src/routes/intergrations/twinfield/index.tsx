@@ -27,7 +27,7 @@ export default component$(() => {
           </a>
           <Stack>
             <h2>
-              Enhance Your Financial Operations with our Twinfield Integration
+              Enhance Your Financial Operations with Our Twinfield Integration
             </h2>
             <p>
               Automate your financial transactions and ensure your customer data
