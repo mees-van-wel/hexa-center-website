@@ -244,11 +244,7 @@ export default component$(() => {
                   />
                 </picture>
               </a>
-              <a
-                href="https://www.wolterskluwer.com/nl-nl/solutions/twinfield-accounting"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
+              <a href="/intergrations/twinfield">
                 <picture>
                   <source srcSet="/images/twinfield.avif" type="image/avif" />
                   <source srcSet="/images/twinfield.webp" type="image/webp" />
