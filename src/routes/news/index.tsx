@@ -1,11 +1,6 @@
 import { component$ } from "@builder.io/qwik";
-import { routeLoader$, useNavigate } from "@builder.io/qwik-city";
-import { Group } from "~/components/generic/group/group";
 import { Stack } from "~/components/generic/stack/stack";
-import styles from "./index.module.scss";
-import type { NewsItem } from "../api/v1/news";
 import { Section } from "~/components/section/section";
-import truncate from "truncate-html";
 
 // export const useNewsItems = routeLoader$(async ({ url }) => {
 //   const res = await fetch(`${url.origin}/api/v1/news`);
@@ -15,7 +10,6 @@ import truncate from "truncate-html";
 
 export default component$(() => {
   // const newsItems = useNewsItems();
-  const navigate = useNavigate();
 
   return (
     <Section pt={116} pb={66}>
