@@ -7,21 +7,21 @@ import type { NewsItem } from "../api/v1/news";
 import { Section } from "~/components/section/section";
 import truncate from "truncate-html";
 
-export const useNewsItems = routeLoader$(async ({ url }) => {
-  const res = await fetch(`${url.origin}/api/v1/news`);
-  const newsItems = await res.json();
-  return newsItems as NewsItem[];
-});
+// export const useNewsItems = routeLoader$(async ({ url }) => {
+//   const res = await fetch(`${url.origin}/api/v1/news`);
+//   const newsItems = await res.json();
+//   return newsItems as NewsItem[];
+// });
 
 export default component$(() => {
-  const newsItems = useNewsItems();
+  // const newsItems = useNewsItems();
   const navigate = useNavigate();
 
   return (
     <Section pt={116} pb={66}>
       <Stack gap={32}>
         <h1>News</h1>
-        <Group align="center" gap={32}>
+        {/* <Group align="center" gap={32}>
           {newsItems.value.map(({ slug, data, html }) => (
             <Stack
               key={slug}
@@ -41,7 +41,7 @@ export default component$(() => {
               </p>
             </Stack>
           ))}
-        </Group>
+        </Group> */}
       </Stack>
     </Section>
   );
